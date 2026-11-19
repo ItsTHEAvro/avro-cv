@@ -1,0 +1,363 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Jyotirmoy Avro's Academic Resume},
+    pdfauthor={Jyotirmoy Avro},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% Some settings:
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0.15cm} % set column seperation
+\pagenumbering{gobble} % no page numbering
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0 cm + 0.00001 cm
+    }{
+        0 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in September 2024}\hspace{\widthof{Last updated in September 2024}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Jyotirmoy Avro
+        
+        
+        \normalsize
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:jyotirmoy.avro@gmail.com}{jyotirmoy.avro@gmail.com}}%
+        \kern 5.0 pt%
+        {$\cdot$}
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+8801735342669}{(+880) 1735 342669}}%
+        \kern 5.0 pt%
+        {$\cdot$}
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/itstheavro}{github.com/itstheavro}}%
+        \kern 5.0 pt%
+        {$\cdot$}
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/jyotirmoy-avro}{linkedin.com/in/jyotirmoy-avro}}%
+    \end{header}
+
+\section{Profile}
+Aspiring Machine Learning Engineer with strong foundations in algorithms, data analysis, and statistical modeling. Skilled in Python and scikit-learn, with hands-on experience building supervised and unsupervised learning models. Eager to contribute to data-driven projects and research initiatives.
+
+
+\section{Education}
+\textbf{Patuakhali Science and Technology University}, BSc. in Computer Science and Engineering\\
+\textit{Expected Graduation: 2026} | \textbf{CGPA:} 3.567/4.00 (7\textsuperscript{th} out of 66 students)\\
+
+
+\section{Technical Skills}
+\textbf{Programming:} Python, C++17, Java, JavaScript, PHP, SQL\\
+\textbf{ML/DS Libraries:} scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, OpenCV\\
+\textbf{Tools \& Platforms:} Git, Jupyter Notebook, VS Code, LaTeX, MS Word, Excel, Powerpoint\\
+\textbf{Core Competencies:} Machine Learning, Feature Engineering, Data Analysis, Generative AI
+
+ \section{Problem Solving Experiences}
+        
+        \begin{onecolentry}
+    
+           \begin{center}
+            \textbf{LeetCode: }\href{https://leetcode.com/u/ItsTHEAvro/}{ItsTHEAvro}
+            |
+            \textbf{Codeforces: }\href{https://codeforces.com/profile/ItsTHEAvro/}{ItsTHEAvro}
+            |
+            \textbf{Beecrowd: }\href{https://judge.beecrowd.com/en/profile/260423}{ItsTHEAvro}
+            |
+            \textbf{HackerRank: }\href{https://www.hackerrank.com/profile/ItsTHEAvro}{ItsTHEAvro} 
+           \end{center}
+           \vspace{0.1 cm}
+
+           \begin{highlights}
+\item Solved over 1,000 algorithmic problems across major platforms, demonstrating proficiency in data structures, dynamic programming, and graph algorithms.
+\item Achieved 3rd place in PSTU IT Carnival 2022 and 4th place in 2023 programming contests among university participants.
+\item Qualified for ICPC Regional Online Preliminary Contests and advanced through the first three phases of the Star Coder 2025 program by BrainStation23.
+
+                \item Successfully passed the first, second and third phase of Star Coder 2025 program by BrainStation23
+            \end{highlights}
+
+        \end{onecolentry}
+ \section{Certifications}
+
+\begin{twocolentry}
+    {\href{https://www.datacamp.com/completed/statement-of-accomplishment/course/3bf58271a0af0c86c9d22491430902a9066b0fff}{Credential}}
+    \textbf{Supervised Learning with scikit-learn (DataCamp, November 2025)}
+\end{twocolentry}
+\vspace{0.10 cm}
+
+\begin{onecolentry}
+    \begin{highlights}
+\item Developed and evaluated multiple machine learning models including k-Nearest Neighbors, Logistic Regression, Ridge, and Lasso, applying techniques like cross-validation and ROC AUC analysis to assess model performance.
+\item Skills: Classification, Regression, Model Evaluation, Cross-Validation, Regularization, Hyperparameter Tuning, Pipelines, scikit-learn
+    \end{highlights}
+\end{onecolentry}
+\vspace{0.2 cm}
+
+ \begin{twocolentry}
+    {\href{https://www.datacamp.com/certificate/DSA0011426465213}{Credential}}
+    \textbf{Data Scientist Associate Certificate (DataCamp, May 2025)}
+\end{twocolentry}
+\vspace{0.10 cm}
+
+\begin{onecolentry}
+    \begin{highlights}
+        \item Successfully certified as a Data Scientist Associate after completing both a timed exam and a practical project solving real-world problems.
+        \item Skills: Data Management, Exploratory Analysis, Statistical Experimentation, Modeling, Programming for Data Science, Communication \& Visualization
+    \end{highlights}
+\end{onecolentry}
+\vspace{0.2 cm}
+
+\begin{twocolentry}
+    {\href{https://www.datacamp.com/skill-verification/DL0033352802672}{Credential}}
+    \textbf{Data Literacy (DataCamp, April 2025)}
+\end{twocolentry}
+\vspace{0.10 cm}
+
+
+\begin{onecolentry}
+    \begin{highlights}
+        \item Completed a rigorous certification assessing data fundamentals through a timed and adaptive exam.
+        \item Skills: Analytics Fundamentals, Data Visualization, Data Storytelling
+    \end{highlights}
+\end{onecolentry}
+\vspace{0.2 cm}
+
+        \vspace{0.2 cm}
+ 
+        \begin{twocolentry}
+            {\href{https://www.coursera.org/account/accomplishments/specialization/BA8N9Y8JDSSN}{Credential}}
+            \textbf{Machine Learning Specialization (DeepLearning.AI, April 2024)}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Completed a comprehensive specialization covering machine learning fundamentals and advanced techniques.
+                \item Skills: Machine Learning, Python, Supervised Learning, Analytical Skills
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}
+            {\href{https://www.coursera.org/account/accomplishments/verify/FSHG9XHXRZ35}{Credential}}
+            \textbf{Unsupervised Learning, Recommenders, Reinforcement Learning (DeepLearning.AI, April 2024)}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Mastered techniques in clustering, dimensionality reduction, recommendation systems, and reinforcement learning.
+                \item Skills: Unsupervised Learning, Recommender Systems, Reinforcement Learning, Deep Learning
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}
+            {\href{https://www.coursera.org/account/accomplishments/verify/CWGADX38LPCR}{Credential}}
+            \textbf{Advanced Learning Algorithms (DeepLearning.AI, February 2024)}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Studied neural networks, decision trees, and other advanced ML algorithms with practical implementations.
+                \item Skills: Machine Learning, Python, Analytical Skills
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}
+            {\href{https://www.coursera.org/account/accomplishments/verify/CFF4985BPNX8}{Credential}}
+            \textbf{Supervised Machine Learning: Regression and Classification (DeepLearning.AI, July 2023)}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Gained expertise in regression models, classification algorithms, and core ML concepts.
+                \item Skills: Machine Learning, Python, Supervised Learning, Analytical Skills
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}
+            {\href{https://www.coursera.org/account/accomplishments/specialization/W6VVV4LRX95X}{Credential}}
+            \textbf{Google IT Automation with Python Specialization (Google, February 2022)}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed proficiency in Python programming, automation, and practical software development techniques.
+                \item Skills: Python, Problem Solving, Automation
+            \end{highlights}
+        \end{onecolentry}
+        
+        \vspace{0.2 cm}
+
+        % \begin{twocolentry}
+        %     {
+        %         \href{https://github.com/ItsTHEAvro/Cholesky-Key-Generator}{Code}
+        %         |
+        %         \href{https://itstheavro.github.io/Cholesky-Key-Generator/}{Live}
+        %     }
+        %     \textbf{Cholesky Key Generator}
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+        
+        % \begin{onecolentry}
+        %     \begin{highlights}
+        %         \item A web-based cryptographic key generator using the Cholesky decomposition method.
+        %         \item Tools Used: HTML, CSS, JavaScript
+        %     \end{highlights}
+        % \end{onecolentry}
+        
+        % \vspace{0.2 cm}
+
+\section{Relevant Coursework}
+Programming, Data Structures and Algorithms, Artificial Intelligence, Machine Learning, Database Systems, Numerical Methods, Discrete Mathematics
+
+\end{document}

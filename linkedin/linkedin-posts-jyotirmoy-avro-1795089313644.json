@@ -1,0 +1,263 @@
+{
+  "username": "jyotirmoy-avro",
+  "data_type": "posts",
+  "scraped_at": "2026-11-19T11:55:13.643Z",
+  "count": 51,
+  "data": [
+    {
+      "date_posted": "2w",
+      "post_text": "Excited to share that I'll be attending BCS ICT Fest!\n\nLooking forward to being part of this exciting event, exploring new ideas, learning from industry professionals, and connecting with fellow tech enthusiasts. See you there!\n\n#BCSICTFest #ICT #Technology #Networking #Learning #Innovation #Bangladesh",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523064993047752704/"
+    },
+    {
+      "date_posted": "1mo",
+      "post_text": "On October 9, we presented our paper at COMPAS 2026, hosted by the Department of Computer Science and Engineering, University of Dhaka.\n\nOur paper is titled “A Low-Complexity Hierarchical NIDS for IIoT: Profiling Computational Overhead and Mitigating Data Leakage.”\n\nIndustrial IoT needs intrusion detection that runs at the edge, not in the cloud. But much of the published work reports inflated accuracy because random cross-validation leaks future information into training.\n\nOur approach:\n  • A two-stage hierarchical NIDS: fast triage first, deeper diagnosis only for flagged traffic\n  • Strict chronological evaluation instead of random splits\n  • Profiled computational overhead to set an upper-bound baseline for edge feasibility\n\nOur key finding: random splitting inflated performance by up to 21 percentage points on DataSense (CICIIoT2025).\n\nThis is a single-dataset case study, so cross-dataset replication and embedded hardware validation come next.\n\nA big thank you to my co-author Mir Suhail Asarat for their hard work on this, and to Md Samsuzzaman sir for the guidance. Thanks also to the COMPAS 2026 organizers and everyone who stopped by with questions and feedback.\n\n#CyberSecurity #MachineLearning #IntrusionDetection #DataSense #CICIIoT2025 #NIDS #EdgeComputing #IIoT #COMPAS2026",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515333570807209984/"
+    },
+    {
+      "date_posted": "2mo",
+      "post_text": "Our paper \"A Low-Complexity Hierarchical NIDS for IIoT: Evaluating Edge Feasibility and Mitigating Temporal Data Leakage\" got accepted at IEEE COMPAS 2026, running October 9-10.\n\nCo-authored with Mir Suhail Asarat.\n\nMost IIoT intrusion detection papers report accuracy above 99%. We found out why: random cross-validation lets models train on future packets to predict past attacks. When we switched to a strict chronological split on the DataSense benchmark, the top models' Macro-F1 dropped sharply, purely from that leakage.\n\nSo we built a two-stage pipeline instead. Stage 1 is an XGBoost classifier plus network-layer heuristics that triages MQTT telemetry. Stage 2 only runs on flagged traffic: a DCNv2 model, small enough for a gateway with 1GB of RAM.\n\nWe also tested zero-day generalization by holding out each attack type during training. Recall stayed above 98% on Brute Force and MITM, but dropped to 26.70% on Malware, because MQTT telemetry alone can't see attacks that spread purely over the network layer. We reported that number instead of hiding it, since it marks exactly where this kind of detection stops working.\n\nThanks to Mir Suhail Asarat for the collaboration on this one.\n\n#IIoT #NetworkSecurity #IntrusionDetection #EdgeComputing #MachineLearning",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7501351322198405120/"
+    },
+    {
+      "date_posted": "3mo",
+      "post_text": "6 hours of practical Active Directory exploitation and documentation, and the CRTA is officially done.\n\nI passed the Certified Red Team Analyst (CRTA) exam issued by CyberWarFare Labs. The 6-hour practical test and the lab evaluates your ability to compromise a fully patched enterprise environment from scratch.\n\nKey focus areas during the exam and 30-day lab period:\n• Internal and external reconnaissance\n• Kerberos attacks in modern Active Directory environments\n• Bypassing network segmentation and stealth lateral movement across Windows and Linux targets\n\nTo help anyone currently preparing for the course or looking into offensive Active Directory security, I published two detailed writeups breaking down the lab and exam:\n\nExam review and strategy:\nhttps://lnkd.in/gYzAEPaK\n\nLab walkthrough:\nhttps://lnkd.in/gE8yEQvC\n\n#RedTeaming #CyberSecurity #ActiveDirectory #CRTA #EthicalHacking",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7486913552834772992/"
+    },
+    {
+      "date_posted": "4mo • Edited",
+      "post_text": "From a web server to full Active Directory Domain Admin...\n\nIt took me almost 4 hours to complete the Certified Red Team Analyst (CRTA) lab by Cyber Warfare Labs, and the multi-stage attack chain was an incredible learning experience. It simulated a realistic enterprise infrastructure spanning three network segments, requiring a complete shift from web application exploitation to advanced Active Directory forest abuse.\n\nHere is a quick breakdown of the kill chain:\n • External foothold: Exploit command injection in a PHP newsletter form, read the /etc/passwd GECOS field, and recover a plaintext SSH password.  \n • Pivoting: Extract domain credentials from the Firefox database history and open a Ligolo-ng tunnel into the internal network segment.  \n • Lateral movement: Log into the management workstation to dump LSA Secrets and extract a plaintext service account password. \n • Child domain compromise: Use a WMI shell on the child domain controller to run an offline ntdsutil IFM backup and retrieve the krbtgt AES-256 key.  \n • Forest dominance: Forge a cross-domain Kerberos ticket with injected Extra-SIDs to run a DCSync attack, extract the parent Administrator NTLM hash, and establish a PsExec SYSTEM shell.\n\nKey Red Teaming Takeaways:\n • Browser History is a Goldmine.\n • Modern tunneling tools like Ligolo-ng make navigating deep, multi-segmented environments incredibly efficient.\n • Active Directory child domains must be treated as security boundaries; if a child domain falls, the parent domain is often only one forged Kerberos ticket away.\n\n👇 Want to read the full, deep-dive technical breakdown, including the exact commands used, Nmap configurations, and the complete network diagram?\n\nCheck out my full writeup on Medium:\nhttps://lnkd.in/gE8yEQvC\n\n#RedTeaming #Cybersecurity #ActiveDirectory #PenetrationTesting #CRTA #Infosec #EthicalHacking",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7483169046209789952/"
+    },
+    {
+      "date_posted": "4mo",
+      "post_text": "Most security training teaches you how to throw pre-made exploits. COWA forces you to write C++ and abuse native Windows capabilities from scratch.\n\nEarning 90% in the Certified Offensive Windows API (COWA) certification by Red Team Leaders felt like a massive victory.\n\nI wrote custom code to traverse the Process Environment Block (PEB) and load position-independent shellcode in memory. I also built scanners using API calls like EnumWindows and EnumChildWindows to scrape hidden passwords straight out of nested GUI controls..\n\nWriting native C++ is frustrating when you are used to scripting languages, but finally understanding what happens under the hood made the headache worth it.\n\nGlad to have this one done.\n\n#COWA #RedTeaming #WindowsAPI #ExploitDevelopment #CyberSecurity",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7478853104931835904/"
+    },
+    {
+      "date_posted": "5mo",
+      "post_text": "Excited to share that I’ve been selected for a Full Fellowship to attend Phoenix Summit 2026 in Dhaka 🇧🇩\n\nPhoenix Summit 2026 is Bangladesh’s flagship cybersecurity convergence platform — bringing together government, industry, academia, and cybersecurity professionals from across the region to collaborate on building stronger digital resilience. It focuses on hands-on learning, technical workshops, leadership discussions, and cross-sector collaboration in cybersecurity.\n\nThis year’s summit will be held from June 23–27, 2026 at BCFCC, Agargaon, Dhaka, with thousands of participants, global speakers, and multiple technical and leadership tracks.\n\nI’ll be joining through the Fellowship program, which includes access to workshops, accommodation support, travel assistance, and full participation in the summit ecosystem.\n\nLooking forward to:\n• Hands-on cybersecurity workshops and real-world learning\n• Engaging with researchers, practitioners, and industry leaders\n• Building connections across the regional cyber ecosystem\n• Gaining deeper perspective on modern cybersecurity challenges and response systems\n\nGrateful for the opportunity and genuinely excited for what’s ahead.\n\nWebsite: https://phoenixsummit.net\n\n#PhoenixSummit #CyberSecurity #Fellowship #DevSecOps #Infosec #Bangladesh",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7470485736182595584/"
+    },
+    {
+      "date_posted": "5mo",
+      "post_text": "Imagine you apply for a job. The result comes back: “Rejected.” No explanation at all! Most ML models still work like this.\n\nXAI helps you understand the “gossip” of a model. And depending on what kind of gossip you want to hear, you choose either SHAP or LIME.\n\nFor the job selection example, SHAP explains it by saying your experience is low, your skills don’t match, and there are some gaps in your profile that led to the rejection.\n\nLIME works a bit differently here.\n\nLet’s say the same job application is explained using LIME. LIME first takes your profile and creates many “fake but similar” profiles around it. Then it checks if we slightly increase experience or fix a skill mismatch, does the result change from “Rejected” to “Selected”? By testing these small changes, LIME figures out which factors are actually influencing the decision the most.\n\nBasically, SHAP finds the culprits, while LIME shows what changes could potentially shift the outcome.\n\nWhy XAI is needed:\n • In cybersecurity, it helps explain why an activity is flagged as suspicious.\n • In healthcare, it helps justify risk predictions and detect bias or errors.\n • In finance, it helps explain loan or approval decisions and check whether the system is fair.",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7466813461533130752/"
+    },
+    {
+      "date_posted": "5mo",
+      "post_text": "I recently completed the Explainable AI in Python course on DataCamp.\nMany machine learning models are complicated, making it hard to see how they reach conclusions. This course focused on making those models transparent and easy to understand.\n\nI learned how to use SHAP and LIME to break down model decisions. Global explainability shows which features affect the model as a whole. Local explainability tells you exactly why the model made a specific prediction for a single data point.\n\nIn fields like finance, healthcare and cybersecurity, accuracy is not enough. You have to explain the reasoning behind a decision to build trust and catch biases. This training helps me build machine learning tools that are both accurate and accountable.",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7466801239134142464/"
+    },
+    {
+      "date_posted": "6mo",
+      "post_text": "I had previously applied XAI in my 7th semester thesis on Network Intrusion Detection Systems (NIDS). After completing this mini course on Explainable Artificial Intelligence (XAI) Concepts, my understanding of transparency, interpretability, and accountable AI has deepened further.\n\nExcited to keep building clearer and more trustworthy AI solutions.\n#ExplainableAI #ArtificialIntelligence #DataScience #Cybersecurity #NIDS #ContinuousLearning",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7455683108588175362/"
+    },
+    {
+      "date_posted": "7mo • Edited",
+      "post_text": "I got tired of living like everything was a checklist.\nSomewhere along the way, life started feeling optimized, but not felt.\nSo I vibe-coded something for myself. It’s called Unhurry.\nI wanted a way to track the Side Quests that make life feel intentional, the small, beautiful moments we usually skip because we’re \"too busy.\" I’m talking about things like walking your usual route backwards to see a new perspective, pressing flowers in a book, or finally learning to sew that button back on your favorite shirt.\n\nIt’s built on the Rule of One. You don’t get a list of 50 tasks. \nYou get one \"Main Quest\" and up to three \"Side Quests\" for balance.\n\nNo pressure. No guilt.\n\nLet's live slower and finish deeper. ✨\n\nYou can try it out here: https://maglit.me/unhurry",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7442864205579431937/"
+    },
+    {
+      "date_posted": "9mo",
+      "post_text": "Breaking into the Top 10 at BUET CTF 2026: A historic milestone for PSTU!\n\nI am incredibly proud to share that our team, PSTU_CtrlAltDelicious, secured 10th place in the BUET CTF 2026 Final Onsite Round, held at the BUET CSE Department during BUET CSE Fest 2026.\n\nThis achievement is a defining moment for us. For the first time, a team from Patuakhali Science and Technology University (PSTU) has broken into the Top 10 at the BUET CTF onsite finals. Beyond the ranking, this result reflects the growing maturity and technical depth of the cybersecurity culture we are building at our university.\n\nCompeting alongside the Top 30 teams in the country was an intense experience, but it proved that with consistent practice, resilience, and collaboration, we can compete at the highest national level.\n\nHuge shoutout to my teammates for their dedication and problem-solving mindset:\nMilon Das\nMD NUMAN SHEIKH\nMd. Leon Islam\n\nFrom the preliminary stages to the pressure of the onsite finals, this journey has been about more than just a contest. It's about setting a new benchmark for PSTU. The foundation is laid, the growth has begun, and I’m excited to see future teams from our campus aim even higher.\n\nPSTU is stepping confidently onto the national CTF stage, and this is just the beginning.\n\n#BUETCTF2026 #Cybersecurity #PSTU #CaptureTheFlag #PSTU_CtrlAltDelicious",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7423273096041795584/"
+    },
+    {
+      "date_posted": "9mo",
+      "post_text": "Top 20 in the BUET CTF 2026! 🚀\n\nI am incredibly proud to share that our team, PSTU_CtrlAltDelicious, has officially secured 20th place in the preliminary round of the BUET CTF 2026. \n\nThis journey wouldn't have been possible without the relentless effort and synergy of my teammates:\n • Milon Das\n• MD NUMAN SHEIKH\n• Md. Leon Islam\n\nOur performance has earned us a spot in the Final Onsite Round at the BUET CSE department on January 30, 2026. We are locked in and ready to bring our A-game to the final stage of the BUET CSE Fest.\n\nIt’s an honor to represent our university at this level. See you at BUET!\n\n#BUETCSEFest2026 #CyberSecurity #CaptureTheFlag #PSTU_CtrlAltDelicious",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7421834064699203584/"
+    },
+    {
+      "date_posted": "10mo",
+      "post_text": "The shift from Software Engineer to AI Engineer is about more than writing prompts. It’s about designing resilient, intelligent systems.\n\nI’m excited to share that I’ve earned the AI Engineer For Developers Associate certification!\n\nAs generative AI becomes part of everyday products, the real value is in connecting solid software engineering with applied AI. This certification pushed me beyond theory and into building AI systems that are ready for real production use.\n\nTechnical skills strengthened through this journey:\n • Advanced LLM Implementation: I moved beyond basic API usage to designing structured workflows using OpenAI and LangChain, including agents and multi-step reasoning pipelines.\n\n • RAG, Vector Databases: I built semantic search systems using embeddings and Pinecone to ground AI outputs in real, reliable data.\n\n • AI Governance, LLMOps: I have learned best practices around safety, privacy, monitoring, and risk mitigation ensuring AI systems are secure, ethical, and maintainable in production.\n\n • Full-Stack AI Engineering: Learned how to connect strong Python engineering fundamentals like modularity, testing, and maintainability with modern AI system design.\n\nIn today’s tech landscape, simply accessing a model through APIs isn’t enough. The future belongs to engineers who can structure data, manage context, and deploy AI that solves real business problems safely.\n\nI am looking forward to applying these skills to build the next generation of intelligent applications!\n\n#AIEngineer #GenerativeAI #LLM #RAG #LangChain #OpenAI #LLMOps",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7413129619324960768/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "PSTU_CtrlAltDelicious at HiddenStrings CTF 2025\n\nOur team PSTU_CtrlAltDelicious participated in HiddenStrings CTF 2025, an 8-hour online Jeopardy-style cybersecurity contest organized by Department of ETE, CUET.\n\nWe tackled challenges across web exploitation, cryptography, reverse engineering, forensics and OSINT, finishing 16th with 4470 points, just 110 points from the top team. While the contest had some organizational hiccups, the experience pushed us to adapt, learn, and collaborate under pressure - a reminder that every challenge is an opportunity to grow and improve.\n\nThanks to CUET for hosting, and we look forward to even better competitions ahead!\n\n#Cybersecurity #CTF #HiddenStrings2025 #PSTU_CtrlAltDelicious",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7395473529183326208/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "The paradigm is shifting. We're moving beyond AI that just predicts to AI that acts. \n\nThis new frontier is all about AI Agents: autonomous systems that can plan, use tools, and take action to achieve complex goals. It's the difference between asking a question and handing over a multi-step task.\n\nIn the \"Introduction to Agents\" whitepaper from Google, the core architecture is broken down brilliantly: \n • The Model (Brain): The core reasoning engine. \n • The Tools (Hands): APIs and functions that connect the agent to the real world. \n • The Orchestration Layer (Nervous System): The governing loop that manages the entire process.\n\nFor developers, architects, and product leaders, this isn't just an upgrade, it's a new way of building software.\n\nRead the whitepaper here: https://lnkd.in/dnx-GdT7\n\n#AIAgents #GenerativeAI #SystemArchitecture #FutureOfAI",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7394293670906052608/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "I’m happy to share that I’ve obtained a new certification: Supervised Learning with scikit-learn from DataCamp!",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7391349216662634496/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "What a ride! 🚀\n\nOur team PSTU_CtrlAltDelicious went head-to-head with some of the best university teams at the BUP CTF 2025 onsite round and proudly finished in the Top 10, securing 10th place! 🏆\n\nIt was an amazing experience solving tricky challenges, learning on the fly, and representing PSTU in this inter-university cybersecurity showdown.\n\nBig shoutout to my awesome teammates:\nMilon Das\nMD NUMAN SHEIKH\nMd. Leon Islam\n\nCouldn’t have asked for a better team to share this journey with. Here’s to more challenges, more hacks, and more victories ahead! 💻🔥\n\n#PSTU #BUPCTF2025 #CtrlAltDelicious #CyberSecurity #CTF #Top10 #Teamwork",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7377605408728989696/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Our team PSTU_CtrlAltDelicious secured 5th place out of 111 teams in the BUP CTF 2025, powered by Knight Squad. 🎉\n\nWith this achievement, we are officially qualified for the onsite round at BUP on the 25th! 🔥\n\nBig shoutout to my amazing teammates:\nMilon Das\nMD NUMAN SHEIKH\nMd. Leon Islam\n\nCouldn’t have asked for a better team to share this journey with.\nLooking forward to representing PSTU in the onsite round! 🙌\n\n#PSTU #BUPCTF2025 #CtrlAltDelicious #CyberSecurity",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7375771656109113344/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "I enjoyed participating in the Mini CTF. Well done Hidden Investigations",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7369832399108702208/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Ever thought a single photo could give away someone’s email, WiFi, holiday location, and even their password?\n\nI didn’t. Until I tried the OHSINT room on TryHackMe.\n\nWhat started as “just a Windows XP wallpaper” turned into a full-blown investigation:\n • Pulled GPS from the photo’s EXIF data\n • Landed on a GitHub profile (hello personal email 👋)\n • Found their Twitter\n • Tracked their WiFi on wigle.net\n• Discovered their holiday spot\n • And finally... uncovered the hidden password on their blog\n\nAll from this one image.\n\nI wrote a full step-by-step walkthrough here: https://lnkd.in/g6DTv8Yp\n\nHonestly, this room blew my mind. It’s a reminder of how much we leave behind online without even realizing.\n\nCurious — if someone Googled your username, what trail would they find?\n\n#OSINT #TryHackMe #CyberSecurity #CTF",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7363505811198799872/"
+    },
+    {
+      "date_posted": "1yr • Edited",
+      "post_text": "🚢 Given Personal Data Can You Predict Who Survived the Titanic?\n\nImagine you're handed personal data on a passenger boarding the Titanic:\n\n • Age, gender, ticket class\n • Number of family members aboard\n • Embarkation port\n • Fare paid...\n\nWith just this info, can you predict whether they survived the tragedy?\n\nI've just published a step by step hands-on tutorial on the legendary Titanic dataset — a rite of passage for anyone getting into machine learning or data science.\n\n🔎 In this intuition building walkthrough:\n• We explore how features like `Pclass`, `Sex`, and `Fare` affect survival.\n• We handle missing data and engineer new features.\n• We apply ML models to build our survival prediction system.\n\nThis project is great for beginners and a perfect way to start learning real-world ML workflows.\n\n💡 Curious? Check out the tutorial and see how well you can model life-and-death decisions using data.\n\n👉 https://lnkd.in/gFFwcZDN\n\n#MachineLearning #DataScience #Titanic #Kaggle #Python #DataAnalysis #MLForBeginners #AI #TitanicSurvival",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7343302048861364224/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "If you are into Machine Learning or Deep Learning here’s a goldmine you shouldn’t miss 🔥\n\nI just stumbled upon a curated GitHub repo that collects the most impactful, foundational, and practical research papers in Machine Learning, Deep Learning, NLP, Recommender Systems, GANs, and even Medical AI - all in one place.\n\nWhether you're a data science beginner trying to get a roadmap or a seasoned ML engineer wanting to revisit the classics, this repo will save you months of googling and confusion.\n\n📚 Highlights include:\n • “Attention Is All You Need” (Transformers revolution!)\n • Yann LeCun, Hinton, Bengio’s deep learning paper\n • Bayesian optimization, t-SNE, Adam optimizer\n • Capsule Networks, LSTMs, RNN visualizations\n • GANs, CNNs, and so much more\n\n💡 Each section is even ranked 🥇 🥈 🥉 based on priority, which is amazing for focused learning.\n\n👉 Check it out here: https://lnkd.in/g25EJYS2\n\n🧠 Pro tip: Bookmark this and read one paper a week. It’ll compound faster than you expect.\n\nIf you find this useful, please leave a like or share so others in #MachineLearning #AI #DataScience can benefit too 🙌",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7337354359309012993/"
+    },
+    {
+      "date_posted": "1yr • Edited",
+      "post_text": "🚀 It's a wrap! So excited to say I’ve completed the “Data Scientist in Python” career track containing 9 courses and 2 projects on DataCamp! 🎉 \n\nThe past few weeks have been an awesome journey, getting way more comfortable with Python, SQL, Git, and working through some really engaging real-world projects.\n\nThis track was all about rolling up my sleeves and actually doing data science, not just reading about it, which was fantastic. Some moments that really stood out:\n    🔹 Figuring out how to import data from APIs and the web. \n    🔹 The challenge (and reward!) of cleaning and preprocessing data for machine learning. \n    🔹 The cool feeling of developing my own Python packages - one of the most interesting parts for me, especially since I’d never really tried it before\n    🔹 Conquering complex SQL queries – joins, subqueries, you name it! \n    🔹 Getting to explore real-world datasets on mental health and video game trends - the student mental health project was a personal favorite!\n    🔹 Feeling much more confident with Git and version control workflows.\n\nI’m genuinely excited to apply all of this to future projects, research, and collaborations.\nIf you're navigating a similar path or curious about diving in, let’s connect! I'm always happy to share experiences, resources, or just chat about all things data.\n\n#datascience #python #sql #machinelearning #careertrack #DataCamp",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7335852226088681472/"
+    },
+    {
+      "date_posted": "1yr • Edited",
+      "post_text": "🚀 Just wrapped up DataCamp’s “Machine Learning for Business” — and wow, this course is a game-changer for anyone steering business with data! 🎯\n\nNo coding required — it’s pure strategy and insight, designed for leaders, managers, and entrepreneurs who want to unlock the real power of ML without getting lost in algorithms.\n\nHere’s what blew my mind:\n🔹 Turning complex business challenges into clear ML problems\n🔹 Knowing exactly when ML is your secret weapon — and when it’s not\n🔹 The critical difference between prediction and inference — and why it matters\n🔹 Using unsupervised learning to slice and dice customers like a pro\n🔹 Decoding model outputs — probabilities, scores, expected values — so they actually make sense\n\nThis course closes the gap between technical ML jargon and real-world business impact. Perfect for product managers, analysts, consultants, or founders working alongside data teams but aren’t data scientists themselves.\n\nArmed with this knowledge, I’m ready to:\n✔ Collaborate smarter with ML teams\n✔ Spot winning data-driven opportunities\n✔ Dodge the common ML pitfalls that trip up businesses\n\nCan’t wait to put these insights into action in my next projects! 🚀\n\nCheck out my detailed notes here ➡️ https://lnkd.in/gxcaeaNg\n\n#MachineLearning #BusinessStrategy #MLforBusiness",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7334647694197477377/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "And this marks the end of the peripheral project showcasing.\n\nFor our project we have built an IoT based Smart Health Monitoring System which works in real-time with an interactive dashboard.\n\n#IoT #InternetOfThings",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7330845056230215680/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "🎉 Just earned my Associate Data Scientist Certification from DataCamp!\n\nIt took three challenging (and proctored!) exams that tested everything from EDA to model testing and Python-based analysis - and I’m happy to say I made it through.\n\nThis journey included real-world projects and interactive exercises that tested everything from data manipulation and visualization to machine learning and statistical analysis. \nAlong the way, I got to sharpen my skills in:\n📌 Data manipulation and cleaning with pandas\n📌 Building effective data visualizations using Matplotlib and Seaborn\n📌 Performing statistical analysis with statsmodels\n📌 Implementing machine learning algorithms with scikit-learn\n📌 Conducting hypothesis testing and regression analysis\n\nThis wasn’t just about earning a certificate—it was about diving deep into data science and proving that I can solve real-world data problems effectively.\n\nA huge thank you to DataCamp for providing such a practical, comprehensive learning experience.\n\nIf you’re starting your journey in data science or looking to level up your skills, I highly recommend this track!\n\nHere’s my certificate: https://lnkd.in/g-Cgs8Vi\n\n#DataScience #Python #MachineLearning #DataCamp #LearningByDoing #CareerGrowth #DataAnalytics",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7326257427706793984/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Excited to share that I’ve earned my Data Literacy Certificate from DataCamp!\n\nThis certification has equipped me with valuable skills to understand, analyze, and make data-driven decisions. Some of the key topics I’ve learned include:\n- Data Collection & Cleaning\n- Data Analysis Techniques\n- Data Visualization\n- Data Interpretation\n- Hypothesis Testing and many more\n\nLooking forward to apply these new skills in real-world scenarios!\n\n#DataLiteracy #DataScience #Analytics",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7321441310727389186/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Another Milestone for PSTU_CtrlAltDelicious!\n\nOur team secured 15th place out of 162 teams with a total score of 2986 points in the BCS ICT FEST 2025 CTF, organized by Bangladesh Computer Society. It was an intense 24-hour challenge, and I couldn't be prouder of our performance!\n\nHuge shoutout to my amazing teammates shahriar tarit bhai, Milon Das, Abdullah Al Reduan, and Sadik Al Sahaf for their dedication and effort. We’ve come a long way, but there’s still more to achieve—we need to work even harder to push our ranking even higher!\n\nA big thank you to the organizers and problem setters for crafting such brilliant and creative challenges. Looking forward to the next battle!\n\n#CTF #Cybersecurity #PSTU_CtrlAltDelicious #NeverStopHacking",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7296511905769132033/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Sharing my experience of BrainStation23’s third-phase, day-long assessment for the Star Coder 2025 program.\n\nYesterday was the third phase of the Star Coder 2025 program by Brain Station 23. It was a day-long assessment held at their office in Mohakhali, Dhaka.\n\nA total of 124 applicants (112 Software Engineer applicants and 12 SQA Engineer applicants) participated in this phase.\n\nThe reporting time was 8:30 am at the office. After a brief welcome session, we were given an overview of the assessments.\n\nThe first test consisted of two personality tests: one on Truity and the other on BrainStation23’s exam portal.\n\nFollowing the first test, applicants were divided into groups of 6 through some fun games, with each group comprising 5 Software Engineer applicants and 1 SQA Engineer applicant. We were then given 6 tags—OwnPATH (team lead), Ownership, Passionate, Agility, Team Spirit, and Honesty—and were instructed to discuss within our team and assign the roles among ourselves over breakfast. I was honored to take on the OwnPATH (team lead) role in my team.\n\nFor the second test, each team was given 2 hours to design a system and solve some tasks on paper, which were then presented. The use of phones or the internet was not allowed. Two assessors (one from HR and another from the development team) assisted each team with clues and hints to solve the tasks and monitored team members on leadership, communication, teamwork, and passion.\n\nOur team’s task was to design an E-Ticketing system. We were given 5 tasks to complete:\n1. Requirement analysis\n2. System architecture flow\n3. Flowcharts for registration and login with specific constraints\n4. Pseudocode for some tasks involving roles and permissions\n5. Queries to retrieve specific data from the database we were to design.\n\nAfter two hours, we had lunch and presented our solution to the assessors.\n\nFor the third test, applicants were evaluated on their selected stacks. We were given 20 minutes to answer questions related to our chosen language/stack.\n\nFor the fourth and final test, applicants had one-on-one interviews where questions were asked about the skills and projects mentioned in their resumes during the application process.\n\nIt was a fun experience! We played games, enjoyed coffee, and met many talented individuals. Overall, it was a memorable day for me.",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7289151421206122496/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Our team, PSTU_CtrlAltDelicious, ranked 16th out of 225 teams in the CyberRaid CTF 2025 online round! \nThis national-level competition was organized in partnership with the IT Directorate, Bangladesh Army, MIST, and KerberOS. Competing against so many talented teams was a great learning experience, and we’re proud of this achievement.\nI thank my teammates shahriar tarit, Milon Das, Sadik Al Sahaf for their contribution and the organizers for an amazing event!\n\n#CyberRaidCTF2025 #CTF #Cybersecurity #PSTU",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7286383733568323584/"
+    },
+    {
+      "date_posted": "1yr • Edited",
+      "post_text": "🌟 Proud Moment for Team PSTU_CtrlAltDelicious! 🌟\n\nExcited to share that our team, PSTU_CtrlAltDelicious secured 14th place in the SMP CTF Challenge hosted by SMP Cyber Security Ltd and Bangladesh ICT Division. Out of 102 teams, we made it to the top 15 for the final onsite round! 🎉\n\nThankful to my teammates shahriar tarit, Milon Das, Sadik Al Sahaf, Abdullah Al Reduan for their performance and support. I'm grateful to the organizers and partners for this incredible learning experience. Here's to more achievements in cybersecurity! 🚀\n\n#CTF #CyberSecurity #Achievement #PSTUCSE",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7280128050250297344/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Looking back at where I was in 2023 and comparing it to where I am now in 2024 it’s clear how much has changed. It’s nice to see progress, and I’m grateful for every challenge that’s helped me grow along the way. Just taking it one step at a time!\n#LeetCode #Growth #DSA",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7276259548829511680/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "Join us at the biggest IT Carnival of Barisal Division!",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7266832509546430464/"
+    },
+    {
+      "date_posted": "1yr",
+      "post_text": "I am excited to share that I have successfully completed professional training on \"Mobile App Development (Android/Flutter/iOS)\"! 🎉\n\nThis program was conducted by the Department of Computer Science and Information Technology at Patuakhali Science and Technology University (PSTU) from February to March 2024. The training was part of the Enhancing Digital Government & Economy Project (EDGE) Project by the Bangladesh Computer Council, ICT Division.\n\nI am grateful for this opportunity to enhance my skills and knowledge in mobile app development. Looking forward to applying these skills to build innovative and impactful applications! 🚀\n\n#MobileAppDevelopment #Android #Flutter #iOS #Training #EDGEProject #ICTDivision #PSTU",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7266079292701184000/"
+    },
+    {
+      "date_posted": "2yr",
+      "post_text": "Got the June badge!\n\nLooking forward to the next one 🙌\n\n#LeetCode",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7213225557054906368/"
+    },
+    {
+      "date_posted": "2yr",
+      "post_text": "Woohoo! 50 Days of LeetCoding! 🙌",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7202475288755097600/"
+    },
+    {
+      "date_posted": "2yr • Edited",
+      "post_text": "I'm thrilled to announce that I finished the May LeetCoding challenge! It was such a learning opportunity. \n\nWhat makes this achievement special to me is that this is my first ever LeetCode badge. Hoping for more to come!\n\n#LeetCode #LeetCoding",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7202324207148429313/"
+    },
+    {
+      "date_posted": "2yr • Edited",
+      "post_text": "Thrilled to announce our team, CtrlAltDelicious consisting of shahriar tarit, Abdur Rahman, Mir Suhail Asarat, secured the 15th spot among 87 teams in the iutCTF 2024 competition! The competition was powered by Bindulogic and organized by IUT.\n\nI tackled challenges in PWN, Reverse Engineering, Web, OSINT, Misc (Machine Learning) categories. I've learned a lot during the competition. Hats off to IUT for hosting a fantastic CTF event - truly appreciated!\n\n#CTF #TeamCtrlAltDelicious #iutCTF2024",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7187334038653755392/"
+    },
+    {
+      "date_posted": "2yr",
+      "post_text": "I'm thrilled to announce that I've completed the Machine Learning specialization by DeepLearning.AI and Stanford University on Coursera! \nIt's been an incredible journey of learning, progress, and accomplishments in the field of machine learning.\n\nHere are some of my accomplishments throughout this awesome journey:\n• Implemented linear regression to predict profits for a restaurant franchise. \n• Applied logistic regression to two different datasets. \n• Built a neural network for multiclass classification using ReLu and Softmax in TensorFlow for recognizing hand-written digits with the MNIST dataset. \n• Utilized k-means clustering for image compression. \n• Implemented an anomaly detection algorithm to monitor and identify failing servers. \n• Developed a content-based collaborative filtering recommender system for movies. \n• Implemented code for a virtual lunar lander!\n\nArmed with these skills, I am excited to unleash their power on real-world challenges and make a significant impact in the realm of machine learning and artificial intelligence!\n#BreakIntoAI",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7187157012693106688/"
+    },
+    {
+      "date_posted": "2yr • Edited",
+      "post_text": "I'm thrilled to announce my achievement of receiving top marks in the first quiz of Mobile App Development (Android/Flutter/iOS) of Digital Skills Training for Students. This prestigious program was conducted by the Department of CSIT at PSTU in collaboration with EDGE, BCC, and the ICT Division of Bangladesh.",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7170478687409070080/"
+    },
+    {
+      "date_posted": "2yr • Edited",
+      "post_text": "I’m happy to share that I’ve obtained a new certification: Advanced Learning Algorithms from DeepLearning.AI, Stanford University!\nIt's such a huge confidence boost for me! I've learned Tensorflow, some XGBoost. Also learned a great deal about Artificial Neural Network.",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7167967389425291264/"
+    },
+    {
+      "date_posted": "2yr • Edited",
+      "post_text": "Successfully completed the Introduction to Packet Tracer course by Cisco. I am beginning to find Computer Networking interesting!",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7165205596663693312/"
+    },
+    {
+      "date_posted": "2yr • Edited",
+      "post_text": "🎉Excited to share that I have successfully completed the 'Cython Codecraft' bootcamp with bongoDev!🎉 \nI'm grateful for the opportunity to brush up on key concepts and techniques with the hands-on learning experience and mentorship from industry professionals. \nThank you bongoDev for this opportunity.\n#CythonCodecraft #TechSkills #LearningAndGrowing #AlwaysLearning #bongoDev",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7162116318308093952/"
+    },
+    {
+      "date_posted": "3yr",
+      "post_text": "I have successfully completed the Supervised Machine Learning: Regression and Classification course on Coursera.\nThis is the first of three courses for the Machine Learning Specialization program, which is a foundational online program created in collaboration between DeepLearning.AI and Stanford Online.\nThis course helped me clear concepts on many machine learning terminologies, such as multiple linear regression, logistic regression, decision trees, clustering, dimensionality reduction, recommender systems, etc. It was also very rewarding to see my model successfully predicting outcomes.",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7091159686929944577/"
+    },
+    {
+      "date_posted": "3yr",
+      "post_text": "Our team PSTU_NCREEPTION got selected for the on-site round of the Inter-University Capture The Flag contest at BUET CSE Fest 2023 presented by BJIT\n\nThis is going to be my first on-site CTF contest. Wish me luck 🍀",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7086767008842711040/"
+    },
+    {
+      "date_posted": "3yr",
+      "post_text": "I’m happy to share that I’ve obtained a new certification: JavaScript Algorithms and Data Structures from freeCodeCamp!",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7054499584718368768/"
+    },
+    {
+      "date_posted": "3yr",
+      "post_text": "I've built a tool to group accepted user submissions by problem ratings in Codeforces.\n\nYou can try it out here: https://lnkd.in/g49hjvJ7\n\nCheck out my blog post on Codeforces: https://lnkd.in/g7FJjtPn\n\n#codeforces #api",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7021467726279839744/"
+    },
+    {
+      "date_posted": "3yr • Edited",
+      "post_text": "I have developed a userscript for Codeforces that allows users to easily see when their friends were last online in the \"My Friends\" page. This tool helps to motivate and encourage competition among users, and can also be useful for coordinating and collaborating with friends on the platform.\n\nCheck out the blog post on Codeforces  here: https://lnkd.in/gzvs4fk5\n#codeforces #userscript #api #apitesting",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7014456628720648192/"
+    },
+    {
+      "date_posted": "3yr",
+      "post_text": "We attended in Digital Innovation Fair at Patuakhali DC office on behalf of Patuakhali Science And Technology University on 21st and 22nd December. Our team stood second in the competition in the Open Category.\n\nThe project was an AR game with Hand tracking module from the OpenCV library in python.",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7012665093838569472/"
+    },
+    {
+      "date_posted": "3yr",
+      "post_text": "Certificate of participation\n#cybersecurity #ctf #cyberdrill",
+      "post_url": "https://www.linkedin.com/feed/update/urn:li:share:7012662898724409344/"
+    }
+  ]
+}

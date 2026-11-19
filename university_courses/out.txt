@@ -1,0 +1,1275 @@
+                      Faculty of Computer Science and Engineering
+                      Patuakhali Science and Technology University
+         Phone: +88 04427 56014, Fax: 04427-56009, www.pstu.ac.bd, e-mail: pstu@pstu.ac.bd
+                                          14-Mar-2012
+                                       Level-I Semester-I
+  Course                                                                        Credit       Sub
+   Code                               Course Title                              Hours        Total
+ PHY 111 Physics-I                                                               3.00
+ PHY 112 Physics-I Sessional                                                     0.75
+ CHE 111 Chemistry                                                               3.00
+ CHE 112 Chemistry Sessional                                                     0.75
+ MAT 111 Mathematics-I                                                           3.00
+ EEE 111 Basic Electrical Engineering                                            3.00        20.25
+ EEE 112 Basic Electrical Engineering Sessional                                  1.50
+  CIT 111 Programming Language                                                   3.00
+  CIT 112   Programming  Language Sessional                                      1.50
+ CCE 114 Engineering Drawing                                                     0.75
+                                      Level-I Semester-II
+  Course                                                                        Credit       Sub
+   Code                               Course Title                              Hours        Total
+ PHY 121 Physics-II                                                              3.00
+ PHY 122 Physics-II Sessional                                                    0.75
+ MAT 121 Mathematics-II                                                          3.00
+  CIT 121 Discrete Mathematics                                                   3.00
+ LCM 121 Communicative English                                                   2.00
+                                                                                             20.75
+ EEE 121 Electronic Device and Circuits                                          3.00
+ EEE 122 Electronic Device and Circuits Sessional                                1.50
+ CCE 121 Object Oriented Programming                                             3.00
+ CCE 122 Object Oriented Programming Sessional                                   1.50
+ CCE 124 Computer Programming Contest-I                                          0.00
+                                      Level-II Semester-I
+  Course                                                                        Credit       Sub
+   Code                               Course Title                              Hours        Total
+  CIT 211 Data Structure and Algorithms                                          3.00
+  CIT 212 Data Structure and Algorithms Sessional                                1.50
+  CIT 213 Software Engineering                                                   3.00
+ CCE 211 Data Communication and Engineering                                      3.00
+                                                                                             21.00
+ MAT 211 Mathematics-III                                                         3.00
+ EEE 211 Electrical Technology                                                   3.00
+ EEE 212 Electrical Technology Sessional                                         1.50
+  AIS 211 Accounting and Management                                              3.00
+                                      Level-II Semester-II
+  Course                                                                        Credit       Sub
+   Code                               Course Title                              Hours        Total
+ CCE 221 Digital Logic Design                                                    3.00
+ CCE 222 Digital Logic Design Sessional                                          1.50
+ CCE 223 Database System                                                         3.00
+ CCE 224 Database System Sessional                                               1.50
+ AES 221 Government and Economics                                                3.00
+                                                                                             21.00
+ MAT 221 Mathematics-IV                                                          3.00
+  CIT 220 Web Programming Project                                                1.50
+  CIT 221 Information System Analysis and Design                                 3.00
+  CIT 222 Information System Analysis and Design Sessional                       1.50
+  CIT 224 Computer Programming Contest-II                                        0.00
+
+
+
+
+1|Page
+                      Faculty of Computer Science and Engineering
+                      Patuakhali Science and Technology University
+         Phone: +88 04427 56014, Fax: 04427-56009, www.pstu.ac.bd, e-mail: pstu@pstu.ac.bd
+                                              14-Mar-2012
+                                         Level-III Semester-I
+  Course                                                                           Credit    Sub
+   Code                                 Course Title                               Hours     Total
+  CIT 311 Microprocessors and Assembly Language                                     3.00
+  CIT 312 Microprocessors and Assembly Language Sessional                           1.50
+  CIT 313 Computer Organization and Architecture                                    3.00
+  CIT 315 Artificial Intelligence                                                   3.00
+  CIT 316 Artificial Intelligence Sessional                                         1.50
+                                                                                            21.75
+ CCE 310 Software Development Project-I                                             1.50
+ CCE 311 Numerical Methods                                                          3.00
+ CCE 312 Numerical Methods Sessional                                                0.75
+ CCE 313 Computer Networks                                                          3.00
+ CCE 314 Computer Networks Sessional                                                1.50
+                                        Level-III Semester-II
+  Course                                                                           Credit    Sub
+   Code                                 Course Title                               Hours     Total
+  CIT 320 Software Development Project-II                                           1.50
+  CIT 321 Operating System                                                          3.00
+  CIT 322 Operating System Sessional                                                1.50
+  CIT 323 Simulation and Modeling                                                   3.00
+  CIT 324 Simulation and Modeling Sessional                                         1.50
+ EEE 321 Digital Electronics and Pulse Techniques                                   3.00    21.75
+ EEE 322 Digital Electronics and Pulse Techniques Sessional                         0.75
+ CCE 320 Computer Programming Contest-III                                           0.00
+ CCE 321 Computer Peripheral and Interfacing                                        3.00
+ CCE 322 Computer Peripheral and Interfacing Sessional                              1.50
+ CCE 323 Machine Learning                                                           3.00
+                                         Level-IV Semester-I
+  Course                                                                           Credit    Sub
+   Code                                 Course Title                               Hours     Total
+ CSE 410 Project/Thesis                                                             3.00
+ CSE 412 Industrial Training                                                        1.00
+ CCE 411 Algorithm Engineering                                                      3.00
+ CCE 413 VLSI Design                                                                3.00
+ CCE 415 Network Routing and Switching                                              3.00    22.00
+ CCE 416 Network Routing and Switching Sessional                                    1.50
+ CCE 417 Data Warehousing and Mining                                                3.00
+  CIT 411 Compiler Design and Automata Theory                                       3.00
+  CIT 412 Compiler Design and Automata Theory Sessional                             1.50
+                                         Level-IV Semester-II
+  Course                                                                           Credit    Sub
+   Code                                 Course Title                               Hours     Total
+ CSE 420 Project/Thesis                                                             3.00
+ CSE 421 Seminar                                                                    0.75
+ CCE 421 Cryptography and Network Security                                          3.00
+ CCE 422 Wireless and Cellular Communication                                        3.00    16.50
+  CIT 421 Computer Graphics and Image Processing                                    3.00
+  CIT 422 Computer Graphics and Image Processing Sessional                          0.75
+  CIT 423 OPTIONAL                                                                  3.00
+                                          Total Course Credit for B.Sc. Engineering in CSE= 165.00
+2|Page
+                                        Optional Courses
+   Course                                                                         Credit
+    Code                                   Course Title                           Hours       Total
+                Computer Graphics and Image Processing                             3.00
+ OPTIONAL       Parallel Processing and Distributed System                         3.00         3.00
+                Robotics and Computer Vision                                       3.00
+
+
+Department wise course credits
+
+Total Credit Hours of Computer Science and Information Technology Dept.            = 54.75
+
+Total Credit Hours of Computer and Communication Engineering Dept.                = 54.00
+
+Total Credit Hours of Electrical and Electronic Engineering Dept.                 = 17.30
+
+Total Credit Hours of Mathematics Dept.                                           = 12.00
+
+Total Credit Hours of Physics and Mechanical Engineering Dept.                    = 7.50
+
+Total Credit Hours of other Non-Departmental (Chemistry, Sociology,
+
+Accounting, Management, and Economics) courses                   = 19.45
+__________________________________________________________________________
+
+Total Credit Hours                                                                = 165.00
+
+
+
+
+___________             ___________             ___________         ___________             ___________
+
+Chairman, CIT           Chairman, CCE          Chairman, EEE        Chairman, MATH         Chairman, PME
+
+
+
+
+______________
+
+Dean, CSE Faculty
+
+
+
+
+3|Page
+    Department of Computer Science and Information Technology
+                        Faculty of CSE
+                  Patuakhali Science and Technology University
+                                      Course Content
+                                   Effective from Session: 2011-12
+
+
+
+CIT 111        Computer Fundamentals and Programming with C/C++
+               3 Hrs. per week 3 Credits.
+
+Computer Generations and Classification, Data representation, Hardware Components, Software
+Components, Operating Systems, Computers and Communications.
+
+Programming concepts; Structured programming language: data types, variables, operators, type
+of expressions, control structures; Functions and program structures: function basics, parameter
+passing conventions, scope rules and storage classes, recursion; Header files; Preprocessor;
+Arrays, String and Pointers; User defined data type: structures, unions, enumeration; Input and
+output: standard input and output, formatted input and output, file access; Dynamic memory
+allocation, Variable length argument list; Command line parameters; Error handling; Introduction
+to Graphics routines.
+
+Recommended Books:
+
+1. E.Balagurushamy             :   “Programming with ANSI C”
+2. E.Balagurushamy             :   “Object-oriented programming with C++”
+3. Y. Kanitkar                :    “Let Us C”
+4. H. Schildt                 :    "Teach yourself C".
+5. H. Schildt                 :    "C: The Complete Reference".
+6. Y. Kanitkar                :     “Pointers in C”
+7. Kernighan & Ritchie        :     “The C programming language”
+8. R. G. dromey               :    "how to solve it by Computer"
+
+
+CIT 112 Computer Fundamentals and Programming with C/C++ Sessional
+           3 Hrs. per week 1.5 Credits
+
+Sessional works based on CIT 111
+
+
+CIT 121        Discrete Mathematics
+               3 Hrs. per week 3 Credits
+
+Mathematical Logic: Statements and Notation. Connectives: Negation, Conjunction, Disjunction,
+Statement Formulas and Truth Tables. Conditional and Biconditional. Tautologies. Equivalence of
+Formulas. Duality Law. Tautological Implications. Functionally Complete Sets of Connectives.
+Normal Forms, Ordering and Uniqueness of Normal Forms. Rules of Inference. Methods of Proof.
+Predicate Calculus: Predicates, Statement Function, Variables, and Quantifiers, Predicate Formulas,
+Free and Bound Variables, The Universe of Discourse. Rules of Inference: Universal Specification,
+
+
+                                                                                                 1
+Existential Specification, Existential Generalization, and Universal Generalization. Mathematical
+Induction.
+Elements of Number Theory: Modular Arithmetic, and The Euclidean Algorithm.
+Relations and Functions: Properties of Binary Relations, Composition of Binary Relations,
+Relation matrix and Graph of a Relation. Functions: Characteristic function, Floor function, Ceiling
+function and Hashing functions.
+Graphs: Introduction, definition and terminology, graph representations, traversals, connected
+components and spanning trees, shortest path and transitive closure, activity networks, topological
+sort and critical paths, enumerating all paths.
+Trees: Basic terminology, Binary trees, binary tree representations, binary tree traversal; Binary
+search tree, tree search, Insert into a search tree, tree sort algorithm, deletion from a search tree,
+Building a binary search tree, Inserting a node, AVL trees, Forming a heap.
+Elements of Group Theory: Semigroups, Isomorphism and Homomorphism of Semigroups,
+Groups, Group Homomorphism.
+
+
+Books Recommended:
+1. Seymor Lipschutz and , Marc Lipson : Schaum's Outline of Discrete Mathematics (Schaum's)
+2. Rosen, K. H.           : Discrete Mathematics and its Applications
+3. Koleman & Busby        : Discrete Mathematical Structures for Computer Science
+4. Trembley & Manohar : Discrete Mathematical Structures with Applications to Computer
+                           Science
+
+CIT 211         Data Structure and Algorithms
+                3 Hrs. per week 3 Credits
+
+Introduction: Basic Terminology, Elementary Data Organization, Data Structures, Algorithms, and
+Complexity of Algorithms, elementary data structures, arrays.
+Stacks, Queues and Recursion: Fundamentals, Different types of stacks and queues: Circular,
+dequeues etc.; evaluation of expressions, multiple stacks and queues; Recursion: Direct and indirect
+recursion, depth of recursion; Simulation of Recursion: Removal of Recursion; Towers of Hanoi.
+Elements of Graphs and Trees: Graph Terminology, Paths and Circuits, Connectedness, Matrix
+Representation of Graph and Isomorphism of graphs. Trees, Rooted trees, Path Lengths in Rooted
+Trees.
+Linked Lists: Single linked lists, Linked stacks and queues, the storage pool, polynomial addition,
+equivalence relations, sparse matrices, doubly linked lists and dynamic storage management,
+generalized lists, garbage collection and compaction.
+Extended binary trees: 2-trees, internal and external path lengths, Huffman codes/algorithm;
+Threaded binary trees, binary tree representation of trees; Application of Trees: Set representation,
+decision trees, game trees; Counting binary trees.
+Sorting: Searching, bubble sort, shell sort, insertion sort, selection sort, quick sort, heap sort, 2-way
+merge sort, sorting on several keys, practical considerations of internal sorting. searching, hash
+techniques.
+
+Algorithms: Techniques for analysis of algorithms; Algorithmic Techniques: divide-and-
+conquer, greedy method, dynamic programming, backtracking, branch and bound; Flow
+algorithms. Topological sorting; Connected components; spanning trees; Shortest paths;
+Algebraic simplification and transformations; Lower bound theory; NP-completeness; NP-hard
+and NP-complete problems; Approximation Algorithms; Introduction to parallel algorithms.
+
+                                                                                                       2
+Recommended Books:
+
+1. S. Lipschutz     : “ Theory and Problem of Data Stuctures”
+2. E. Horowitz     : “Data Structure”
+3. D. E. Knuth     :“The Art of Computer Programming, Vol. 1, Fundamental Algorithms”
+4. D. E. Knuth     :“The Art of Computer Programming, Vol. 2, Seminumerical Algorithms”
+5. D. E. Knuth     :“The Art of Computer Programming, Vol. 3, Sorting and Searching”
+6. Goodman          : “Introduction to Design and Analysis of Algorithms”
+7. Robert Sedgewick :"Algorithms"
+8. Ellis Horowitz & Sartaj Sahni : "Fundamentals of Computer Algorithms"
+
+CIT 212        Data Structure and Algorithms Sessional
+               3 Hrs. per week 1.5 Credits
+
+Sessional works based on CIT 211
+
+CIT 213        Software Engineering
+               3 Hrs. per week 3 Credits
+
+Concepts of software engineering: Overview, definition, requirement, specification, design,
+language issues, programming practice, testing and debugging, documentation, prototyping, life-
+cycle models, S/W process models, Large and integrated software, Problem of software
+modification and maintenance.
+Program design tools and techniques: Top-down and bottom-up design, Design representation,
+structured programming, data directed design techniques, Modular design, Object oriented software
+engineering, Approaches to programming. Implementation language, Software tools.
+Complexity, Storage and processing time analysis: Complexity measures, memory requirements,
+processing time.
+Program testing: Statistics on testing process, Test philosophy and type, different test methods,
+Comparing different test methods, classification of tests.
+Software reliability: Reliability theory, Concept of software repair and availability, Software errors
+and faults, Estimating number of bugs in a program, reliability models, availability models, Data
+collection, storage and retrieval.
+Management technique: Requirements, specifications and initial design, performance, reliability
+and quality measures, management and communication skills, Software project Organization, Cost
+estimation, managing and development process, software maintenance, Computer Aided Software
+Engineering (CASE) tools, The design and implementation of large, multi-module program systems.
+
+Recommended Books:
+1. Reifer                    :"Software Management 5/e"
+2. Thayer                    :"Software Engineering Project Management 2/e"
+3. Wilson                    :"Software Architecture: Prospective on an Emerging Discipline"
+4. Ohezzi, M. Jazayeri and D. Mandrioli :"Fundamentals of Software Engineering"
+5. R.S. Pressman             :"Software Engineering: A Practitioners Approach, 3rd Ed."
+6. R. Wirfs-Brock et.al.     :"Designing Object-oriented Software"
+
+
+                                                                                                    3
+CIT 220       Web Programming Project
+              3 Hrs. per week 1.50 Credits
+
+Internet and World Wide Web application, HTML,CSS, SGML, XML, CGI Programming,
+JQuery, Java Script, VB Script, Joomla , PHP & MySQL, Codeigniter PHP.
+
+
+CIT 221       Information System Analysis and Design
+              3 Hrs. per week 3 Credits
+
+Application Development Policy and Strategies: Planning of Information System, Policy in
+Information System Development, Strategies for Achieving Information System Goals.
+Application System Development Life Cycle: Phases in Application System Development, Inter-
+Relationship Among Each Phase. Feasibility Assessment: Problems and Needs in Information
+System Development, Preliminary Application Requirements Determination, Feasibility
+Assessment: Economic, Technical, Operational and Schedule Feasibility
+
+Information Requirements Determination: Strategies for Obtaining Information Requirements,
+Techniques for Information Requirements Determination, Methods for Providing Assurance that
+Requirements are Correct and Complete. Structured Systems Analysis: Steps in Structured
+Systems Analysis, Activity Diagrams and Related Documentation, Data Dictionary, Problem
+Analysis, Structured Walk Through. Systems Design Methodology: Check List Methodology,
+Process-Oriented Methodology, Application Generator, Structured Design. Program
+Development and Testing: Structured Programming, Method for Testing.
+
+Recommended Books:
+1. Whitten       :"System Analysis and Design Method"
+2. D. V. Steward :"Software Engineering with System Analysis and Design"
+3. R. F. Thuiraf :"System Analysis and Design "
+
+CIT 222       Information System Analysis and Design Sessional
+              3 Hrs. per week 1.50 Credits
+
+Sessional works based on CIT 221
+
+CIT 224       Computer Programming Contest-II
+              0.0 Credit
+
+CIT 311       Microprocessors and Assembly Language
+              3 Hrs. per week 3 Credits
+
+Machine and assembly language programming, Introduction to different types of
+microprocessors, Architecture, Instruction Format, Instruction Sets, Opcode, Processor status and
+Flag registers, Addressing modes, Branching and Looping, Interrupt structures, I/O operation,
+I/O interfacing, Assembly language program writing, Debugging and execution. Programming in
+Microcomputers, Subroutine and reentrant programs.
+
+Hardware and Software Interfacing in Microcomputer System Design, I/O Design and Total
+System Design, Microprocessor based system design: Hardware design, Building, Debugging,
+
+                                                                                                4
+Testing and Linking program modules, Programming EPROM. Multiprocessor configurations:
+coprocessor configurations, Numeric data processor, I/O processors, Advanced
+Microprogramming: Bit-Slice Microprocessor.
+
+
+Microcontroller : Intel 8031/8051 Architecture, Special Function Registers (SFR), I/O pins, ports
+and circuits, Instruction set, Addressing Modes, Assembly Language Programming, Timer and
+Counter Programming, Serial Communication, Connection to RS 232, Interrupts Programming,
+External Memory interfacing, Introduction to 16 bit Microcontroller.
+
+Recommended Books:
+1. D. V. Hall       : “Microprocessors and Interfacing : Hardware and Software”
+2. Gibson & Cheu    : “Microprocessors and System Design”
+3. Md. Rafiquzzaman : “Microprocessor based Design”
+4. Scanlon          :" Assembly Language Programming"
+5. Miller           :" Assembly Language Programming Technique in IBM PC"
+
+
+CIT 312       Microprocessors and Assembly Language Sessional
+              3 Hrs. per week 1.5 Credit
+
+Sessional works based on CIT 311
+
+CIT 313       Computer Organization and Architecture
+              3 Hrs. per week 3 Credits
+
+Introduction to Computer Hardware and Software. Interrupts, Computer peripherals, DMA,
+Memory Organization, cache coherence, Cache coherence protocols, Von Neuman SISD
+organization. RISC and CISC Machines.
+
+Pipelined processor design: pipelining, super-pipelines, advanced pipelines, static and dynamic
+scheduling, Cache memory, Memory system design, Concurrent processors, Vector processors
+and multiprocessors, Array processors.
+
+Parallelism in multiprocessors and Multicomputer, Compute-intensive processors and
+Multicomputers, Automatic Vectorization, Hypercube systems and Key application, Data flow
+computation.
+
+Recommended Books:
+   1.   V. C. Hamacher, Z. G. Vranesic and S. G. Zaky : Computer Organization
+   2.   Whang                          : Computer Architecture
+   3.   Raman                          : Parallel Processing
+   4.   M. J. Quin                     : Parallel Processing
+   5.   Patterson & Hannesey          : Computer Architecture – Quantative
+   6.   J. P. Hayes                    :Computer Architecture and Organization
+   7.   M. M. Mano                     : Computer System Architecture
+   8.   Patterson & Hannesey          : Computer Architecture – Quantative Approach
+
+
+
+
+                                                                                                5
+CIT 315       Artificial Intelligence
+              3 Hrs. per week 3 Credits
+
+Introduction: Introduction to AI and intelligent agents.
+Problem Solving: Solving Problems by Searching, Search Strategies, Heuristic search techniques,
+Game Playing.
+Knowledge and Reasoning: Building a Knowledge Base Agent, Propositional logic, First order
+logic, Inference in First order Logic.
+Logic Programming: Logic programming using PROLOG, LISP.
+Logical Action: Planning, partial order planning, Knowledge Engineering for Planning, Conditional
+Planning, A Replanning Agent.
+Uncertain Knowledge and Reasoning: Uncertainty, Probabilistic Reasoning Systems, Fuzzy
+Logic, Making Simple Decisions.
+Knowledge Acquisition: Overview of different forms of learning, Learning Decision Trees, Neural
+Networks, Genatic Algorithms, Intelligent Editors, Introduction to Natural Language Processing.
+Selected topics in AI: Expert consultation, Development of Expert Systems, Pattern recognition,
+Computer vision, Robotics.
+
+Books recommended:
+1. Stuart Russell and Peter Norvig   : "Artificial Intelligence: A Modern Approach"
+2. D.W Patterson                       :"Introduction to Artificial Intelligence and Expert Systems"
+3. Rich, E. et al                    : "Artificial Intelligence"
+4. Herbert Schildt                     :"Advanced Turbo PROLOG"
+5. Guy L. Steele Jr.                   :"Common LISP Language"
+6. Townsend                            : “Introduction to Turbo Prolog”
+
+
+CIT 316       Artificial Intelligence Sessional
+              3 Hrs. in every alternate week 0.75 Credit.
+
+Sessional works based on CIT 315
+
+CIT 320       Software Development Project-II
+              3 Hrs. per week 1.5 Credit.
+
+Students will develop structured Programs/Projects with proper documentation in high level
+languages as assigned by teachers on the basis of J2SE, Java Swing and Database.
+
+CIT 321       Operating System
+              3 Hrs. per week 3 Credits
+
+Introduction. Process management: process synchronization and mutual exclusion, two process
+solution and Dekker's algorithm, semaphores, examples (producer-consumer, readers-writer,
+dining philosophers, etc.).
+CPU scheduling: multiprogramming and time sharing, scheduling approaches (SJF, FIFO, round
+robin, etc.).
+Input/Output: device controllers and device drivers, disks, other devices.
+Memory management: with and without swapping, virtual memory - paging and segmentation,
+page replacement algorithms, implementation.
+File systems: FS services, disk space management, directory and data structure.
+
+                                                                                                   6
+Deadlocks: modeling, detection and recovery, prevention and avoidance.
+Example Systems: Unix, MSDOS.
+
+Books recommended:
+1. J. Peterson, A. Silberschatz, and P. Galvin.Operating System Concepts, Addison Wesley, 3rd
+    Edition, 1989.
+2. M. J. Bach.Design of the Unix Operating System, Prentice Hall of India, 1986.
+3. A. Silberschatz and P. Galvin.Operating System Concepts, Addison Wesley, 4th Edition, 1994.
+
+CIT 322        Operating System Sessional
+               3 Hrs. per week 1.50 Credit.
+
+Sessional works based on CIT 321
+
+CIT 323        Simulation and Modeling
+               3 Hrs. per week 3 Credits
+
+Simulation methods: Model building, random number generator, statistical analysis of results,
+validation and verification techniques. Digital simulation of continuous systems. Simulation and
+analytical methods for analysis of computer systems and practical problems in business and practice.
+Introduction to the simulation packages.
+
+Modeling Methods: Introduction to modeling, additive and subtractive modeling; Different
+methods for Curves and Surfaces modeling, Solid modeling: Representing Solid, Polyhedral
+modeling with Euler’s Formula, Non-polyhedral modeling, Advanced modeling: Procedural models,
+Factual models, Physically based modeling.
+
+Recommended Books:
+1. Byron J. T. Morgan         : Elements of Simulation
+2. Law, Keltan                : Simulation Modeling and Analysis
+3. D.S.Hira                   : System Simulation
+4. Geoferry Goedon            : System Simulation
+
+CIT 324        Simulation and Modeling Sessional
+               3 Hrs. per week 1.50 Credit.
+
+Sessional works based on CIT 323.
+
+CIT 411        Compiler Design and Automata Theory
+               3 Hrs. per week 3 Credits
+
+Automata: Finite automata and regular languages, pushdown automata and context-free
+languages; Turing machines and recursively enumerable sets; linear-bounded automata and
+context sensitive languages; computability and the halting problem;
+Introduction: Phases of a compiler (lexical analyzer, syntax analyzer, semantic analyzer,
+intermediate code generator, code optimizer, code generator, symbol-table manager & error
+handler).
+Lexical analysis: role, from regular expression to NFA, from NFA to DFA, design of a lexical
+analyzer generator using LEX.
+
+
+                                                                                                  7
+Syntax analysis: role, CFG, writing a grammar, top-down parsing, bottom-up parsing, operator
+precedence parsing, LR parser, using ambiguous grammar, parser generators (YACC).
+Symbol table, structure and management.
+Intermediate code generation: intermediate languages, declarations, assignment statement,
+Boolean expression, case statements, back patching, procedure calls.
+Code generation: issues in the design of a code generator, target machine, runtime storage
+management, basic blocks and flow graphs, register allocation and assignment, dag representation of
+basic blocks, peephole optimizations, generating code from dags.
+Code optimization: principle of source optimization, optimization of basic blocks, loop in flow
+graphs, global data flow analysis, iterative solution of data flow equations.
+
+Books recommended:
+1. Hopcroft and Ullman       : Introduction to Automata Theory, Languages and Computation
+2. Adamek                    : Automata and Algebra
+3. Aho and Ullman            : Principles of Compiler Design
+4. Lewis and Stern           : Compiler Design Theory
+
+CIT 412        Compiler Design and Automata Theory Sessional
+               3Hrs. in every alternate week 1.0 Credit.
+
+Sessional works based on CIT 411
+
+CIT 421 Digital Signal Processing
+             3 Hrs. per week 3 Credits
+
+Discrete time description of signals and systems, Fourier transform of discrete time signals,
+Discrete Fourier transform.
+
+Z-transform, Digital filter structure, Infinite Impulse Response Filter design techniques, Finite
+Impulse Response Filter design techniques, Finite precision effects, Inverse filtering.
+
+Recommended Books:
+1. A. V. Oppenheim & R. W. Schafe : "Digital Signal Processing"
+2. A. V. Oppenheim & R. W. Schafe : "Digital Time Signal Processing"
+
+CIT 422        Digital Signal Processing Sessional
+               3 Hrs. in every alternate week 0.75 Credit.
+
+Sessional works based on CIT 421
+
+CIT 423        OPTIONAL: Computer Graphics and Image Processing
+               3 Hrs. per week       3 Credits
+
+Introduction to Computer Graphics: Introduction, Presentation graphics, Application Areas,
+GUI; Graphics Hardware: Display devices Architecture and Input Devices.
+Graphic Primitives: Drawing Points, Lines, Circles, Ellipse, Rectangles, Arcs; Polygons: Inside-
+outside tests, polygon fill algorithms, Character generation.
+Two-dimensional Viewing and Clipping: Viewing pipeline, Window to view port transformation,
+Point, Line, Polygon, Curve and Text clipping.
+
+                                                                                                 8
+Transformations of Objects: Basic transformations, Affine Transformations, Translations,
+Rotations, Scaling, reflection and Shearing, Composite transformations matrices, Transformation of
+3D objects (44 matrices).
+Curve design: B-spline, Bezier curves and Surfaces, Fractal Geometry.
+3D Object Representation: 3D Graphics Pipeline, Projection: Different types of Parallel and
+Perspective Matrices; B-Rep, Constructive Solid Geometry, Hidden lines and Surface detection:
+Back face Detection, Painters algorithm, Z-buffering; light models.
+Rendering: Constant, Goraud and Phong shading; Ray-tracing; Different Types of Color Model.
+
+Image Processing : Introduction; Point operations; Line and Edge detection, labeling,
+Histograms; Spatial operations; Affine transformations; Image Segmentation, Image
+Representation and Modelling, Image rectification; Interpolation and other transformations;
+Contrast enhancement; Convolution operation, Magnification and Zooming; Fourier transform;
+Edge detection; Boundary extraction and representation; Mathematical morphology.
+
+Pattern Recognition: Statistical, Structural, Neural and Hybrid Techniques, Document Analysis
+and Optical Character Recognition, Object Recognition, Scene Matching and Analysis.
+
+Recommended Books:
+1. R. A. Plastock & G. Kalley       :"Theory and Problems of Computer Graphics"
+2. Gonzaleg                         :"Pattern Recognition Principles"
+3. Steven Harrington                :"Computer Graphics : A Programming Approach"
+4. Newmann Sprocell                 :"Principles of Interactive Computer Graphics"
+5. James D. Foley, Andries VanDam, Feiner Steven K. and Hughes John F. Computer Graphics:
+   Principle and Practice,_Addison-Wesley Publishing House.
+6.Foley and VanDam._Fundamentals of Interactive Computer Graphics,_Addison- Wesley.
+
+CIT 423        OPTIONAL: Parallel Processing and Distributed System
+               3 Hrs. per week 3 Credits
+
+Parallel processing: Importance, Architecture, Hardware and software issues; Architectures for
+parallel processing – Classifications, Comparative study of different architectures; Hardware
+issues in parallel processing, Parallel Programming.
+
+Distributed Processing: Definition, Impact of distributed processing on organizations, pitfalls in
+distributed processing. Forms of distributed processing: Function distribution, Hierarchical
+distributed systems, Horizontal distributed systems; Strategy : Strategies for distributed data
+processing, control of complexity, problem of incompatibility, centralization                     vs.
+decentralization, cost and benefit analysis; Design of distributed data : Distributed data, location
+of data, multiple copies data, conflict analysis, database management, distributed databases and
+applications; Software and Network Strategy : Software strategy, the ISO seven layers,
+architectural interfaces, physical link control, network management etc.
+
+Recommended Books:
+1. Crichlow, J. M. :"Distributed and Parallel Computing"
+
+
+
+
+                                                                                                   9
+CIT 423       OPTIONAL : Robotics and Computer Vision
+              3 Hrs. per week 3 Credits
+
+Section A:
+
+Robotics manipulation, direct kinematics: The Arm Equation, Inverse Kinematics: Solving the
+arm equation, work space analysis and trajectory planning, differential motion and static,
+manipulator dynamics, robot control, task planning.
+
+Section B:
+
+Relationship between image and world structure, image representation, segmentation pattern,
+perspective transformation, camera calibration, shape analysis, object recognition and picture
+languages.
+
+Recommended Books:
+1. Robert J Schillin :"Fundamentals of Robotics: Analysis and Control"
+
+
+
+
+                                                                                            10
+            Dept. of Computer and Communication Engineering
+                   Patuakhali Science and Technology University
+                                       Course Content
+                                 Effective from Session: 2011-12
+
+CCE 114     Engineering Drawing                                                        0.75
+Course      Introduction, Scale drawing, Sectional views, Isometric views. Missing line, Auxiliary
+Content     view, Detail and assembly drawing. Project on Engineering Drawing and CAD using
+            contemporary packages.
+Reference   1. Wiley : Mastering AutoCAD 2008 and AutoCAD LT 2008.
+Books       2. M. Groover and E. Zimmers : Computer Aided Design and manufacturing.
+            3. S. Narayanan: CAD/CAM Robotics and Factories of the Future.
+            4. Tien Chien Chang: Computer Aided Manufacturing.
+            5. www.blender.org [To perform blender based project in the light of engineering
+            drawing]
+
+CCE 121     Object Oriented Programming                                                  3.00
+Course      Philosophy of Object Oriented Programming (OOP); Advantages of OOP over
+Content     structured programming; Concepts of classes and objects, Encapsulation, access
+            specifies, static and non-static members, JAVA applications; event handling; control
+            structures; Methods; Overloaded Methods; Constructors, destructors ; Single Multi-
+            Dimension Arrays; Object Based Programming Object oriented Programming
+            interface; Inheritance: single and multiple inheritance; Polymorphism: overloading,
+            abstract classes, virtual functions and overriding; Exceptions; interface and abstract
+            classes; String manipulation; Introduction to graphical user interface; handling mouse
+            and keyboard events; Exception Handling; Multi-Threading; Client Server
+            programming.
+
+Reference   1. Java™ How to Program, Latest Edition by H. M. Deitel - Deitel & Associates, Inc.,
+Books       P. J. Deitel - Deitel & Associates, Inc
+            2. Liang, Y. D. (2005), Introduction to Java Programming, Comprehensive:
+            International Edition, 5/E, Prentice Hall. ISBN 0-13-185721
+            Additional Useful Texts
+            Barnes, D. & Kolling, M. 2005, Objects First with Java: A Practical Introduction using
+            BlueJ, 2nd edn, Pearson.
+            Farrell, J. 2005, Programming Logic and Design, Comprehensive, 3rd edn, Thomson.
+            Malik, D. & Nair, P. 2003, Java Programming: From Problem Analysis to Program
+            Design, Thomson.
+            Robertson, L. 2003, Simple Program Design: A Step-by-Step Approach, 4th edn,
+            Thomson.
+            Russell, J. 2001, Java Programming for the Absolute Beginner, Premier Press. Shelly,
+            G., Cashman, T., Starks, J. & Mick, M. 2004, Java Programming Comprehensive
+            Concepts and Techniques, Thomson.
+            Sun Java technology: http://java.sun.com/
+            Borland JBuilder: http://www.borland.com/jbuilder
+            Web page for the prescribed text:
+            http://www.cs.armstrong.edu/liang/intro5e/intro5estudentsolution.html
+
+
+                                                                                            1
+CCE 122     Object Oriented Programming Sessional                                                                   1.50
+Course      Laboratory works will be based on CCE 121.
+Content
+
+CCE 124     Computer Programming Contest-I                                                  0.00
+Course      Contest Arranged by: Computer Society
+Content     Total Question: Maximum Five problems
+            Time to solve: Maximum 5 Hours
+            Problem Setter: CSE Faculty members and or other universities faculty members
+            Judgment: Auto Judgment by PC2 software or Manual Judgment by Teachers
+            Price giving ceremony: Certificate and Prizes for First, Second and Third Position
+            Supervision and Evaluation: Total supervision by CCE Dept teachers.
+
+CCE 211     Data Communication and Engineering                                                                      3.00
+Course
+Content     Introduction:          Communication           model,        data       communication            tasks,       data
+            communication              network           standards           and           organizations.            Protocol
+            architecture,          communications             between            layers,         peer          to         peer
+            communication           between        remote       layers,       service       access      points,       service
+            primitives        and       communication          between          adjacent        layers,       encapsulation
+            of PDUs, addition of headers on transmission; removal on reception,
+            segmentation & reassembly by protocol layers. Physical Layer: Analog
+            and      digital      data       transmission,        spectrum        and        bandwidth,         transmission
+            impairments,         data      rate     and      channel        capacity.       Transmission            Medium:
+            Characteristics       and       applications      of      various       types      of     guided         medium.
+            Wireless        Transmission:            Characteristics         and       applications         of       wireless
+            transmission-terrestrial             and        satellite           microwave,            radio            waves,
+            propagation        mechanism,         free     space       propagation,        land      propagation,         path
+            loss,       slow        fading,        fast      fading,         delay        spread,        inter        symbol
+            interference, VSAT. Digital transmission: Line coding techniquesNRZ, RZ, Manchester, and
+            differential                Manchester                   encoding,                   AMI,                   Block
+            coding, analog to digital conversion based on PCM, delta modulation,
+            etc. Analog transmission: ASK, FSK, PSK, QPSK, QAM encodings, AM, PM,
+            FM,       etc.      Data        Transmission:          Synchronous           and       asynchronous           data
+            transmission        techniques.        Multiplexing:         FDM,         international       FDM          carrier
+            standards,        synchronous           TDM,         international         TDM          carrier        standards,
+            statistical      time        division       multiplexing.          Spread         Spectrum:            Frequency
+            hopping        spread         spectrum,       direct        sequence         spread       spectrum,          code
+            division       multiple        access.      Data       Link        Layer:         Error     Detection          and
+            Correction;        parity       check,      CRC,         forward         error      correction         technique,
+            linear      block      code,       hamming        code,      etc.      Data       Link      Control:          Line
+            configurations,         flow        control      and        error      control        techniques-          sliding
+            window, stop and wait ARQ, selective reject ARQ and HDLC protocols.
+
+
+Reference   1. William Stallings                   : Data and Computer Communication.
+Books       2. Hajkins                             : Data Communication.
+            3. Taub                                : Data Communication .
+            4. Behrouz A.Forouzan                  : Data Communications and networking.
+
+CCE 221     Digital Logic Design                                                           3.00
+Course      Number systems and codes, Digital logic: Boolean algebra, De-Morgan's law, Logic
+Content     gates and their truth tables, canonical forms, combinational logic circuits, minimization
+                                                                                                                      2
+            techniques, Arithmetic and data handling logic circuit, decoders and encoders,
+            Multiplexers and Demultiplexers, Combinational Circuit design, Flip-flops, race
+            around problems, Counters: Asynchronous and Synchronous counters and their
+            applications. Synchronous and asynchronous logic design: state diagram, Mealy and
+            Moore machine, State minimization and assignments. Pulse mode logic, Fundamental
+            mode logic design.
+
+Reference   1. M. Morris Mano     : Digital logic and Computer Design.
+Books       2. Tocci              : Digital System Analysis.
+
+CCE 222     Digital Logic Design Sessional                                              1.50
+Course      Laboratory works will be based on CCE 221.
+Content
+CCE 223     Database System                                                              3.00
+Course      Database Concepts: Files and Databases, Database Management systems, Data models,
+Content     Relational Data Model: Relations, Domains, Attributes and Tuple, Anomalies,
+            Functional Dependency, First, Second and third normal forms, Boyce-Codd Normal
+            form
+            Relational Calculus Based Languages: SQL, Relational algebra and Set operations.
+
+            Relational Database Design: Relational design criteria, Lossless decomposition,
+            decomposition algorithms, synthesis algorithms.
+            Advance Database Concepts: Fourth and fifth normal forms, Object-oriented
+            databases. Entity-Relationship (ER) approach: The ER model and its constructs, ER
+            modeling in logical database design. Transformation of the ER model to SQL,
+            Distributed database design.
+            Optimization and evaluation of relational queries: conjunctive query optimization,
+            optimization of queries involving union and difference operators, algorithms for
+            performing joins.
+Reference   As per course teachers recommendations
+Books
+
+CCE 224     Database System Sessional                                                      1.50
+Course      Laboratory works will be based on CCE 223.
+Content
+
+CCE 310     Software Development Project-I                                                 1.50
+Course      Project based on Programming Language C/C++ or VC or C#
+Content
+
+CCE 311     Numerical Methods                                                              3.00
+Course      Introduction,
+Content     Solution of algebraic and transcendental equations: Method of iteration, False position
+            method, Newton-Rhapson method,
+            Solution of simultaneous linear equations: Cramer's rule, Iteration method, Gauss-
+            Jordan Elimination method, Choleski's process,
+            Interpolation: Diagonal and horizontal differences, Differences of a polynomial,
+            Newton's formula for forward and backward interpolation, Spline interpolation,
+
+            Integration: General quadrature formula, Trapezoidal rule, Simpson's rule, Weddle's
+
+                                                                                               3
+            rule,
+            Solution of ordinary differential equations: Euler's method, Picard's method, Milne's
+            method, Taylor's series method, Runge-Kutta method.
+
+            Least squares approximation of functions: Linear and polynomial regression, Fitting
+            exponential and trigonometric functions.
+
+Reference   As per course teachers recommendations
+Books
+
+CCE 312     Numerical Methods Sessional                                                       0.75
+Course      Laboratory works will be based on CCE 311.
+Content
+
+CCE 313     Computer Networks                                                             3.00
+Course      Introduction: network applications, network hardware, network software, reference
+Content     models, example networks
+
+            The physical layer: the theoretical basis for data communication, guided transmission
+            media, wireless transmission, communication satellites, the public switched telephone
+            network, the mobile telephone system, cable television
+
+            The data link layer: data link layer design issues, error detection and correction,
+            elementary data link protocols, sliding window protocols, protocol verification,
+            example data link protocols
+
+            The medium access sublayer: the channel allocation problem, multiple access
+            protocols, Ethernet, wireless LAN, broadband wireless, Bluetooth, data link layer
+            switching
+            The network layer: network layer design issues, routing algorithms, , congestion
+            control algorithms, quality of service, internetworking, the network layer in the internet
+
+            The transport layer: the transport service, elements of transport protocols, a simple
+            transport protocol, the internet transport protocols: UDP, the internet transport
+            protocols: TCP
+
+            The application layer: DNS--domain name system, electronic mail, the world wide
+            web, multimedia
+
+            Spread spectrum, circuit switching and packet switching, asynchronous transfer
+            mode(ATM), local area network overview, high-speed LAN
+
+Reference   1. Computer Networks: Andrew S. Tanenbaum
+Books       2. Data and Computer Communications: William Stallings
+
+CCE 314     Computer Networks Sessional                                                       1.50
+Course      Laboratory works will be based on CCE 313.
+Content
+
+CCE 320     Computer Programming Contest-III                                                  0.00
+
+                                                                                                4
+Course      Contest Arranged by: Computer Society
+Content     Total Question: Maximum Five problems
+            Time to solve: Maximum 5 Hours
+            Problem Setter: CSE Faculty members and or other universities faculty members
+            Judgment: Auto Judgment by PC2 software or Manual Judgment by Teachers
+            Price giving ceremony: Certificate and Prizes for First, Second and Third Position
+            Supervision and Evaluation: Total supervision by CCE Dept teachers.
+
+
+CCE 321     Computer Peripheral and Interfacing                                                3.00
+Course      Design and operation of interface between computer and the outside world, Sensors,
+Content     transducers ad signal conditioning circuits, interfacing memory and I/O devices-such
+            as monitors, printers, disc drives, optical displays, some special purpose interface
+            cards, stepper motors and peripheral devices. IEEE-488, RS-232 and other buses,
+            Study and applications of peripheral chips including 8212, 8155, 8255, 8251
+Reference   Jyoti Snehi: Computer Peripherals and Interfacing
+Books       Amit Karma: Computer Peripherals and Interfacing
+
+CCE 322     Computer Peripheral and Interfacing Sessional                                      1.50
+Course      Laboratory works will be based on CCE 321.
+Content
+
+CCE 411     Algorithm Engineering                                                          3.00
+Course      Computational complexity, Parameterized complexity, Algorithms for combinatorial
+Content     optimization, practical computing and heuristics, Approximation algorithms, LP based
+            approximation algorithms, randomized algorithms, Experimental algorithmic,
+            Algorithms in state-of-the-art fields like Bioinformatics, Grid Computing, VLSI design
+            etc.
+Reference   1. Thomas H. Cormen: Introduction to Algorithms
+Books       2. Ellis Horowitz & Sartaj Sahni : Fundamentals of Computer Algorithms
+
+CCE 413     VLSI Design                                                                   3.00
+Course      VLSI design methodology: top-down design approach, technology trends and design
+Content     automation algorithms; Introduction to CMOS inverters and basic gates; Brief
+            overview of CMOS fabrication process: layout and design rules; Basic CMOS circuit
+            characteristics and performance estimation; Buffer circuit design; Complex CMOS
+            gates, CMOS building blocks: adder, multiplier; data path and memory structures
+
+            Hardware modeling: hardware modeling languages, logic networks, state diagrams,
+            data-flow and sequencing graphs, behavioral optimization.
+            Architectural Synthesis: circuit specification, strategies for architectural optimization,
+            data-path synthesis, control unit synthesis and synthesis of pipelined circuits. ASIC
+            design using FPGA and PLDs.
+Reference   As per course teachers recommendations
+Books
+
+CCE 415     Network Routing and Switching                                           3.00
+            Operation of Data Networks: Purpose and functions of network devices , OSI and
+            TCP/IP models , Common networking applications , Impact of voice and video on a
+            network
+
+                                                                                                  5
+            Implementing a small switched network: Layer 2 LAN technologies, Network
+            segmentation and traffic management , Basic switch and operation of Cisco switches,
+            Implement basic switch security
+            Implementing an IP addressing scheme: Assignment of valid IP addresses in a
+            network, Introduction to NAT, Introduction to DNS , Private & Public addressing ,
+            Using Cisco SDM for DHCP and DNS
+            Routing: WANs and Routers, Introduction to Routers, Configuring a Router, Learning
+            About Other Devices, Managing Cisco IOS Software, Routing and Routing Protocols,
+            Distance Vector Routing Protocols. TCP/IP Suite Error and Control Messages ,Basic
+            Router Troubleshooting, Intermediate TCP/IP
+            Access Control Lists ,Case Study – Router Case Study
+
+CCE 415     Network Routing and Switching Sessional                                     1.50
+Course      Laboratory works will be based on CCE 415.
+Content
+
+CCE 417     Data Warehousing and Mining                                                  3.00
+Course      Motivation, importance, Data type for Data Mining : relation Databases, Data
+Content     Warehouses, Transactional databases, advanced database system and its applications,
+            Data mining Functionalities: Concept/Class description, Association Analysis
+            classification & Prediction, Cluster Analysis, Outlier Analysis, Evolution Analysis,
+            Classification of Data Mining Systems, Major
+            Data Warehouse and OLAP Technology for Data Mining: Differences between
+            Operational Database Systems and Data Warehouses, a multidimensional Data Model,
+            Data Warehouse Architecture, Data Warehouse Architecture, Data Warehouse
+            Implementation, Data Cube Technology.
+            Data Preprocessing: Data Cleaning, Data Integration and Transformation, Data
+            Reduction, Discretization and Concept Hierarchy Generation. Data Mining Primitives,
+            Languages, and System Architectures, Concept Description: Characterization and
+            Comparison, Analytical Characterization.
+            Mining Association Rules in Large Databases: Association Rule Mining: Market
+            Basket Analysis, Basic Concepts, Mining Single-Dimensional Boolean Association
+            Rules from Transactional Databases: the Apriori algorithm, Generating Association
+            rules from Frequent items, Improving the efficiency of Apriory, Mining Multilevel
+            Association Rules, Multidimensional Association Rules, Constraint-Based Association
+            Mining.
+            Classification & Prediction and Cluster Analysis: Issues regarding classification &
+            prediction, Different Classification Methods, Prediction, Cluster Analysis, Major
+            Clustering Methods, and Applications & Trends in Data Mining: Data Mining
+            Applications, currently available tools.
+
+Reference   1. J. Han and M. Kamber, “Data Mining: Concepts and Techniques”, Morgan
+Books       Kaufmann Pub.
+            2. Berson “Dataware housing, Data Mining & DLAP, @004, TMH.
+            3. W.H. Inmon “ Building the Datawarehouse, 3ed, Wiley India.
+            4. Anahory, “Data Warehousing in Real World”, Pearson Education.
+            5. Adriaans, “Data Mining”, Pearson Education.
+            6. S.K. Pujari, “Data Mining Techniques”, University Press, Hyderabad.
+
+CCE 421     Cryptography and Network Security                                        3.00
+Course      Introduction: The OSI Security Architecture, Security Attacks, Security Services,
+                                                                                       6
+Content     Security Mechanisms, A Model for Internetwork Security, Internet Standards the
+            Internet Society
+            Symmetric Encryption and Message Confidentiality: Symmetric Encryption Principles,
+            Symmetric Encryption Algorithms, Cipher Block Modes of Operation, Location of
+            Encryption Devices, Key Distribution
+            Public-Key Cryptography and Message Authentication: Approaches to Message
+            Authentication, Secure Hash Functions and HMAC, Public Key Cryptography
+            Principles, Public-Key Cryptography Algorithms, Digital Signatures, Key
+            Management
+            Authentication Applications: Kerberos, X.509 Directory Authentication Service
+            , Public Key Infrastructure
+            Electronic Mail Security: Pretty Good Privacy (PGP), S/MIME
+            IP Security: IP Security Overview, IP Security Architecture, Authentication, Header,
+            Encapsulating Security Payload, Combining Security Associations, Key Management.
+            Web Security: Web Security Requirements, Secure Sockets Layer (SSL) and Transport
+            Layer Security (TLS), Secure Electronic Transaction (SET)
+            Network Management Security: Basic Concepts of SNMP, SNMPv1 Community
+            Facility
+            , SNMPv3
+            INTRUDERS: Intruders, Intrusion Detection, Password Management
+
+
+Reference   1. William Stallings: Network security essentials : applications and standards
+Books
+
+CCE 423     Wireless and Cellular Communication                                             3.00
+Course      Wireless Network concepts: frequency reuse, handoff strategies, interference and
+Content     system capacity, grade of service, improving capacity and coverage;
+            Wireless LAN Technology;
+            IEEE 802.11: standard, protocol architecture, physical layer and media access control;
+            Mobile IP; Wireless Application Protocol; IEEE 802.16 Broadband Wireless Access;
+            Modern Wireless Communication Systems: Second generation (2G) Cellular networks,
+            third generation (3D) wireless networks, wireless local loop (WLL) and LMDS,
+            wireless local area networks (WLANs), Bluetooth Personal area networks (PANs).
+            The cellular Concept-System Design Fundamentals: Introduction, frequency reuse,
+            channel assignment, strategies, handoff strategies, interference and system capacity,
+            trunking and grade of service, improving coverage and capacity in cellular systems.
+            Mobile Radio Propagation - Large scale path loss: Introduction to radio wave
+            propagation, free space propagation model, relating power to electric field, basic
+            propagation mechanisms, reflection, ground reflection, diffraction, scattering, outdoor
+            and indoor propagation models.
+            Mobile Radio Propagation - Small scale Fading and Multi-path: Small scale multi-path
+            propagation, Impulse response model of a multi-path channel, small-scale multi-path
+            measurements, parameters of mobile multi-path channels, types of small scale fading,
+            Rayleigh and Ricean distributions, statistical models for multi path fading channels,
+            theory of multi-path shape factors for small scale fading wireless channels.
+             Modulation techniques for mobile radio: Frequency modulation, amplitude
+            modulation, angle modulation, digital modulation, line coding, pulse shaping
+            techniques, geometric representation of modulation signals, linear modulation
+            techniques.
+            Equalization, Diversity and Channel Coding: Introduction, fundamentals of
+                                                                                              7
+            equalization, linear inequalities, nonlinear equalization, algorithms for adaptive
+            equalization, diversity techniques, interleaving, fundamentals of channel coding.
+
+Reference   As per course teachers recommendations
+Books
+
+
+
+
+                                                                                         8
+                    Patuakhali Science and Technology University
+                       Faculty of Computer Science and Engineering
+                   Details Syllabus of Electrical and Electronics Engineering
+
+
+
+EEE 111             Basic Electrical Engineering
+                   3 Hrs. per week 3 Credits
+Fundamental electric concepts and measuring units, D.C. voltage, Current, Resistance and
+power, Laws of electrical circuits and methods of network analysis, Principles of D.C. measuring
+apparatus, Laws of magnetic fields and methods of solving simple magnetic circuits.
+
+Electromagnetism : Magnetic fields, Maxwell’s equations. Ampere’s law, Faraday’s law, Lenz’s
+law, Inductance - Self and mutual inductance. Magnetic Properties of matter : Magneto-motive
+force, Magnetic field intensity, Permeability and susceptibility, Classification of magnetic
+material, Magnetization curves of Ferromagnetic materials, Magnetic circuits, Magnetostriction.
+
+Alternating current - instantaneous and r.m.s. current, Voltage and power, Average power for
+various combinations of R,L and C circuits, Phasor representation of sinusoidal quantities. Single
+phase AC circuit analysis.
+
+Recommended Books:
+
+   1. B.L. Theraja : A text book of Electrical Technology, Volume: I
+   2. V.K. Mehta : Principles of Electrical Engineering and Electronics
+   3. G.F. Corcoran : Alternating Current Circuits
+
+EEE 112        Basic Electrical Engineering Sessional
+               3 Hrs. per week 1.50 Credit.
+
+Laboratory works based on EEE 111.
+
+EEE 121        Electronic Devices and Circuits
+               3 Hrs. per week 3 Credits
+Introduction to semiconductors, p-type and n-type semiconductors; p-n junction diode
+characteristics; Diode applications: half and full wave rectifiers, clipping and clamping circuits,
+regulated power supply using zener diode.
+
+Bipolar Junction Transistor (BJT): principle of operation, I-V characteristics; Transistor circuit
+configurations (CE, CB, CC), BJT biasing, load lines; BJTs at low frequencies; Hybrid model, h
+parameters, simplified hybrid model; Small-signal analysis of single and multi-stage amplifiers,
+frequency response of BJT amplifier.
+
+Field Effect Transistors (FET): principle of operation of JFET and MOSFET; Depletion and
+enhancement type NMOS and PMOS; biasing of FETs; Low and high frequency models of
+FETs, Switching circuits using FETs; Introduction to CMOS. Operational Amplifiers (OPAMP):
+linear applications of OPAMPs, gain, input and output impedances, active filters, frequency
+response and noise.
+
+Introduction to feedback, Oscillators, Silicon Controlled Rectifiers (SCR), TRIAC, DIAC and
+UJT: characteristics and applications; Introduction to IC fabrication processes.
+
+Recommended Books:
+
+   1. V.K. Mehta :       Principles of Electronics
+   2. R.L. Boylestad :   Electronic Devices and Circuit Theory
+   3. Millman & Halkias: Electronic Devices and Circuits
+
+EEE 122        Electronic Devices and Circuits Sessional
+               3 Hrs. per week 1.50 Credit.
+
+Laboratory works based on EEE 121.
+
+EEE 211        Electrical Technology
+               3 Hrs. per week 3 Credits
+Introduction to three phase circuits, alternators and transformers; Principles of operation of DC,
+synchronous, induction, universal, and stepper motors; DC Generator, Thyristor and
+microprocessor based speed control of motors.
+
+Instrumentation amplifiers: differential, logarithmic and chopper amplifiers; Frequency and
+voltage measurements using digital techniques; Recorders and display devices, spectrum
+analyzers and logic analyzers; Data acquisition and interfacing to microprocessor based systems;
+Transducers: terminology, types, principles and application of photovoltaic, piezoelectric,
+thermoelectric, variable reactance and opto-electronic transducers; Noise reduction in
+instrumentation.
+
+Recommended Books:
+
+   1.   B.L. Theraja           : A text book of Electrical Technology, Volume: II
+   2.   Bhattacharya           :Electrical Machines
+   3.   Rosenblatt             : Direct and Alternating Current Machinery
+   4.   A.K. Sawhney          : Electrical and Electronic Measurements and Instrumentation
+
+
+EEE 212        Electronic Devices and Circuits Sessional
+                  3 Hrs. per week 1.50 Credit.
+
+Laboratory works based on EEE 211.
+EEE 321        Digital Electronics and Pulse Techniques
+               3 Hrs. per week 3 Credits
+Diode logic gates, transistor switches, transistor gates, MOS gates, Logic Families: TTL, ECL,
+IIL and CMOS logic with operation details. Propagation delay, product and noise immunity.
+Open collector and High impedance gates. Electronic circuits for flip-flop, counters and register,
+memory system, PLAs and PLDs. A/D., D/A converters with applications. S/H circuits, LED,
+LCD and optically coupled oscillators. Non-linear applications of OP AMPs. Analog switches.
+
+Linear wave shaping : diode wave shaping techniques, clipping and clamping circuits.
+Comparator circuits, switching circuits. Pulse transformers, pulse transmission. Pulse generator;
+monostable, bistable and astable multivibrators; Schmitt trigger; Blocking oscillators and time-
+base circuit. Timing circuits. Simple voltage sweeps, linear current sweeps.
+
+Recommended Books:
+
+   1. R.P. Jain               : Modern Digital Electronics
+   2. J. Millman              :Pulse, Digital and Switching Waveforms
+
+
+EEE 322        Digital Electronics and Pulse Techniques Sessional
+               3 Hrs. in every alternate Week 0.75 Credit.
+
+Laboratory works based on EEE 321.
+                            Department of Mathematics
+                                        Faculty of CSE
+                 Patuakhali Science and Technology University
+                                      Course Content
+                                Effective from Session: 2011-12
+
+MAT 111     Mathematics-I                                                              3.00
+Course      Differential Calculus:
+Content     Limit, continuity and differentiability, successive differentiation of various types of
+            functions, Leibnitz's rule, Taylor's theorem in finite and infinite forms. Maclaurin's
+            theorem in finite and infinite forms. Lagrange's form of remainders. Expansion of
+            functions. Evaluation of limit of indeterminate forms by L' Hospital's rule. Partial
+            differentiation, Euler's theorem. Equations of Tangent and normal. Determination of
+            maximum and minimum values of functions and points of inflexion. Applications,
+            curvature, radius of curvature and center of curvature.
+            Matrix:
+            Definition of Matrix, equality of two matrices. Addition, Subtraction and
+            Multiplication of Matrices. Transpose of matrices, Inverse of matrix and Rank of
+            matrices. Characteristic equation and roots of a matrix. Caylay-Hamilton theorem.
+            Co-ordinate Geometry :
+            Change of axes, transformation of co-ordinates and simplification of equations of
+            curves. Pair of straight lines, conditions under which general equations of the second
+            degree may represent a pair of straight lines. Homogeneous equations of second
+            degree. Angle between the pair of lines. Pair of lines joining the origin to the point of
+            intersection of two curves. Standard equations of circle, parabola, ellipse and
+            hyperbola with explanations.
+            Conic together with its Cartesian and po1ar equations. Discussions of the general
+            equation of second degree in x and y for for representing a conic. Representation of a
+            point in a space. Rectangular Cartesian co-ordinates. Distance and Division
+            formulae. Direction cosines and direction ratios of a line. Angle between two lines.
+            Projection of a segment. Projection of the joint of two points on a line. The equation
+            of a plane, its normal form and intercept form. Angle between two planes. The
+            equation of a line in symmetrical form. Equations of sphere, paraboloid and
+            ellipsoid.
+Reference   1. S.P. Gordon          : Calculus and the Computer.
+Books       2. L.I. Holder          : Calculus and Analytic Geometry.
+            3. J.F. Hurley          : Calculus.
+            4. Willard, Stephen : Calculus and its Application.
+            5. J. Stewart           : Calculus.
+            6. S.L. Loney           : Analytical Co-ordinate Geometry.
+            7. M. L. Khanna         : Theory of Matrices
+            8. P. N. Chatterjee : Theory of Matrices
+
+MAT 121     Mathematics-II                                                        3.00
+Course      Complex Variable:
+Content     Complex number system. General functions of a complex variable. Limits and
+            continuity of a functions of a complex variable and related theorems. Complex
+            differentiation and the Cauchy-Riemann equations. Mapping by elementary
+            functions. Line integral of a complex function. Cauchy's integral theorem, Cauchy's
+                                                                                               1
+            integral formula, Liouville's theorem. Taylor's and Laurent's theorems. Singular
+            points. Residue, Cauchy's residue theorem Evaluating of residues,contour
+            integration, conformal mapping.
+            Laplace Transform :
+            Definition, Laplace transformation of some elementary functions. Sufficient
+            conditions for existence of Laplace transforms. Inverse Laplace transforms of
+            derivatives. The unit step function. Periodic Function's. Some special theorems on
+            Laplace transforms. Partial fraction. Solutions of differential equations by Laplace
+            transforms. Evaluation of improper integrals.
+            Difference Equations:
+            The z-transforms; Application of the z-transforms to the solution of linear difference
+            equations.
+Reference   1. E. T. Capson       : An Introduction to the theory of Function of a Complex
+Books       Variable.
+            2. V. Churchill       : Complex Variable.
+            3. Charchill          : Fourier Series and Boundary Value Problems.
+            4.M.R. Spiegel        : Laplace Transform.
+            5.Goyal and Gupta : Functions of Complex variaable
+
+MAT 211     Mathematics-III                                                         3.00
+Course      Probability:
+Content     Probability theory, discrete and continuous probability distributions, sampling theory
+            and estimation, test of hypothesis, regression and correlation analysis, analysis of
+            variance, decision making using probabilities, decision trees, application of game
+            theory.
+            Statistics:
+            Introduction and introductory concepts, Variable and Frequency distribution. Central
+            tendency & its measures, Dispersion & its measures, nature and shape of frequency
+            distribution, Probability and Probability Theory, Regression and correlation,
+            Sampling and sample survey, Test of hypothesis.
+
+Reference   Murray R. Spiegel              : Statistics
+Books       2. Ahmed and Bhuiya           : Methods of Statistics
+            3. Shil and Debnath          : An Introduction to Theory of Statistics
+            4. Md. Abu Yusuf             : Mathematical Method and tensor Analysis
+
+MAT 221     Mathematics-IV                                                          3.00
+Course      Fourier Series:
+Content     Definition, Fourier Co-efficient, half-range Fourier Series, Fourier series in different
+            intervals.
+            Fourier Series, convergence of Fourier Series, Fourier Analysis, Fourier integral. Z-
+            Transformation and its application. Application of Laplace Transforms and Fourier
+            series in Circuits.
+
+            Fourier Transform:
+            The finite fourier sin and cosine transform. Inverse finite Fourier sin and cosine
+            transform.Fourier Transform, Inverse Fourier transform. Fourier sin and cosine
+            transform. Inverse Fourier sin and cosine transform, Relation between Fourier
+            transforms and Laplace Transform Convolution Theorem.
+
+            Vector Analysis:
+                                                                                              2
+            Definition of vectors. Equality of vectors. Addition and multiplication of vectors.
+            Linear dependence and independence of vectors. Differentiation and integration of
+            vectors together with elementary applications. Definitions of line, surface and
+            volume integrals. Gradient of a scalar function. Divergence and curl of a vector
+            function. Physical significance of gradient, divergence and curl. Various formulae.
+            Integral forms of gradient, divergence and curl. Divergence theorem. Stoke’s
+            theorem, Green’s theorem and Gauss’s theorem.
+
+Reference   1. M. R. Spiegel     : Vector Analysis
+Books       2. S. A. Sattar      : Vector Analysis
+            3. M. L. Khanna      : Vector Analysis
+            4. Frank Ayres       : Theory of Matrices
+            5. Charchill         : Fourier series and Boundary Value Problems.
+
+
+
+
+                                                                                         3
+                        Dept. of Agricultural Chemistry
+                Patuakhali Science and Technology University
+                                     Course Content
+                               Effective from Session: 2011-12
+
+CHE 111     Chemistry                                                  3.00
+Course      Atomic structure, quantum numbers, electronic configuration, periodic table.
+Content     Properties and uses of noble gases. Different types of chemical bonds and their
+            properties.
+            Molecular structures of compounds. Selective organic reactions, Different types of
+            solutions and their compositions. Phase rule, phase diagram of mono component
+            system.
+            Properties of dilute solutions. Thermo chemistry, chemical kinetics, chemical
+            equilibrium, Ionizations of water. and pH concept. Electrical properties of solutions.
+Reference   As per course teacher’s recommendation
+Books
+CHE 112     Chemistry                                                   0.75
+
+
+            Laboratory works will be based on CHE 112.
+
+
+
+
+                                                                                            1
+

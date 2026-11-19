@@ -1,0 +1,131 @@
+{
+  "username": "jyotirmoy-avro",
+  "data_type": "experience",
+  "scraped_at": "2026-11-19T12:17:13.043Z",
+  "count": 6,
+  "data": [
+    {
+      "job_title": "Vice President",
+      "company_name": "CSE Club, PSTU",
+      "employment_type": "Full-time",
+      "dates": "Apr 2026 - Present · 8 mos",
+      "start_date": "Apr 2026",
+      "end_date": "Present",
+      "duration": "8 mos",
+      "location": null,
+      "workplace_type": "Hybrid",
+      "company_total_duration": "2 yrs 11 mos",
+      "company_url": "https://www.linkedin.com/company/56398838/",
+      "description": "Programming Contest",
+      "skills": [],
+      "skills_truncated": false,
+      "media": []
+    },
+    {
+      "job_title": "Assistant General Secretary (Project & Technical Assistance)",
+      "company_name": "CSE Club, PSTU",
+      "employment_type": "Full-time",
+      "dates": "May 2025 - Apr 2026 · 1 yr",
+      "start_date": "May 2025",
+      "end_date": "Apr 2026",
+      "duration": "1 yr",
+      "location": null,
+      "workplace_type": "Hybrid",
+      "company_total_duration": "2 yrs 11 mos",
+      "company_url": "https://www.linkedin.com/company/56398838/",
+      "description": null,
+      "skills": [
+        "Technical Project Management",
+        "Web Development & Maintenance"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "job_title": "Member of Workshop and Seminar Sub-Committee",
+      "company_name": "CSE Club, PSTU",
+      "employment_type": "Apprenticeship",
+      "dates": "Jan 2024 - May 2025 · 1 yr 5 mos",
+      "start_date": "Jan 2024",
+      "end_date": "May 2025",
+      "duration": "1 yr 5 mos",
+      "location": null,
+      "workplace_type": "Hybrid",
+      "company_total_duration": "2 yrs 11 mos",
+      "company_url": "https://www.linkedin.com/company/56398838/",
+      "description": "Organized the “AI & Research Enthusiast Program” to introduce students to research in Machine Learning and Federated Learning.\nIntroduced Federated Learning concepts and encouraged students to explore privacy-preserving ML.\nProvided technical support and logistics, including slide management, demo setup, and AV coordination.\nPromoted research culture among undergraduates, highlighting career paths in AI and academic research.\nPlanned and coordinated seminars, workshops, and tech talks, ensuring alignment with club goals and student interests.\nCreated event documentation, including posters, descriptions, and session agendas, using Canva, Google Docs, and Microsoft Powerpoint.\nManaged social media promotion of club events across Facebook and LinkedIn to increase participation and visibility.\nConducted post-event feedback analysis to measure impact and improve future programs.\nMaintained databases of participants, speakers, and volunteers, streamlining communication and future outreach.\nHandled live streaming and recording of sessions using Zoom, OBS Studio, and Google Meet.\nFacilitated panel discussions and Q&A sessions, encouraging student interaction and curiosity.\nGuided juniors in joining tech communities, finding online resources, and choosing beginner-friendly research topics.",
+      "skills": [
+        "Management",
+        "Organization Skills"
+      ],
+      "skills_truncated": false,
+      "media": []
+    },
+    {
+      "job_title": "Content Typist",
+      "company_name": "10 Minute School",
+      "employment_type": "Freelance",
+      "dates": "Jun 2021 - Feb 2023 · 1 yr 9 mos",
+      "start_date": "Jun 2021",
+      "end_date": "Feb 2023",
+      "duration": "1 yr 9 mos",
+      "location": "Bangladesh",
+      "workplace_type": null,
+      "company_total_duration": null,
+      "company_url": "https://www.linkedin.com/company/13403202/",
+      "description": "Successfully completed the highest number of files as a beginner typist, demonstrating rapid skill development and dedication. Recognized by instructors and designers for exceptional performance and commitment to excellence.",
+      "skills": [
+        "Microsoft PowerPoint",
+        "Project Management"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Certificate of Recognition for the K12 Digital Content Project",
+          "description": "The certificate of recognition from 10 Minute School for working on the K12 Digital Content Project.",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Position/1917733605/treasury/"
+        }
+      ]
+    },
+    {
+      "job_title": "Vice President",
+      "company_name": "National Children's Task Force",
+      "employment_type": "Full-time",
+      "dates": "Jun 2015 - Jun 2017 · 2 yrs 1 mo",
+      "start_date": "Jun 2015",
+      "end_date": "Jun 2017",
+      "duration": "2 yrs 1 mo",
+      "location": "Jhālakāti, Barisāl, Bangladesh",
+      "workplace_type": "On-site",
+      "company_total_duration": null,
+      "company_url": null,
+      "description": "As the Vice President of the National Children's Task Force (NCTF), a prestigious children's organization supported by Save the Children, Plan International Bangladesh, and Bangladesh Shishu Academy nationwide, I have led numerous impactful initiatives. From organizing successful events such as Tree Plantation Events and Press Conferences with Children to taking direct actions against schools lacking proper sanitation facilities, my leadership has made a significant difference. One of the most remarkable achievements includes the prevention of several child marriages, underscoring our commitment to safeguarding the rights and well-being of children.",
+      "skills": [
+        "Leadership",
+        "Organization Skills"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "job_title": "Member of the Child Parliament",
+      "company_name": "National Children's Task Force (NCTF)",
+      "employment_type": "Full-time",
+      "dates": "Jul 2013 - Jun 2015 · 2 yrs",
+      "start_date": "Jul 2013",
+      "end_date": "Jun 2015",
+      "duration": "2 yrs",
+      "location": "Jhalokati District, Barisāl, Bangladesh",
+      "workplace_type": "On-site",
+      "company_total_duration": null,
+      "company_url": null,
+      "description": "As a proud member of the Child Parliament of National Children's Task Force (NCTF), a renowned children's organization backed by Save the Children, Plan International Bangladesh, and Bangladesh Shishu Academy nationwide, I have championed the cause of young voices. By effectively raising the pressing challenges faced by children in my hometown to fellow parliament members, I catalyzed meaningful change. The collective efforts led to the implementation of essential measures aimed at enhancing the physical and mental well-being, as well as the educational opportunities, for children in the community. My advocacy has truly made a difference in empowering and uplifting the lives of the younger generation in my hometown.",
+      "skills": [
+        "Conference Speaking",
+        "Public Speaking"
+      ],
+      "skills_truncated": true,
+      "media": []
+    }
+  ]
+}

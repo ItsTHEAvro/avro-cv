@@ -1,0 +1,635 @@
+{
+  "username": "jyotirmoy-avro",
+  "data_type": "certifications",
+  "scraped_at": "2026-11-19T12:15:14.257Z",
+  "count": 32,
+  "data": [
+    {
+      "certificate_name": "Certificate of Presentation",
+      "issued_by": "IEEE Computer Society Bangladesh Chapter",
+      "issued_date": "Oct 2026",
+      "expiration_date": null,
+      "credential_id": "Paper 598",
+      "credential_url": null,
+      "issuer_url": "https://www.linkedin.com/company/91423397/",
+      "skills": [],
+      "skills_truncated": false,
+      "media": [
+        {
+          "title": "Certificate of Presentation",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/794659923/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "AI Engineer for Data Scientists Associate",
+      "issued_by": "DataCamp",
+      "issued_date": "Sep 2026",
+      "expiration_date": "Sep 2028",
+      "credential_id": "AEDS0014242823308",
+      "credential_url": "https://www.datacamp.com/certificate/AEDS0014242823308",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "MLOps"
+      ],
+      "skills_truncated": false,
+      "media": [
+        {
+          "title": "AI Engineer for Data Scientists Associate Certification",
+          "description": "Proved foundational knowledge and skills required for pre-entry-level AI Engineers with a data science background. Demonstrate understanding of data management, exploratory analysis, programming for AI data science, governance for AI, model development for AI, and production system and application development for AI.",
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/1793470572/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Certified Red Team Analyst (CRTA)",
+      "issued_by": "CyberWarFare Labs",
+      "issued_date": "Jul 2026",
+      "expiration_date": null,
+      "credential_id": "6a652d9d8aed14e94c8f0da9",
+      "credential_url": "https://labs.cyberwarfare.live/credential/achievement/6a652d9d8aed14e94c8f0da9",
+      "issuer_url": "https://www.linkedin.com/company/42825763/",
+      "skills": [
+        "Red Teaming",
+        "Penetration Testing"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "CRTA Certificate",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/460830026/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Certified Offensive Windows API (COWA)",
+      "issued_by": "Red Team Leaders",
+      "issued_date": "Jul 2026",
+      "expiration_date": null,
+      "credential_id": "https://courses.redteamleaders.com/exam-completion/9841261e00c7fdbc",
+      "credential_url": "https://courses.redteamleaders.com/exam-completion/9841261e00c7fdbc",
+      "issuer_url": "https://www.linkedin.com/company/107312510/",
+      "skills": [
+        "Red Teaming",
+        "Malware Analysis"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "COWA Certificate PDF",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/685772478/treasury/"
+        },
+        {
+          "title": "Certificate: Certified Offensive Windows API (COWA)",
+          "description": null,
+          "type": "link",
+          "url": "https://courses.redteamleaders.com/exam-completion/9841261e00c7fdbc"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Explainable AI in Python",
+      "issued_by": "DataCamp",
+      "issued_date": "May 2026",
+      "expiration_date": null,
+      "credential_id": "926dd2f5b4fa1ea63f606837986f96f904d680e7",
+      "credential_url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/926dd2f5b4fa1ea63f606837986f96f904d680e7",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Explainable AI (XAI)",
+        "SHAP (SHapley Additive exPlanations)"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Statement of Accomplishment for the course Explainable AI in Python",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/2107885218/treasury/"
+        },
+        {
+          "title": "Jyotirmoy Avro's Statement of Accomplishment | DataCamp",
+          "description": null,
+          "type": "link",
+          "url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/926dd2f5b4fa1ea63f606837986f96f904d680e7"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Explainable Artificial Intelligence (XAI) Concepts",
+      "issued_by": "DataCamp",
+      "issued_date": "Apr 2026",
+      "expiration_date": null,
+      "credential_id": "d63304a4f6fae2472f2cda18375e9cb7ddd97a8a",
+      "credential_url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/d63304a4f6fae2472f2cda18375e9cb7ddd97a8a",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Explainable AI (XAI)",
+        "Interpretable Machine Learning"
+      ],
+      "skills_truncated": false,
+      "media": [
+        {
+          "title": "Certificate",
+          "description": "Statement of accomplishment of completing the XAI concepts course",
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/1604535314/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "AI Engineer For Developers Associate Certificate",
+      "issued_by": "DataCamp",
+      "issued_date": "Jan 2026",
+      "expiration_date": "Jan 2028",
+      "credential_id": "AIEDA0011464891580",
+      "credential_url": "https://www.datacamp.com/certificate/AIEDA0011464891580",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Prompt Engineering",
+        "Large Language Models (LLM)"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Certificate [pdf]",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/49101099/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "5-Day Gen AI Intensive",
+      "issued_by": "Kaggle",
+      "issued_date": "Apr 2025",
+      "expiration_date": null,
+      "credential_id": "https://www.kaggle.com/certification/badges/itstheavro/96",
+      "credential_url": "https://www.kaggle.com/certification/badges/itstheavro/96",
+      "issuer_url": "https://www.linkedin.com/company/1061689/",
+      "skills": [
+        "Generative AI",
+        "Gen AI"
+      ],
+      "skills_truncated": false,
+      "media": [
+        {
+          "title": "Completed 5-Day Gen AI Intensive",
+          "description": "I attended daily seminars, studied white papers, completed daily assignments, and a capstone project about Generative AI.",
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/120005693/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Supervised Learning with scikit-learn",
+      "issued_by": "DataCamp",
+      "issued_date": "Nov 2025",
+      "expiration_date": null,
+      "credential_id": "3bf58271a0af0c86c9d22491430902a9066b0fff",
+      "credential_url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/3bf58271a0af0c86c9d22491430902a9066b0fff",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Data preprocessing",
+        "Regression Models"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Supervised Learning with scikit-learn.pdf",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/1298371970/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Data Scientist",
+      "issued_by": "DataCamp",
+      "issued_date": "Jun 2025",
+      "expiration_date": null,
+      "credential_id": null,
+      "credential_url": "https://www.datacamp.com/completed/statement-of-accomplishment/track/f441ba6649c8be9349ce0c60d9059fd07aa17341",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Data Analysis",
+        "SQL"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Data Scientist in Python Statement of Accomplishment by Datacamp.pdf",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/952090243/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Intermediate Git",
+      "issued_by": "DataCamp",
+      "issued_date": "Jun 2025",
+      "expiration_date": null,
+      "credential_id": "2c917dc6f885c7c7e63a60ec66260c15d62c3bdc",
+      "credential_url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/2c917dc6f885c7c7e63a60ec66260c15d62c3bdc",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Git",
+        "Version Control"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Intermediate Git -Statement of Accomplishment by Datacamp",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/883176898/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Intermediate SQL",
+      "issued_by": "DataCamp",
+      "issued_date": "Jun 2025",
+      "expiration_date": null,
+      "credential_id": "496cfe73f7b35c02c8a69de53e6605ebb1e718f4",
+      "credential_url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/496cfe73f7b35c02c8a69de53e6605ebb1e718f4",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "SQL",
+        "Data Analysis"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Intermediate SQL - Datacamp.pdf",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/823773039/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Pandas",
+      "issued_by": "Kaggle",
+      "issued_date": "Jun 2025",
+      "expiration_date": null,
+      "credential_id": null,
+      "credential_url": "https://www.kaggle.com/learn/certification/itstheavro/pandas",
+      "issuer_url": "https://www.linkedin.com/company/1061689/",
+      "skills": [
+        "Pandas (Software)",
+        "Data Manipulation"
+      ],
+      "skills_truncated": false,
+      "media": [
+        {
+          "title": "Pandas course completion certificate by Kaggle",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/746081847/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Machine Learning for Business",
+      "issued_by": "DataCamp",
+      "issued_date": "May 2025",
+      "expiration_date": null,
+      "credential_id": "c725ce05f98d65fc8cad3997d43536b4200d0f80",
+      "credential_url": "https://www.datacamp.com/completed/statement-of-accomplishment/course/c725ce05f98d65fc8cad3997d43536b4200d0f80",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Machine Learning Strategy",
+        "Business Analytics"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "ML for Business Statement of Accomplishment.pdf",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/664110298/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Data Scientist Associate",
+      "issued_by": "DataCamp",
+      "issued_date": "May 2025",
+      "expiration_date": "May 2027",
+      "credential_id": "DSA0011426465213",
+      "credential_url": "https://www.datacamp.com/certificate/DSA0011426465213",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Data Analysis",
+        "Data Visualization"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Associate Data Scientist certificate pdf",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/810810156/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Data Literacy",
+      "issued_by": "DataCamp",
+      "issued_date": "Apr 2025",
+      "expiration_date": null,
+      "credential_id": "DL0033352802672",
+      "credential_url": "https://www.datacamp.com/skill-verification/DL0033352802672",
+      "issuer_url": "https://www.linkedin.com/school/3227175/",
+      "skills": [
+        "Data Analysis",
+        "Data Literacy"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Data Literacy Certificate",
+          "description": "PDF version of Data Literacy Certificate by DataCamp",
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/1811108622/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Mobile App Development (Android/ Flutter/ iOS)",
+      "issued_by": "Enhancing Digital Government & Economy Project",
+      "issued_date": "Mar 2024",
+      "expiration_date": null,
+      "credential_id": "EDGE-PSTUCSIT-10100102",
+      "credential_url": "https://edge.csit.pstu.ac.bd:4040/Cert/Verify/PSTUCSIT-10100102",
+      "issuer_url": "https://www.linkedin.com/company/91370795/",
+      "skills": [
+        "Mobile Application Development",
+        "Flutter"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Mobile App Development (Android/ Flutter/ iOS) Certificate",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/1496242719/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Machine Learning Specialization",
+      "issued_by": "DeepLearning.AI",
+      "issued_date": "Apr 2024",
+      "expiration_date": null,
+      "credential_id": "BA8N9Y8JDSSN",
+      "credential_url": "https://www.coursera.org/account/accomplishments/specialization/BA8N9Y8JDSSN",
+      "issuer_url": "https://www.linkedin.com/company/18246783/",
+      "skills": [
+        "Machine Learning",
+        "Analytical Skills"
+      ],
+      "skills_truncated": false,
+      "media": [
+        {
+          "title": "Machine Learning Specialization Certificate.pdf",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/2006569097/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      "issued_by": "DeepLearning.AI",
+      "issued_date": "Apr 2024",
+      "expiration_date": null,
+      "credential_id": "FSHG9XHXRZ35",
+      "credential_url": "https://www.coursera.org/account/accomplishments/records/FSHG9XHXRZ35",
+      "issuer_url": "https://www.linkedin.com/company/18246783/",
+      "skills": [
+        "Machine Learning",
+        "Unsupervised Learning"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Course Certificate Unsupervised Learning, Recommenders, Reinforcement Learning",
+          "description": "My certificate of completion of the course Unsupervised Learning, Recommenders,Reinforcement Learning",
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/2005109218/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Advanced Learning Algorithms",
+      "issued_by": "DeepLearning.AI",
+      "issued_date": "Feb 2024",
+      "expiration_date": null,
+      "credential_id": "CWGADX38LPCR",
+      "credential_url": "https://www.coursera.org/account/accomplishments/records/CWGADX38LPCR",
+      "issuer_url": "https://www.linkedin.com/company/18246783/",
+      "skills": [
+        "Machine Learning",
+        "Analytical Skills"
+      ],
+      "skills_truncated": true,
+      "media": [
+        {
+          "title": "Certificate for \"Advanced Learning Algorithms\"",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/1727080617/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Introduction to Packet Tracer",
+      "issued_by": "Cisco",
+      "issued_date": "Feb 2024",
+      "expiration_date": null,
+      "credential_id": null,
+      "credential_url": "https://www.credly.com/badges/3c1e00a4-b772-4f3c-9a5b-a746b7952ce7/linked_in_profile",
+      "issuer_url": "https://www.linkedin.com/company/1063/",
+      "skills": [
+        "Cisco Packet Tracer",
+        "Network Simulation"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "certificate_name": "Certificate of Completion - Cython Codecraft",
+      "issued_by": "bongoDev",
+      "issued_date": "Feb 2024",
+      "expiration_date": null,
+      "credential_id": null,
+      "credential_url": "https://drive.google.com/file/d/1av62FX8QRF_-Y8FrebMgKUeUqMk90-cw/view?usp=sharing",
+      "issuer_url": "https://www.linkedin.com/company/80053575/",
+      "skills": [
+        "Python (Programming Language)"
+      ],
+      "skills_truncated": false,
+      "media": [
+        {
+          "title": "Completion of Cython Codecraft Bootcamp by BongoDev",
+          "description": null,
+          "type": "attachment",
+          "url": "https://www.linkedin.com/in/jyotirmoy-avro/overlay/Certifications/332414495/treasury/"
+        }
+      ]
+    },
+    {
+      "certificate_name": "Supervised Machine Learning: Regression and Classification",
+      "issued_by": "DeepLearning.AI",
+      "issued_date": "Jul 2023",
+      "expiration_date": null,
+      "credential_id": "CFF4985BPNX8",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/CFF4985BPNX8",
+      "issuer_url": "https://www.linkedin.com/company/18246783/",
+      "skills": [
+        "Machine Learning",
+        "Analytical Skills"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "certificate_name": "JavaScript Algorithms and Data Structures",
+      "issued_by": "freeCodeCamp",
+      "issued_date": "Apr 2023",
+      "expiration_date": null,
+      "credential_id": null,
+      "credential_url": "https://freecodecamp.org/certification/itstheavro/javascript-algorithms-and-data-structures",
+      "issuer_url": "https://www.linkedin.com/school/4831032/",
+      "skills": [
+        "Algorithms",
+        "Data Structures"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "certificate_name": "Certificate of Recognition for K12 Digital Content Project",
+      "issued_by": "10 Minute School",
+      "issued_date": "Apr 2022",
+      "expiration_date": null,
+      "credential_id": null,
+      "credential_url": "https://drive.google.com/file/d/1fFi3JLfTMexOx0NmUo-stXRc-Mft9KnW/view?usp=share_link",
+      "issuer_url": "https://www.linkedin.com/company/13403202/",
+      "skills": [
+        "Time Management",
+        "Microsoft Office"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "certificate_name": "Automating Real-World Tasks with Python",
+      "issued_by": "Google",
+      "issued_date": "Feb 2022",
+      "expiration_date": null,
+      "credential_id": "QTQ9MP8WD8U9",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/QTQ9MP8WD8U9",
+      "issuer_url": "https://www.linkedin.com/company/1441/",
+      "skills": [
+        "Analytical Skills",
+        "Python (Programming Language)"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "certificate_name": "Google IT Automation with Python Specialization",
+      "issued_by": "Google",
+      "issued_date": "Feb 2022",
+      "expiration_date": null,
+      "credential_id": "W6VVV4LRX95X",
+      "credential_url": "https://www.coursera.org/account/accomplishments/specialization/certificate/W6VVV4LRX95X",
+      "issuer_url": "https://www.linkedin.com/company/1441/",
+      "skills": [
+        "Python (Programming Language)"
+      ],
+      "skills_truncated": false,
+      "media": []
+    },
+    {
+      "certificate_name": "Configuration Management and the Cloud",
+      "issued_by": "Coursera",
+      "issued_date": "Jan 2022",
+      "expiration_date": null,
+      "credential_id": "4CRP3LR2ZPB9",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/4CRP3LR2ZPB9",
+      "issuer_url": "https://www.linkedin.com/company/2453129/",
+      "skills": [],
+      "skills_truncated": false,
+      "media": []
+    },
+    {
+      "certificate_name": "Troubleshooting and Debugging Techniques",
+      "issued_by": "Coursera",
+      "issued_date": "Feb 2022",
+      "expiration_date": null,
+      "credential_id": "A6U52TJHPSLY",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/A6U52TJHPSLY",
+      "issuer_url": "https://www.linkedin.com/company/2453129/",
+      "skills": [
+        "Problem Solving"
+      ],
+      "skills_truncated": false,
+      "media": []
+    },
+    {
+      "certificate_name": "Using Python to Interact with the Operating System",
+      "issued_by": "Google",
+      "issued_date": "Feb 2022",
+      "expiration_date": null,
+      "credential_id": "95J9CKVMYWSQ",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/95J9CKVMYWSQ",
+      "issuer_url": "https://www.linkedin.com/company/1441/",
+      "skills": [
+        "Python (Programming Language)"
+      ],
+      "skills_truncated": false,
+      "media": []
+    },
+    {
+      "certificate_name": "Introduction to Git and GitHub",
+      "issued_by": "Coursera",
+      "issued_date": "Feb 2022",
+      "expiration_date": null,
+      "credential_id": "9MK9G8AM4YSY",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/9MK9G8AM4YSY",
+      "issuer_url": "https://www.linkedin.com/company/2453129/",
+      "skills": [
+        "Git",
+        "Version Control"
+      ],
+      "skills_truncated": true,
+      "media": []
+    },
+    {
+      "certificate_name": "Crash Course on Python",
+      "issued_by": "Coursera",
+      "issued_date": "Feb 2022",
+      "expiration_date": null,
+      "credential_id": "EQP3A8M9LZLZ",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/EQP3A8M9LZLZ",
+      "issuer_url": "https://www.linkedin.com/company/2453129/",
+      "skills": [
+        "Python (Programming Language)"
+      ],
+      "skills_truncated": false,
+      "media": []
+    }
+  ]
+}
