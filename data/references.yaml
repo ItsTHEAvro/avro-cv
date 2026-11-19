@@ -1,0 +1,12 @@
+- id: samsuzzaman
+  name: Professor Dr. Md. Samsuzzaman
+  positions:
+    [
+      "Director, ICT Cell",
+      "Chairman, Department of Computer and Communication Engineering",
+    ]
+  org: Patuakhali Science and Technology University
+  email: sobuz@pstu.ac.bd
+  phone: "+880 1712 653 210"
+  relation: Thesis supervisor; co-author on COMPAS 2026 paper
+# TODO: second reference

@@ -1,0 +1,122 @@
+- id: nids-thesis
+  title: Hierarchical Network Intrusion Detection System for IIoT (Undergraduate Thesis)
+  org: PSTU
+  date: 2026
+  tech: [Python, scikit-learn, XGBoost, DCNv2, SHAP, Pandas]
+  dataset: DataSense (CICIIoT2025)
+  publication: compas-2026-nids
+  links: { portfolio: "https://avro.bd/projects/1_project/" }
+  tags: [ml, xai, cybersec, networking, research]
+  priority: high
+  bullets:
+    - text: Built a two-stage hierarchical ML model on the CICIIoT2025 dataset for edge NIDS, integrating SHAP explanations and using chronological validation to eliminate 21 percentage points of data leakage inflation.
+      tags: [ml, cybersec]
+      note: one-line version
+    - text: Designed a dual-stream Stage 1 triage combining an XGBoost classifier over a 43-feature MQTT telemetry vector with parallel L3/L4 network heuristics, reaching 0.985 Macro-F1 at about 12.5 ms triage latency on a desktop baseline.
+      tags: [ml, networking]
+    - text: Forwarded flagged and low-confidence traffic to a Stage 2 deep classifier, benchmarking DCNv2 inference cost against tree ensembles to profile edge-deployment feasibility.
+      tags: [ml, swe]
+    - text: Showed that random-split cross-validation inflated performance by up to 21 percentage points, and adopted strict chronological evaluation to remove the leakage.
+      tags: [ml, research]
+    - text: Validated generalization with Leave-One-Attack-Out testing; recall stayed above 98% on Brute Force and MITM but fell to 26.70% on Malware, with the boundary mapped through SHAP analysis.
+      tags: [ml, xai, cybersec, research]
+    - text: Built an offline Intrusion Prevention System prototype demonstrating mitigation rule synthesis.
+      tags: [cybersec, swe]
+
+- id: iot-health-monitor
+  title: IoT-Based Smart Health Monitoring System
+  org: PSTU
+  date: 2025-05
+  tech: [Python, IoT, Real-Time Dashboard]
+  links: { portfolio: "https://avro.bd/projects/2_project/" }
+  tags: [iot, swe, data]
+  priority: medium
+  bullets:
+    - text: Built an IoT-based smart health monitoring system with real-time sensor data collection and an interactive dashboard for telemetry visualization.
+
+- id: ar-hand-tracking-game
+  title: Augmented Reality (AR) Game with Hand Tracking
+  org: Digital Innovation Fair, Patuakhali
+  date: 2022-12
+  tech: [Python, OpenCV]
+  award: 2nd Place, Open Category (representing PSTU)
+  links: { portfolio: "https://avro.bd/projects/3_project/" }
+  tags: [cv, swe]
+  priority: medium
+  bullets:
+    - text: Built an OpenCV-based AR game with real-time hand tracking and gesture controls, winning 2nd Place in the Open Category representing PSTU.
+
+- id: unhurry
+  title: Unhurry (intentional-living quest tracker)
+  date: 2026-03
+  tech: [] # TODO stack
+  links: { live: "https://maglit.me/unhurry" }
+  tags: [swe, web]
+  priority: low
+  bullets:
+    - text: Built and deployed a personal web app around a "Rule of One" design (one main quest plus up to three side quests per day) for low-pressure habit tracking.
+
+- id: icmp-pinger
+  title: ICMP Pinger Lab with Command Line and GUI Support
+  tech: [Python]
+  links:
+    {
+      code: "https://github.com/itstheavro/ICMP_Pinger_Lab",
+      portfolio: "https://avro.bd/projects/4_project/",
+    }
+  tags: [networking, swe]
+  priority: low
+  bullets:
+    - text: Developed a Python ICMP ping application that measures round-trip times and reports network latency statistics, with both CLI and GUI interfaces.
+
+- id: stats-helper
+  title: Stats Helper
+  tech: [HTML, CSS, JavaScript]
+  links:
+    {
+      code: "https://github.com/itstheavro/stats-helper",
+      live: "https://itstheavro.github.io/stats-helper/",
+      portfolio: "https://avro.bd/projects/5_project/",
+    }
+  tags: [web, swe]
+  priority: low
+  bullets:
+    - text: Developed an interactive web app that computes common statistics (mean, median, mode) for students and educators.
+
+- id: cholesky-keygen
+  title: Cholesky Key Generator
+  tech: [HTML, CSS, JavaScript]
+  links:
+    {
+      code: "https://github.com/itstheavro/Cholesky-Key-Generator",
+      live: "https://itstheavro.github.io/Cholesky-Key-Generator/",
+      portfolio: "https://avro.bd/projects/6_project/",
+    }
+  tags: [web, cybersec]
+  priority: low
+  bullets:
+    - text: Built a web-based cryptographic key generator using the Cholesky decomposition method.
+
+- id: cf-friends-status
+  title: Friends Online Status for Codeforces (Userscript)
+  date: 2022-12
+  tech: [JavaScript, Codeforces API]
+  links: { blog: "https://codeforces.com/blog/entry/110724" }
+  tags: [web, cp]
+  priority: low
+  bullets:
+    - text: Developed a userscript showing when a user's friends were last online on the Codeforces "My Friends" page, using the Codeforces API.
+
+- id: cf-user-submissions
+  title: Codeforces User Submissions
+  date: 2023-01
+  tech: [HTML, CSS, JavaScript, Codeforces API]
+  links:
+    {
+      blog: "https://codeforces.com/blog/entry/111609",
+      live: "https://cfusersubmissions.vercel.app/",
+    }
+  tags: [web, cp]
+  priority: low
+  bullets:
+    - text: Built a web tool that groups a user's accepted Codeforces submissions by problem rating.

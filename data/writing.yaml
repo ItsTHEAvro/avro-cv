@@ -1,0 +1,31 @@
+- id: crta-lab
+  title: "CRTA Lab Writeup: From Web Shell to Domain Admin"
+  date: 2026-07
+  urls:
+    blog: https://avro.bd/blog/2026/crta-lab-writeup-from-web-shell-to-domain-admin/
+    medium: https://medium.com/@ItsTHEAvro/crta-lab-writeup-from-web-shell-to-domain-admin-18aa7626d75a
+  tags: [cybersec]
+  priority: high
+- id: crta-exam
+  title: "How I Passed the Certified Red Team Analyst (CRTA) Exam"
+  date: 2026-07
+  urls:
+    blog: https://avro.bd/blog/2026/how-i-passed-the-certified-red-team-analyst-crta-exam/
+    medium: https://medium.com/@ItsTHEAvro/how-i-passed-the-certified-red-team-analyst-crta-exam-crta-exam-writeup-afbb8b97f0e9
+  tags: [cybersec]
+  priority: high
+- {
+    id: cf-blog-friends,
+    title: "Codeforces blog: Friends Online Status userscript",
+    url: "https://codeforces.com/blog/entry/110724",
+    tags: [web, cp],
+    priority: low,
+  }
+- {
+    id: cf-blog-submissions,
+    title: "Codeforces blog: User Submissions by rating",
+    url: "https://codeforces.com/blog/entry/111609",
+    tags: [web, cp],
+    priority: low,
+  }
+# TODO: OHSINT walkthrough and Titanic tutorial URLs

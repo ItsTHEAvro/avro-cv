@@ -1,0 +1,104 @@
+# evidence = ids backing the claim. cert_only = list in skills, never describe as project work.
+- category: Machine Learning & AI
+  tags: [ml]
+  items:
+    [
+      Supervised & Unsupervised Learning,
+      scikit-learn,
+      XGBoost,
+      Neural Networks,
+      Model Evaluation,
+      Cross-Validation,
+      Feature Engineering,
+    ]
+  evidence: [nids-thesis, dlai-ml-spec, dc-sklearn]
+- category: Explainable AI
+  tags: [ml, xai]
+  items: [SHAP]
+  evidence: [nids-thesis, dc-xai-python]
+- category: LLM & AI Engineering
+  tags: [llm]
+  items:
+    [
+      Prompt Engineering,
+      OpenAI API,
+      LangChain,
+      RAG,
+      Vector Databases,
+      AI Agents,
+      LLMOps,
+      AI Governance,
+      n8n,
+    ]
+  evidence: [dc-aieda, dc-aieds, kaggle-genai]
+  cert_only: true
+- category: Data Science & Analytics
+  tags: [data]
+  items:
+    [
+      NumPy,
+      Pandas,
+      Matplotlib,
+      Seaborn,
+      statsmodels,
+      Exploratory Data Analysis,
+      Hypothesis Testing,
+      SQL,
+    ]
+  evidence: [dc-dsa, dc-ds-track]
+- category: Computer Vision
+  tags: [cv]
+  items: [OpenCV, Hand Tracking, Image Processing]
+  evidence: [ar-hand-tracking-game]
+- category: Offensive Security
+  tags: [cybersec]
+  items:
+    [
+      Web Exploitation,
+      Reverse Engineering,
+      Binary Exploitation (PWN),
+      OSINT,
+      "Active Directory attacks (Kerberos, DCSync, cross-domain ticket forging)",
+      Pivoting & Tunneling (Ligolo-ng),
+      Credential Dumping (Impacket),
+      Windows API (C++),
+      Nmap,
+      BurpSuite,
+    ]
+  note: "CTF all-rounder (web, reverse, pwn). Never claim cryptography or steganography."
+  evidence: [crta, cowa, buet-ctf-2026-final, iutctf-2024]
+- category: Networking
+  tags: [networking]
+  items:
+    [
+      TCP/IP,
+      Routing & Switching,
+      Cisco Packet Tracer,
+      MQTT/IIoT traffic analysis,
+    ]
+  evidence: [cisco-pt, icmp-pinger, nids-thesis]
+- category: Programming Languages
+  tags: [swe]
+  items: [Python, C++, Java, JavaScript, PHP, SQL (MySQL), Bash]
+- category: Web & Mobile
+  tags: [web, swe]
+  items: [HTML, CSS, JavaScript, Flutter]
+  cert_only_items: [Flutter]
+- category: Tools
+  tags: [swe]
+  items: [Git, GitHub, Linux, Docker, Jupyter Notebook, VS Code, LaTeX]
+  cert_only_items: [Docker]
+- category: Office
+  tags: [office, teaching]
+  items: [Microsoft Word, Excel, PowerPoint, Visio, Canva, Google Docs]
+- category: Soft Skills
+  tags: [leadership, teaching, office]
+  items:
+    [
+      Communication,
+      Teamwork,
+      Leadership,
+      Event Management,
+      Public Speaking,
+      Time Management,
+    ]

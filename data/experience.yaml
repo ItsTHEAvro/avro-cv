@@ -1,0 +1,99 @@
+- id: cse-club-vp
+  type: leadership
+  title: Vice President (Programming Contest)
+  org: CSE Club, PSTU
+  location: Patuakhali, Bangladesh
+  start: 2026-04
+  end: present
+  tags: [leadership, cp]
+  priority: medium
+  bullets:
+    - text: Directed competitive programming initiatives and coordinated logistics for the 2026 PSTU IT Carnival IUPC (South Zone).
+
+- id: cse-club-ags
+  type: leadership
+  title: Assistant General Secretary (Project & Technical Assistance)
+  org: CSE Club, PSTU
+  location: Patuakhali, Bangladesh
+  start: 2025-05
+  end: 2026-04
+  tags: [leadership, ml, research]
+  priority: medium
+  bullets:
+    - text: Organized the "AI & Research Enthusiast Program" to introduce students to ML, Federated Learning, and research publication through workshops, demo sessions, and coordinated faculty-volunteer communications.
+      tags: [ml, research, leadership]
+      note: one-line version
+    - text: Introduced Federated Learning concepts and encouraged students to explore privacy-preserving ML.
+      tags: [ml]
+    - text: Promoted research culture among undergraduates, highlighting career paths in AI and academic research.
+      tags: [research]
+    - text: Coordinated technical workshops and demo sessions, managing communication between speakers, faculty, and volunteers.
+      tags: [leadership]
+
+- id: cse-club-workshop
+  type: leadership
+  title: Member, Workshop and Seminar Sub-Committee
+  org: CSE Club, PSTU
+  start: 2024-01
+  end: 2025-05
+  tags: [leadership]
+  priority: low
+  bullets:
+    - text: Planned and coordinated seminars, workshops, and tech talks; facilitated panel discussions and Q&A sessions.
+    - text: Managed live streaming and recording of sessions using Zoom, OBS Studio, and Google Meet, plus demo setup and AV coordination.
+    - text: Created event posters, descriptions, and agendas (Canva, Google Docs, PowerPoint) and ran social media promotion on Facebook and LinkedIn.
+      tags: [office]
+    - text: Maintained databases of participants, speakers, and volunteers, and ran post-event feedback analysis to improve future programs.
+      tags: [office, data]
+    - text: Guided juniors in joining tech communities, finding resources, and choosing beginner-friendly research topics.
+      tags: [teaching]
+
+- id: 10ms-typist
+  type: work
+  title: Content Typist (Freelance)
+  org: 10 Minute School, K12 Digital Content Project
+  location: Bangladesh
+  start: 2021-06
+  end: 2023-02
+  tags: [office]
+  priority: low
+  bullets:
+    - text: Completed the highest number of files among beginner typists, earning recognition from instructors and designers.
+    - text: Received a Certificate of Recognition (Apr 2022) for contributions to the K12 Digital Content Project.
+
+- id: private-tutor
+  type: teaching
+  title: Private Tutor
+  start: 2014
+  end: present
+  tags: [teaching]
+  priority: low
+  note: Include for tutoring/teaching applications; omit for tech roles.
+  bullets:
+    - text: Taught ICT and science subjects to classmates and younger students individually and in small groups, helping improve their academic results.
+    - text: Continue teaching during university breaks.
+
+- id: nctf-vp
+  type: volunteer
+  title: Vice President
+  org: National Children's Task Force (NCTF), supported by Save the Children, Plan International Bangladesh, and Bangladesh Shishu Academy
+  location: Jhalokati, Bangladesh
+  start: 2015-06
+  end: 2017-06
+  tags: [leadership]
+  priority: low
+  bullets:
+    - text: Led tree plantation events and press conferences with children, and took action against schools lacking proper sanitation.
+    - text: Helped prevent several child marriages in the community.
+
+- id: nctf-child-parliament
+  type: volunteer
+  title: Member of the Child Parliament
+  org: National Children's Task Force (NCTF)
+  location: Jhalokati, Bangladesh
+  start: 2013-07
+  end: 2015-06
+  tags: [leadership]
+  priority: low
+  bullets:
+    - text: Raised local children's issues at the Child Parliament, contributing to measures for children's well-being and education in the community.

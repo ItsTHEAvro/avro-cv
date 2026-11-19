@@ -1,0 +1,296 @@
+# part_of: don't list a child cert alongside its parent
+- {
+    id: dc-aieds,
+    name: "AI Engineer for Data Scientists Associate",
+    issuer: DataCamp,
+    date: 2026-09,
+    expires: 2028-09,
+    url: "https://www.datacamp.com/certificate/AEDS0014242823308",
+    tags: [ml, llm],
+    priority: high,
+  }
+- {
+    id: crta,
+    name: "Certified Red Team Analyst (CRTA)",
+    issuer: CyberWarFare Labs,
+    date: 2026-07,
+    url: "https://labs.cyberwarfare.live/credential/achievement/6a652d9d8aed14e94c8f0da9",
+    note: "6-hour practical exam; Active Directory exploitation",
+    tags: [cybersec],
+    priority: high,
+  }
+- {
+    id: cowa,
+    name: "Certified Offensive Windows API (COWA)",
+    issuer: Red Team Leaders,
+    date: 2026-07,
+    score: "90%",
+    url: "https://courses.redteamleaders.com/exam-completion/9841261e00c7fdbc",
+    note: "Native C++ Windows API; PEB traversal, in-memory shellcode loading",
+    tags: [cybersec, swe],
+    priority: high,
+  }
+- {
+    id: dc-xai-python,
+    name: "Explainable AI in Python",
+    issuer: DataCamp,
+    date: 2026-05,
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/926dd2f5b4fa1ea63f606837986f96f904d680e7",
+    tags: [ml, xai],
+    priority: medium,
+  }
+- {
+    id: dc-xai-concepts,
+    name: "Explainable Artificial Intelligence (XAI) Concepts",
+    issuer: DataCamp,
+    date: 2026-04,
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/d63304a4f6fae2472f2cda18375e9cb7ddd97a8a",
+    tags: [ml, xai],
+    priority: low,
+  }
+- {
+    id: dc-aieda,
+    name: "AI Engineer for Developers Associate",
+    issuer: DataCamp,
+    date: 2026-01,
+    expires: 2028-01,
+    url: "https://www.datacamp.com/certificate/AIEDA0011464891580",
+    tags: [llm, ml, swe],
+    priority: high,
+  }
+- {
+    id: dc-sklearn,
+    name: "Supervised Learning with scikit-learn",
+    issuer: DataCamp,
+    date: 2025-11,
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/3bf58271a0af0c86c9d22491430902a9066b0fff",
+    tags: [ml],
+    priority: medium,
+  }
+- {
+    id: dc-ds-track,
+    name: "Data Scientist in Python (Career Track, 9 courses + 2 projects)",
+    issuer: DataCamp,
+    date: 2025-06,
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/track/f441ba6649c8be9349ce0c60d9059fd07aa17341",
+    tags: [data, ml],
+    priority: medium,
+  }
+- {
+    id: dc-git,
+    name: "Intermediate Git",
+    issuer: DataCamp,
+    date: 2025-06,
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/2c917dc6f885c7c7e63a60ec66260c15d62c3bdc",
+    tags: [swe],
+    priority: low,
+  }
+- {
+    id: dc-sql,
+    name: "Intermediate SQL",
+    issuer: DataCamp,
+    date: 2025-06,
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/496cfe73f7b35c02c8a69de53e6605ebb1e718f4",
+    tags: [data],
+    priority: low,
+  }
+- {
+    id: kaggle-pandas,
+    name: "Pandas",
+    issuer: Kaggle,
+    date: 2025-06,
+    url: "https://www.kaggle.com/learn/certification/itstheavro/pandas",
+    tags: [data],
+    priority: low,
+  }
+- {
+    id: dc-ml-business,
+    name: "Machine Learning for Business",
+    issuer: DataCamp,
+    date: 2025-05,
+    url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/c725ce05f98d65fc8cad3997d43536b4200d0f80",
+    tags: [ml],
+    priority: low,
+  }
+- {
+    id: dc-dsa,
+    name: "Data Scientist Associate",
+    issuer: DataCamp,
+    date: 2025-05,
+    expires: 2027-05,
+    url: "https://www.datacamp.com/certificate/DSA0011426465213",
+    note: "Proctored exams plus practical project",
+    tags: [data, ml],
+    priority: high,
+  }
+- {
+    id: kaggle-genai,
+    name: "5-Day Gen AI Intensive",
+    issuer: Kaggle,
+    date: 2025-04,
+    url: "https://www.kaggle.com/certification/badges/itstheavro/96",
+    tags: [llm],
+    priority: medium,
+  }
+- {
+    id: dc-literacy,
+    name: "Data Literacy",
+    issuer: DataCamp,
+    date: 2025-04,
+    url: "https://www.datacamp.com/skill-verification/DL0033352802672",
+    tags: [data],
+    priority: low,
+  }
+- {
+    id: dlai-ml-spec,
+    name: "Machine Learning Specialization",
+    issuer: "DeepLearning.AI / Stanford University",
+    date: 2024-04,
+    url: "https://www.coursera.org/account/accomplishments/specialization/BA8N9Y8JDSSN",
+    tags: [ml],
+    priority: high,
+  }
+- {
+    id: dlai-unsup,
+    name: "Unsupervised Learning, Recommenders, Reinforcement Learning",
+    issuer: DeepLearning.AI,
+    date: 2024-04,
+    part_of: dlai-ml-spec,
+    url: "https://www.coursera.org/account/accomplishments/records/FSHG9XHXRZ35",
+    tags: [ml],
+    priority: low,
+  }
+- {
+    id: dlai-adv,
+    name: "Advanced Learning Algorithms",
+    issuer: DeepLearning.AI,
+    date: 2024-02,
+    part_of: dlai-ml-spec,
+    url: "https://www.coursera.org/account/accomplishments/records/CWGADX38LPCR",
+    tags: [ml],
+    priority: low,
+  }
+- {
+    id: dlai-sup,
+    name: "Supervised Machine Learning: Regression and Classification",
+    issuer: DeepLearning.AI,
+    date: 2023-07,
+    part_of: dlai-ml-spec,
+    url: "https://www.coursera.org/account/accomplishments/certificate/CFF4985BPNX8",
+    tags: [ml],
+    priority: low,
+  }
+- {
+    id: edge-mobile,
+    name: "Mobile App Development (Android/Flutter/iOS)",
+    issuer: "EDGE Project, Bangladesh Computer Council",
+    date: 2024-03,
+    url: "https://edge.csit.pstu.ac.bd:4040/Cert/Verify/PSTUCSIT-10100102",
+    tags: [swe],
+    priority: medium,
+  }
+- {
+    id: cisco-pt,
+    name: "Introduction to Packet Tracer",
+    issuer: Cisco,
+    date: 2024-02,
+    url: "https://www.credly.com/badges/3c1e00a4-b772-4f3c-9a5b-a746b7952ce7/linked_in_profile",
+    tags: [networking],
+    priority: low,
+  }
+- {
+    id: bongo-cython,
+    name: "Cython Codecraft Bootcamp",
+    issuer: bongoDev,
+    date: 2024-02,
+    url: "https://drive.google.com/file/d/1av62FX8QRF_-Y8FrebMgKUeUqMk90-cw/view?usp=sharing",
+    tags: [swe],
+    priority: low,
+  }
+- {
+    id: fcc-js,
+    name: "JavaScript Algorithms and Data Structures",
+    issuer: freeCodeCamp,
+    date: 2023-04,
+    url: "https://freecodecamp.org/certification/itstheavro/javascript-algorithms-and-data-structures",
+    tags: [swe, web],
+    priority: low,
+  }
+- {
+    id: 10ms-recognition,
+    name: "Certificate of Recognition, K12 Digital Content Project",
+    issuer: 10 Minute School,
+    date: 2022-04,
+    url: "https://drive.google.com/file/d/1fFi3JLfTMexOx0NmUo-stXRc-Mft9KnW/view?usp=share_link",
+    tags: [office],
+    priority: low,
+  }
+- {
+    id: google-it-auto,
+    name: "Google IT Automation with Python Specialization",
+    issuer: "Google / Coursera",
+    date: 2022-02,
+    url: "https://www.coursera.org/account/accomplishments/specialization/certificate/W6VVV4LRX95X",
+    tags: [swe],
+    priority: medium,
+  }
+- {
+    id: g-real-world,
+    name: "Automating Real-World Tasks with Python",
+    issuer: Google,
+    date: 2022-02,
+    part_of: google-it-auto,
+    url: "https://www.coursera.org/account/accomplishments/certificate/QTQ9MP8WD8U9",
+    tags: [swe],
+    priority: low,
+  }
+- {
+    id: g-config-cloud,
+    name: "Configuration Management and the Cloud",
+    issuer: Google,
+    date: 2022-01,
+    part_of: google-it-auto,
+    url: "https://www.coursera.org/account/accomplishments/certificate/4CRP3LR2ZPB9",
+    tags: [swe],
+    priority: low,
+  }
+- {
+    id: g-troubleshoot,
+    name: "Troubleshooting and Debugging Techniques",
+    issuer: Google,
+    date: 2022-02,
+    part_of: google-it-auto,
+    url: "https://www.coursera.org/account/accomplishments/certificate/A6U52TJHPSLY",
+    tags: [swe],
+    priority: low,
+  }
+- {
+    id: g-python-os,
+    name: "Using Python to Interact with the Operating System",
+    issuer: Google,
+    date: 2022-02,
+    part_of: google-it-auto,
+    url: "https://www.coursera.org/account/accomplishments/certificate/95J9CKVMYWSQ",
+    tags: [swe],
+    priority: low,
+  }
+- {
+    id: g-git,
+    name: "Introduction to Git and GitHub",
+    issuer: Google,
+    date: 2022-02,
+    part_of: google-it-auto,
+    url: "https://www.coursera.org/account/accomplishments/certificate/9MK9G8AM4YSY",
+    tags: [swe],
+    priority: low,
+  }
+- {
+    id: g-crash-python,
+    name: "Crash Course on Python",
+    issuer: Google,
+    date: 2022-02,
+    part_of: google-it-auto,
+    url: "https://www.coursera.org/account/accomplishments/certificate/EQP3A8M9LZLZ",
+    tags: [swe],
+    priority: low,
+  }

@@ -1,0 +1,62 @@
+name: Jyotirmoy Avro
+location:
+  {
+    city: Dhaka,
+    country: Bangladesh,
+    map_url: "https://maps.app.goo.gl/vPBy6sA5g5s6U6b86",
+  }
+email: jyotirmoy.avro@gmail.com
+phone: "+880 1735 342669"
+photo: data/assets/photo.png
+
+links:
+  portfolio: https://avro.bd
+  blog: https://avro.bd/blog/
+  linkedin: https://linkedin.com/in/jyotirmoy-avro
+  github: https://github.com/itstheavro
+  medium: https://medium.com/@ItsTHEAvro
+  kaggle: https://www.kaggle.com/itstheavro
+  leetcode: https://leetcode.com/u/ItsTHEAvro/
+  codeforces: https://codeforces.com/profile/ItsTHEAvro/
+  beecrowd: https://judge.beecrowd.com/en/profile/260423
+  hackerrank: https://www.hackerrank.com/profile/ItsTHEAvro
+
+cp_stats: # show:false = never print on a CV
+  codeforces: { rating: 1135, max_rating: 1197, rank: newbie, show: false }
+  leetcode: { solved: 240, show: false }
+  total_solved: "1,000+" # TODO confirm total across all platforms
+
+summaries:
+  ai_short: >-
+    CSE graduate from PSTU and MSc student at BUET (ICT), passionate about
+    building AI systems that actually solve real world problems.
+  research: >-
+    CSE graduate from PSTU and M.Sc. student in ICT at IICT, BUET, passionate
+    about building AI systems that solve real-world challenges, with deep
+    interest in machine learning, cybersecurity, and explainable AI. Recent
+    research focuses on low-complexity edge Network Intrusion Detection Systems
+    for Industrial IoT, profiling computational overhead, and eliminating data
+    leakage in intrusion detection benchmarks.
+  ml: >-
+    Computer Science graduate and MSc student in ICT at BUET with strong
+    foundations in Machine Learning, algorithms, and data analysis. Experienced
+    in Python, scikit-learn, and Explainable AI (SHAP) through an undergraduate
+    thesis and peer-reviewed publication on ML-based Intrusion Detection
+    (COMPAS 2026). Certified in AI engineering and data science; eager to apply
+    machine learning methodologies and software engineering skills to
+    real-world AI projects.
+  swe: >-
+    An aspiring software engineer with strong problem-solving skills and
+    programming expertise, eager to contribute to innovative software solutions
+    and thrive in a dynamic, collaborative environment.
+  cybersec: null # TODO write (CRTA, COWA, CTF finals, NIDS paper)
+  tutor: null # TODO write if needed
+
+research_interests:
+  - Edge Network Intrusion Detection for IIoT
+  - Explainable AI (XAI)
+  - Applications of Machine Learning and Deep Learning in Cybersecurity
+  - Multimodal NLP
+  - Computer Vision and LLMs in the Biomedical Field
+  - Federated Learning in the Biomedical Field
+  - Graph Neural Networks (GNNs)

@@ -1,0 +1,44 @@
+- id: buet-msc
+  degree: MSc in Information and Communication Technology (ICT)
+  institution: Bangladesh University of Engineering and Technology (BUET)
+  unit: Institute of Information and Communication Technology (IICT)
+  location: Dhaka, Bangladesh
+  start: 2026-10
+  end: present
+  notes: ["Research area not yet selected"]
+  priority: high
+
+- id: pstu-bsc
+  degree: BSc in Computer Science and Engineering
+  institution: Patuakhali Science and Technology University (PSTU)
+  location: Patuakhali, Bangladesh
+  start: 2022-02
+  end: 2026-09 # result published 2026-09-01
+  cgpa: "3.545/4.00"
+  rank: "7th out of 64"
+  credits_total: 165
+  thesis: nids-thesis
+  activities:
+    - Vice President, CSE Club, PSTU
+    - Technology Secretary, Aloktori Cultural Organization # TODO dates
+  priority: high
+
+- id: hsc
+  degree: HSC, Science
+  institution: Govt. Syed Hatem Ali College, Barisal
+  start: 2017-07
+  end: 2020-04
+  gpa: "5.00/5.00"
+  priority: low
+
+- id: ssc
+  degree: SSC, Science
+  institution: Jhalokati Government High School
+  start: 2009-02
+  end: 2017-05
+  gpa: "5.00/5.00"
+  notes:
+    [
+      "Percussionist in school marching band; organized school events and cultural programs",
+    ]
+  priority: low

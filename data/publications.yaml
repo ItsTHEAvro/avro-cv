@@ -1,0 +1,15 @@
+- id: compas-2026-nids
+  title: "A Low-Complexity Hierarchical NIDS for IIoT: Profiling Computational Overhead and Mitigating Data Leakage"
+  authors: ["Jyotirmoy Avro", "Mir Suhail Asarat", "Md. Samsuzzaman"]
+  self_index: 0
+  venue: "2026 IEEE 3rd International Conference on Computing, Applications and Systems (COMPAS)"
+  host: Dept. of CSE, University of Dhaka
+  status: presented # presented 2026-10-09
+  date: 2026-10
+  presentation_certificate:
+    { issuer: IEEE Computer Society Bangladesh Chapter, id: "Paper 598" }
+  links:
+    doi: null # TODO add when available
+    portfolio: https://avro.bd/publications/
+  tags: [ml, xai, cybersec, networking, research]
+  priority: high

@@ -1,0 +1,69 @@
+institution: pstu-bsc
+optional_final_semester: Computer Graphics and Image Processing
+groups:
+  - {
+      name: AI & Data,
+      tags: [ml, data],
+      courses:
+        [
+          "CIT 315 Artificial Intelligence",
+          "CCE 323 Machine Learning",
+          "CCE 417 Data Warehousing and Mining",
+          "MAT 211 Statistics and Probability",
+          "CCE 311 Numerical Methods",
+        ],
+    }
+  - {
+      name: Vision & Graphics,
+      tags: [cv, ml],
+      courses: ["CIT 423 Computer Graphics and Image Processing"],
+    }
+  - {
+      name: Core CS,
+      tags: [swe, cp],
+      courses:
+        [
+          "CIT 211 Data Structures and Algorithms",
+          "CCE 411 Algorithm Engineering",
+          "CIT 121 Discrete Mathematics",
+          "CCE 121 Object Oriented Programming (Java)",
+          "CIT 321 Operating Systems",
+          "CIT 411 Compiler Design and Automata Theory",
+          "CIT 313 Computer Organization and Architecture",
+        ],
+    }
+  - {
+      name: Software,
+      tags: [swe, web],
+      courses:
+        [
+          "CIT 213 Software Engineering",
+          "CCE 223 Database Systems",
+          "CIT 220 Web Programming Project",
+          "CIT 221 Information System Analysis and Design",
+          "CCE 310 / CIT 320 Software Development Projects",
+        ],
+    }
+  - {
+      name: Networking & Security,
+      tags: [networking, cybersec],
+      courses:
+        [
+          "CCE 313 Computer Networks",
+          "CCE 415 Network Routing and Switching",
+          "CCE 211 Data Communication",
+          "CCE 421 Cryptography and Network Security",
+          "CCE 422 Wireless and Cellular Communication",
+        ],
+    }
+  - {
+      name: Hardware & Signals,
+      tags: [iot],
+      courses:
+        [
+          "CCE 221 Digital Logic Design",
+          "CIT 311 Microprocessors and Assembly Language",
+          "CCE 321 Computer Peripheral and Interfacing",
+          "CCE 413 VLSI Design",
+        ],
+    }

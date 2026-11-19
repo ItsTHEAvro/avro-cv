@@ -1,0 +1,145 @@
+# CTF: team PSTU_CtrlAltDelicious unless noted
+- {
+    id: buet-ctf-2026-final,
+    title: "BUET CTF 2026, Final Onsite Round",
+    result: "10th place",
+    date: 2026-01,
+    note: "First PSTU team in the Top 10 at BUET CTF onsite finals; 20th in preliminary round",
+    tags: [cybersec],
+    priority: high,
+  }
+- {
+    id: bup-ctf-2025-final,
+    title: "BUP CTF 2025, Onsite Round",
+    result: "10th place",
+    date: 2025-09,
+    note: "Qualified 5th of 111 teams in online round",
+    tags: [cybersec],
+    priority: high,
+  }
+- {
+    id: bcs-ictfest-2025-ctf,
+    title: "BCS ICT Fest 2025 CTF (24-hour)",
+    result: "15th of 162 teams",
+    date: 2025-02,
+    tags: [cybersec],
+    priority: medium,
+  }
+- {
+    id: cyberraid-2025,
+    title: "CyberRaid CTF 2025 (online round; IT Directorate Bangladesh Army, MIST, KerberOS)",
+    result: "16th of 225 teams",
+    date: 2025-01,
+    tags: [cybersec],
+    priority: medium,
+  }
+- {
+    id: smp-ctf,
+    title: "SMP CTF Challenge (SMP Cyber Security and ICT Division)",
+    result: "14th of 102 teams; qualified for onsite final",
+    date: 2024-12,
+    tags: [cybersec],
+    priority: medium,
+  }
+- {
+    id: hiddenstrings-2025,
+    title: "HiddenStrings CTF 2025 (CUET, 8-hour)",
+    result: "16th, 4470 points",
+    date: 2025-11,
+    tags: [cybersec],
+    priority: low,
+  }
+- {
+    id: iutctf-2024,
+    title: "iutCTF 2024 (IUT)",
+    result: "15th of 87 teams",
+    date: 2024-04,
+    note: "Solved PWN, Reverse Engineering, Web, OSINT, and ML challenges",
+    tags: [cybersec],
+    priority: medium,
+  }
+- {
+    id: buet-csefest-2023-ctf,
+    title: "BUET CSE Fest 2023 Inter-University CTF",
+    result: "Selected for onsite round (team PSTU_NCREEPTION)",
+    date: 2023-07,
+    tags: [cybersec],
+    priority: low,
+  }
+- {
+    id: national-cyber-drill-2022,
+    title: "National Cyber Drill 2022 (BGD e-GOV CIRT)",
+    result: Participant,
+    date: 2022-12,
+    tags: [cybersec],
+    priority: low,
+  }
+
+# Programming
+- {
+    id: problems-1000,
+    title: "1,000+ problems solved across LeetCode, Codeforces, HackerRank, and Beecrowd",
+    date: "2022 - present",
+    note: "Never print Codeforces rating",
+    tags: [cp, swe],
+    priority: high,
+  }
+- {
+    id: icpc-prelims,
+    title: "ICPC Asia Dhaka Regional Online Preliminary",
+    result: Participant,
+    date: "2022, 2023",
+    tags: [cp],
+    priority: medium,
+  }
+- {
+    id: star-coder-2025,
+    title: "Brain Station 23 Star Coder 2025",
+    result: "Cleared all three phases; received a job offer after the HR round (declined, as graduation was not yet complete)",
+    date: 2025-01,
+    note: "Phase 3 was a day-long onsite assessment; served as team lead in the system-design task (E-Ticketing system)",
+    tags: [swe, cp, leadership],
+    priority: high,
+  }
+- {
+    id: pstu-itc-2022,
+    title: "PSTU IT Carnival 2022 Programming Contest",
+    result: "3rd place",
+    date: 2022,
+    tags: [cp],
+    priority: low,
+  }
+- {
+    id: pstu-itc-2023,
+    title: "PSTU IT Carnival 2023 Programming Contest",
+    result: "4th place",
+    date: 2023,
+    tags: [cp],
+    priority: low,
+  }
+
+# Other
+- {
+    id: digital-innovation-fair-2022,
+    title: "Digital Innovation Fair, Patuakhali",
+    result: "2nd place, Open Category",
+    date: 2022-12,
+    project: ar-hand-tracking-game,
+    tags: [cv, swe],
+    priority: medium,
+  }
+- {
+    id: phoenix-summit-2026,
+    title: "Phoenix Summit 2026, Full Fellowship",
+    date: 2026-06,
+    note: "National cybersecurity summit, BCFCC Dhaka, June 23-27",
+    tags: [cybersec],
+    priority: medium,
+  }
+- {
+    id: edge-quiz-top,
+    title: "Top marks, first quiz, EDGE Mobile App Development training",
+    date: 2024-03,
+    tags: [swe],
+    priority: low,
+  }

@@ -320,7 +320,7 @@ styles_xml = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 </w:styles>
 """
 
-output_path = r"c:\Users\avro18\Downloads\cv-resume-tex\AI_Internship_Application_Jyotirmoy_Avro.docx"
+output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "AI_Internship_Application_Jyotirmoy_Avro.docx")
 
 with zipfile.ZipFile(output_path, "w", zipfile.ZIP_DEFLATED) as docx:
     docx.writestr("[Content_Types].xml", content_types)
