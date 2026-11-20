@@ -1,4 +1,22 @@
 {
-    "latex-workshop.docker.image.latex": "texlive/texlive:latest-full",
-    "latex-workshop.docker.enabled": false
+  "latex-workshop.latex.jobname": "Jyotirmoy_Avro",
+  "latex-workshop.latex.recipes": [
+    { "name": "latexmk (Jyotirmoy_Avro)", "tools": ["latexmk-named"] }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk-named",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-jobname=Jyotirmoy_Avro",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.autoClean.run": "onBuilt"
 }

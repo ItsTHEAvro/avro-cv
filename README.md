@@ -16,13 +16,15 @@ cv/
 ├── README.md
 ├── data/                  # SINGLE SOURCE OF TRUTH (YAML) + assets/photo.png + TODO.md
 ├── templates/             # LaTeX layouts: cv/, cv-picture/, resume/ (never edit)
-├── applications/          # one folder per job: job_description.txt, cv.tex, .sty, notes.md, cv.pdf
+├── applications/          # one folder per job: job_description.txt, cv.tex, .sty, notes.md, Jyotirmoy_Avro.pdf
 ├── sources/               # raw material: LinkedIn exports, old CVs, syllabus (reference only)
 ├── scripts/
 │   ├── bundle.ps1         # Windows: bundle AGENTS.md + data + template into one file
 │   └── bundle.sh          # Linux/macOS/Termux: same
+├── .vscode/
+│   └── settings.json      # LaTeX Workshop: builds Jyotirmoy_Avro.pdf next to cv.tex
 ├── .github/workflows/
-│   └── build-cv.yml       # manual GitHub Actions build; commits cv.pdf into the folder
+│   └── build-cv.yml       # manual GitHub Actions build; commits Jyotirmoy_Avro.pdf into the folder
 └── build/                 # generated bundles (gitignored)
 ```
 
@@ -79,14 +81,14 @@ Incognito chats are not saved. Put all three files into `applications/YYYY-MM_co
 
 ### 4. Build
 
-The PDF is always written next to `cv.tex` as `cv.pdf`.
+The PDF is always written next to `cv.tex` as `Jyotirmoy_Avro.pdf`.
 
-- **VS Code:** open `cv.tex` and press **Ctrl+Alt+B** (LaTeX Workshop).
+- **VS Code:** open `cv.tex` and press **Ctrl+Alt+B** (LaTeX Workshop, configured in `.vscode/settings.json`).
 - **Terminal:** from the application folder:
   ```
-  latexmk -pdf cv.tex && latexmk -c
+  latexmk -pdf -jobname=Jyotirmoy_Avro cv.tex && latexmk -c -jobname=Jyotirmoy_Avro cv.tex
   ```
-  (`latexmk -c` removes the auxiliary files and keeps the PDF.)
+  (`latexmk -c` removes the auxiliary files and keeps the PDF. It needs the same `-jobname`.)
 - **Phone:** see [Building on GitHub](#building-on-github-phone--no-latex).
 
 The photo path `../../data/assets/photo.png` is already set, so don't upload the photo to the chat.
@@ -130,7 +132,7 @@ Optional extras:
 ### 3. Review
 
 - Read `notes.md`: template chosen, included/omitted entries, keywords covered, **Gaps**.
-- Open `cv.pdf` in the application folder.
+- Open `Jyotirmoy_Avro.pdf` in the application folder.
 - Ask for fixes in the same session.
 - If something is wrong because of a **rule** (e.g. a cert-only skill described as
   project work), fix `AGENTS.md`, not just the CV.
@@ -152,10 +154,12 @@ Pushing never starts a build.
 1. Push the application folder.
 2. On GitHub: **Actions → Build CV → Run workflow**.
 3. Enter the folder name (e.g. `2026-11_company-role`) and run it.
-4. After about a minute, the workflow commits `cv.pdf` into
+4. After about a minute, the workflow commits `Jyotirmoy_Avro.pdf` into
    `applications/<folder>/`. Open it on GitHub directly, or run `git pull` to get it locally.
 
 If the PDF hasn't changed since the last build, the workflow skips the commit.
+To change the output name, edit `PDF_NAME` in the workflow, `latex-workshop.latex.jobname`
+and the `-jobname` argument in `.vscode/settings.json`, and the commands in this README and `AGENTS.md`.
 
 ---
 
@@ -170,7 +174,8 @@ Use `scripts/bundle.ps1`, VS Code with LaTeX Workshop, and TeX Live or MiKTeX
 
 ```bash
 scripts/bundle.sh cv-picture
-cd applications/YYYY-MM_company-role && latexmk -pdf cv.tex && latexmk -c
+cd applications/YYYY-MM_company-role
+latexmk -pdf -jobname=Jyotirmoy_Avro cv.tex && latexmk -c -jobname=Jyotirmoy_Avro cv.tex
 ```
 
 Needs `git`, and TeX Live for local builds (`sudo apt install texlive-full latexmk`).
@@ -200,13 +205,14 @@ Use the Claude incognito chat as in Option A, save the outputs into the folder
 git add -A && git commit -m "Application: company-role" && git push
 ```
 
-Build the PDF with the manual GitHub Actions workflow, then `git pull` to get `cv.pdf`.
-No LaTeX is needed on the phone.
+Build the PDF with the manual GitHub Actions workflow, then `git pull` to get
+`Jyotirmoy_Avro.pdf`. No LaTeX is needed on the phone.
 
 ### Anywhere else (Overleaf)
 
 Upload `cv.tex`, the `.sty`, and `data/assets/photo.png`.
 Change the photo path in `cv.tex` to `photo.png`, then compile.
+Overleaf names the download `cv.pdf`; rename it to `Jyotirmoy_Avro.pdf` before sending.
 
 ---
 

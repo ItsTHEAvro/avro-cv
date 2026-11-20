@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FOLDER: ${{ inputs.folder }}
+      PDF_NAME: Jyotirmoy_Avro
     steps:
       - uses: actions/checkout@v4
 
@@ -21,12 +22,13 @@ jobs:
         with:
           root_file: applications/${{ inputs.folder }}/cv.tex
           work_in_root_file_dir: true
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode -jobname=${{ env.PDF_NAME }}
 
       - name: Commit PDF to the application folder
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add "applications/$FOLDER/cv.pdf"
+          git add "applications/$FOLDER/$PDF_NAME.pdf"
           if git diff --cached --quiet; then
             echo "PDF unchanged, nothing to commit"
             exit 0

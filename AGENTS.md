@@ -5,7 +5,7 @@
 - `data/` SINGLE SOURCE OF TRUTH: all facts about me (YAML)
 - `sources/` raw material (LinkedIn exports, old CVs, syllabus). Read only when asked to update data/.
 - `templates/` LaTeX layouts: cv/, cv-picture/, resume/. Never edit these.
-- `applications/` one folder per job: job_description.txt, cv.tex, .sty, notes.md, cv.pdf
+- `applications/` one folder per job: job_description.txt, cv.tex, .sty, notes.md, Jyotirmoy_Avro.pdf
 
 ## Hard rules
 
@@ -36,8 +36,9 @@
      `https://avro.bd` / `avro.bd` with the `\faGlobe` icon.
    - If the CV runs over its page limit, margins in the COPIED .sty may be reduced
      to 0.6in before cutting content.
-6. Compile from the application folder: `latexmk -pdf cv.tex`, then `latexmk -c` to remove
-   auxiliary files. The PDF stays next to cv.tex as `cv.pdf` and is committed.
+6. Compile from the application folder:
+   `latexmk -pdf -jobname=Jyotirmoy_Avro cv.tex && latexmk -c -jobname=Jyotirmoy_Avro cv.tex`.
+   The PDF is written next to cv.tex as `Jyotirmoy_Avro.pdf` and is committed.
    Fix errors and respect the page limit.
 7. Write `notes.md`: template chosen, entries included, entries omitted, job keywords covered, and Gaps.
 
