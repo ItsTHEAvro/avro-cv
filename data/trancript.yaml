@@ -1,0 +1,170 @@
+# Official transcript: PSTU B.Sc. Engg. (CSE), issued 2026-09-08 by the Controller of Examinations.
+# Reference data for eligibility checks (grade floors, exact course codes/titles).
+# Course row format: [code, title, credits, grade, grade_point]
+institution: pstu-bsc
+note: "Never print individual course grades on a CV unless explicitly asked. highest_cgpa_in_class is the batch's top CGPA, not mine; never print it as mine."
+issued: 2026-09-08
+registration_no: "9523"
+session: "2020-2021"
+enrolled: 2022-01-19
+completed: 2026-09-01
+degree: "Bachelor of Science in Computer Science and Engineering (B.Sc. Engg. (CSE))"
+faculty: Faculty of Computer Science and Engineering
+semesters_attended: 8
+class_size: 62
+medium: English
+credits_total: 165
+cgpa: 3.545
+highest_cgpa_in_class: 3.801
+lowest_grade: "C+ (CCE 413 VLSI Design)"
+no_grades_below: "C+"   # no C, D or F anywhere
+
+grading_scale:
+  - { grade: A+, gp: 4.00, score: "80+" }
+  - { grade: A,  gp: 3.75, score: "75-79" }
+  - { grade: A-, gp: 3.50, score: "70-74" }
+  - { grade: B+, gp: 3.25, score: "65-69" }
+  - { grade: B,  gp: 3.00, score: "60-64" }
+  - { grade: B-, gp: 2.75, score: "55-59" }
+  - { grade: C+, gp: 2.50, score: "50-54" }
+  - { grade: C,  gp: 2.25, score: "45-49" }
+  - { grade: D,  gp: 2.00, score: "40-44" }
+  - { grade: F,  gp: 0.00, score: "<40" }
+
+# period = nominal session period printed on the transcript, not actual calendar dates
+semesters:
+  - term: L1S1
+    period: "Jan-Jun 2021"
+    credits: 20.25
+    cumulative_credits: 20.25
+    gpa: 3.537
+    cgpa: 3.537
+    courses:
+      - [PHY 111, Physics-I, 3.00, A, 3.75]
+      - [PHY 112, Physics-I Sessional, 0.75, A, 3.75]
+      - [CHE 111, Chemistry, 3.00, A, 3.75]
+      - [CHE 112, Chemistry Sessional, 0.75, A, 3.75]
+      - [MAT 111, Mathematics-I, 3.00, B-, 2.75]
+      - [EEE 111, Basic Electrical Engineering, 3.00, B, 3.00]
+      - [EEE 112, Basic Electrical Engineering Sessional, 1.50, A-, 3.50]
+      - [CIT 111, Programming Language, 3.00, A+, 4.00]
+      - [CIT 112, Programming Language Sessional, 1.50, A+, 4.00]
+      - [CCE 112, Engineering Drawing, 0.75, A+, 4.00]
+
+  - term: L1S2
+    period: "Jul-Dec 2021"
+    credits: 20.75
+    cumulative_credits: 41
+    gpa: 3.726
+    cgpa: 3.633
+    courses:
+      - [PHY 121, Physics-II, 3.00, A-, 3.50]
+      - [PHY 122, Physics-II Sessional, 0.75, B+, 3.25]
+      - [MAT 121, Mathematics-II, 3.00, A, 3.75]
+      - [CIT 121, Discrete Mathematics, 3.00, A+, 4.00]
+      - [LCM 121, Communicative English, 2.00, A-, 3.50]
+      - [EEE 121, Electronic Device and Circuits, 3.00, A-, 3.50]
+      - [EEE 122, Electronic Device and Circuits Sessional, 1.50, A, 3.75]
+      - [CCE 121, Object Oriented Programming, 3.00, A+, 4.00]
+      - [CCE 122, Object Oriented Programming Sessional, 1.50, A+, 4.00]
+
+  - term: L2S1
+    period: "Jan-Jun 2022"
+    credits: 21
+    cumulative_credits: 62
+    gpa: 3.607
+    cgpa: 3.624
+    courses:
+      - [CIT 211, Data Structure and Algorithms, 3.00, B, 3.00]
+      - [CIT 212, Data Structure and Algorithms Sessional, 1.50, A+, 4.00]
+      - [CIT 213, Software Engineering, 3.00, A+, 4.00]
+      - [CCE 211, Data Communication and Engineering, 3.00, A-, 3.50]
+      - [MAT 211, Mathematics-III, 3.00, A, 3.75]
+      - [EEE 211, Electrical Technology, 3.00, A+, 4.00]
+      - [EEE 212, Electrical Technology Sessional, 1.50, A+, 4.00]
+      - [AIS 211, Accounting and Management, 3.00, B, 3.00]
+
+  - term: L2S2
+    period: "Jul-Dec 2022"
+    credits: 21
+    cumulative_credits: 83
+    gpa: 3.500
+    cgpa: 3.593
+    courses:
+      - [CCE 221, Digital Logic Design, 3.00, A-, 3.50]
+      - [CCE 222, Digital Logic Design Sessional, 1.50, A+, 4.00]
+      - [CCE 223, Database System, 3.00, B+, 3.25]
+      - [CCE 224, Database System Sessional, 1.50, A+, 4.00]
+      - [AES 221, Government and Economics, 3.00, B, 3.00]
+      - [MAT 221, Mathematics-IV, 3.00, B, 3.00]
+      - [CIT 220, Web Programming Project, 1.50, A+, 4.00]
+      - [CIT 221, Information System Analysis and Design, 3.00, A, 3.75]
+      - [CIT 222, Information System Analysis and Design Sessional, 1.50, A+, 4.00]
+
+  - term: L3S1
+    period: "Jan-Jun 2023"
+    credits: 21.75
+    cumulative_credits: 104.75
+    gpa: 3.466
+    cgpa: 3.567
+    courses:
+      - [CIT 311, Microprocessor and Assembly Language, 3.00, A-, 3.50]
+      - [CIT 312, Microprocessor and Assembly Language Sessional, 1.50, A+, 4.00]
+      - [CIT 313, Computer Organization and Architecture, 3.00, A-, 3.50]
+      - [CIT 315, Artificial Intelligence, 3.00, B+, 3.25]
+      - [CIT 316, Artificial Intelligence Sessional, 1.50, A+, 4.00]
+      - [CCE 310, Software Development Project-I, 1.50, A, 3.75]
+      - [CCE 311, Numerical Methods, 3.00, B+, 3.25]
+      - [CCE 312, Numerical Methods Sessional, 0.75, A+, 4.00]
+      - [CCE 313, Computer Networks, 3.00, B-, 2.75]
+      - [CCE 314, Computer Networks Sessional, 1.50, A+, 4.00]
+
+  - term: L3S2
+    period: "Jul-Dec 2023"
+    credits: 21.75
+    cumulative_credits: 126.5
+    gpa: 3.569
+    cgpa: 3.567
+    courses:
+      - [CIT 320, Software Development Project-II, 1.50, A+, 4.00]
+      - [CIT 321, Operating System, 3.00, A, 3.75]
+      - [CIT 322, Operating System Sessional, 1.50, A+, 4.00]
+      - [CIT 323, Simulation and Modeling, 3.00, A, 3.75]
+      - [CIT 324, Simulation and Modeling Sessional, 1.50, A+, 4.00]
+      - [EEE 321, Digital Electronics and Pulse Techniques, 3.00, A+, 4.00]
+      - [EEE 322, Digital Electronics and Pulse Techniques Sessional, 0.75, A+, 4.00]
+      - [CCE 321, Computer Peripheral and Interfacing, 3.00, B, 3.00]
+      - [CCE 322, Computer Peripheral and Interfacing Sessional, 1.50, B+, 3.25]
+      - [CCE 323, Optical Fiber Communication, 3.00, B-, 2.75]
+
+  - term: L4S1
+    period: "Jan-Jun 2024"
+    credits: 22
+    cumulative_credits: 148.5
+    gpa: 3.420
+    cgpa: 3.545
+    courses:
+      - [CSE 410, Project/Thesis, 3.00, A+, 4.00]
+      - [CSE 412, Industrial Training, 1.00, A+, 4.00]
+      - [CCE 411, Algorithm Engineering, 3.00, A-, 3.50]
+      - [CCE 413, VLSI Design, 3.00, C+, 2.50]
+      - [CCE 415, Network Routing and Switching, 3.00, B+, 3.25]
+      - [CCE 416, Network Routing and Switching Sessional, 1.50, A+, 4.00]
+      - [CCE 417, Data Warehousing and Mining, 3.00, B+, 3.25]
+      - [CIT 411, Compiler Design and Automata Theory, 3.00, B+, 3.25]
+      - [CIT 412, Compiler Design and Automata Theory Sessional, 1.50, A+, 4.00]
+
+  - term: L4S2
+    period: "Jul-Dec 2024"
+    credits: 16.5
+    cumulative_credits: 165
+    gpa: 3.545
+    cgpa: 3.545
+    courses:
+      - [CSE 420, Project/Thesis, 3.00, A+, 4.00]
+      - [CSE 421, Seminar, 0.75, A+, 4.00]
+      - [CCE 421, Cryptography and Network Security, 3.00, A-, 3.50]
+      - [CCE 423, Wireless and Cellular Communication, 3.00, A-, 3.50]
+      - [CIT 421, Computer Graphics and Image Processing, 3.00, A-, 3.50]
+      - [CIT 422, Computer Graphics and Image Processing Sessional, 0.75, A+, 4.00]
+      - [CIT 423, Machine Learning, 3.00, B, 3.00]
