@@ -1,0 +1,261 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage{style-cv-picture-template}
+
+\begin{document}
+
+% ==============================================================================
+% CONTACT INFORMATION & TECHNICAL LINKS
+% ==============================================================================
+% #1: Name, #2: Location URL, #3: Location Name, #4: Email, #5: Phone, #6: LinkedIn URL, #7: LinkedIn Name, #8: GitHub URL, #9: GitHub Name
+
+\cvProfilePic{../../data/assets/photo.png}
+
+\cvHeader
+    {Jyotirmoy Avro}
+    {https://maps.app.goo.gl/vPBy6sA5g5s6U6b86}
+    {Dhaka}
+    {jyotirmoy.avro@gmail.com}
+    {+880 1735 342669}
+    {https://linkedin.com/in/jyotirmoy-avro}
+    {linkedin.com/in/jyotirmoy-avro}
+    {https://github.com/itstheavro}
+    {github.com/itstheavro}
+
+% ==============================================================================
+% SUMMARY
+% ==============================================================================
+% #1: Summary Text
+
+\section{Summary}
+\cvSummary{CSE graduate from PSTU and M.Sc. student in ICT at IICT, BUET, passionate about building AI systems that solve real-world challenges, with deep interest in machine learning, explainable AI, and cybersecurity. Recent research focuses on low-complexity edge Network Intrusion Detection Systems for Industrial IoT, profiling computational overhead, and eliminating data leakage in intrusion detection benchmarks, published at IEEE COMPAS 2026.}
+
+% ==============================================================================
+% EDUCATION
+% ==============================================================================
+% #1: Degree, #2: University, #3: Date, #4: Location, #5: Bullet Points
+
+\section{Education}
+\cvEducation
+    {M.Sc. in Information and Communication Technology (ICT)}
+    {Bangladesh University of Engineering and Technology (BUET)}
+    {Oct 2026 -- Present}
+    {Dhaka, Bangladesh}
+    {
+        \item \textbf{Institute:} Institute of Information and Communication Technology (IICT).
+    }
+
+\cvEducation
+    {B.Sc. in Computer Science and Engineering}
+    {Patuakhali Science and Technology University (PSTU)}
+    {Feb 2022 -- Sep 2026}
+    {Patuakhali, Bangladesh}
+    {
+        \item \textbf{CGPA:} 3.545/4.00 (Position: 7th out of 64 students); 165 credits.
+        \item \textbf{Thesis:} Hierarchical Network Intrusion Detection System for IIoT (published at IEEE COMPAS 2026).
+        \item \textbf{Relevant Coursework:} Artificial Intelligence, Machine Learning, Data Warehousing and Mining, Statistics and Probability, Numerical Methods, Database Systems, Data Structures and Algorithms, Algorithm Engineering, Computer Graphics and Image Processing.
+    }
+
+\cvEducation
+    {HSC, Science}
+    {Govt. Syed Hatem Ali College, Barisal}
+    {Jul 2017 -- Apr 2020}
+    {Barisal, Bangladesh}
+    {
+        \item \textbf{GPA:} 5.00/5.00
+    }
+
+\cvEducation
+    {SSC, Science}
+    {Jhalokati Government High School}
+    {Feb 2009 -- May 2017}
+    {Jhalokati, Bangladesh}
+    {
+        \item \textbf{GPA:} 5.00/5.00
+    }
+
+% ==============================================================================
+% RESEARCH INTERESTS
+% ==============================================================================
+
+\section{Research Interests}
+\cvSummary{Edge Network Intrusion Detection for IIoT; Explainable AI (XAI); Machine Learning and Deep Learning in Cybersecurity; Multimodal NLP; Computer Vision and LLMs in the Biomedical Field; Federated Learning in the Biomedical Field; Graph Neural Networks (GNNs).}
+
+% ==============================================================================
+% PUBLICATIONS
+% ==============================================================================
+% #1: Title, #2: Authors, #3: Date, #4: Venue, #5: URL Text, #6: URL
+
+\section{Publications}
+\cvPublication
+    {A Low-Complexity Hierarchical NIDS for IIoT: Profiling Computational Overhead and Mitigating Data Leakage}
+    {\textbf{Jyotirmoy Avro}, Mir Suhail Asarat, Md. Samsuzzaman}
+    {Oct 2026}
+    {2026 IEEE 3rd International Conference on Computing, Applications and Systems (COMPAS), Dept. of CSE, University of Dhaka (Presented)}
+    {avro.bd/publications}
+    {https://avro.bd/publications/}
+
+% ==============================================================================
+% RESEARCH & PROJECTS
+% ==============================================================================
+% #1: Title, #2: Tech Stack, #3: Date, #4: Subtitle/Type, #5: Bullet Points
+
+\section{Research \& Projects}
+\cvProject
+    {Hierarchical Network Intrusion Detection System for IIoT}
+    {Python, scikit-learn, XGBoost, DCNv2, SHAP, Pandas}
+    {2026}
+    {Undergraduate Thesis, PSTU}
+    {
+        \item Designed a dual-stream Stage 1 triage combining an XGBoost classifier over a 43-feature MQTT telemetry vector with parallel L3/L4 network heuristics, reaching 0.985 Macro-F1 at about 12.5 ms triage latency on a desktop baseline.
+        \item Forwarded flagged and low-confidence traffic to a Stage 2 deep classifier, benchmarking DCNv2 inference cost against tree ensembles to profile edge-deployment feasibility.
+        \item Showed that random-split cross-validation inflated performance by up to 21 percentage points on DataSense (CICIIoT2025), and adopted strict chronological evaluation to remove the leakage.
+        \item Validated generalization with Leave-One-Attack-Out testing; recall stayed above 98\% on Brute Force and MITM but fell to 26.70\% on Malware, with the boundary mapped through SHAP analysis.
+    }
+
+\cvProject
+    {Augmented Reality (AR) Game with Hand Tracking}
+    {Python, OpenCV}
+    {Dec 2022}
+    {Digital Innovation Fair, Patuakhali}
+    {
+        \item Built an OpenCV-based AR game with real-time hand tracking and gesture controls, winning 2nd Place in the Open Category representing PSTU.
+    }
+
+\cvProject
+    {IoT-Based Smart Health Monitoring System}
+    {Python, IoT, Real-Time Dashboard}
+    {May 2025}
+    {PSTU}
+    {
+        \item Built an IoT-based smart health monitoring system with real-time sensor data collection and an interactive dashboard for telemetry visualization.
+    }
+
+% ==============================================================================
+% TEACHING, MENTORING & LEADERSHIP
+% ==============================================================================
+% #1: Title, #2: Organization, #3: Date, #4: Location, #5: Bullet Points
+
+\section{Teaching, Mentoring \& Leadership}
+\cvExperience
+    {Private Tutor}
+    {ICT and Science subjects}
+    {2014 -- Present}
+    {}
+    {
+        \item Taught ICT and science subjects to classmates and younger students individually and in small groups, helping improve their academic results.
+        \item Continue teaching during university breaks.
+    }
+
+\cvExperience
+    {Vice President (Programming Contest)}
+    {CSE Club, PSTU}
+    {Apr 2026 -- Present}
+    {Patuakhali, Bangladesh}
+    {
+        \item Directed competitive programming initiatives and coordinated logistics for the 2026 PSTU IT Carnival IUPC (South Zone).
+    }
+
+\cvExperience
+    {Assistant General Secretary (Project \& Technical Assistance)}
+    {CSE Club, PSTU}
+    {May 2025 -- Apr 2026}
+    {Patuakhali, Bangladesh}
+    {
+        \item Organized the ``AI \& Research Enthusiast Program'' to introduce students to ML, Federated Learning, and research publication through workshops and demo sessions.
+        \item Promoted research culture among undergraduates, highlighting career paths in AI and academic research.
+    }
+
+\cvExperience
+    {Member, Workshop and Seminar Sub-Committee}
+    {CSE Club, PSTU}
+    {Jan 2024 -- May 2025}
+    {Patuakhali, Bangladesh}
+    {
+        \item Planned and coordinated seminars, workshops, and tech talks; facilitated panel discussions and Q\&A sessions.
+        \item Guided juniors in joining tech communities, finding resources, and choosing beginner-friendly research topics.
+    }
+
+% ==============================================================================
+% TECHNICAL SKILLS
+% ==============================================================================
+% #1: Category, #2: Skills List
+
+\section{Technical Skills}
+\cvSkill{Machine Learning \& AI}{Supervised \& Unsupervised Learning, scikit-learn, XGBoost, Neural Networks, Model Evaluation, Cross-Validation, Feature Engineering, Explainable AI (SHAP)}
+\cvSkill{Data Science \& Analytics}{NumPy, Pandas, Matplotlib, Seaborn, statsmodels, Exploratory Data Analysis, Hypothesis Testing, SQL}
+\cvSkill{LLM \& AI Engineering}{Prompt Engineering, OpenAI API, LangChain, RAG, Vector Databases, AI Agents, LLMOps}
+\cvSkill{Computer Vision}{OpenCV, Hand Tracking, Image Processing}
+\cvSkill{Programming Languages}{Python, C++, Java, JavaScript, PHP, SQL (MySQL), Bash}
+\cvSkill{Tools}{Git, GitHub, Linux, Docker, Jupyter Notebook, VS Code, LaTeX, Microsoft PowerPoint, Canva}
+
+% ==============================================================================
+% ACHIEVEMENTS
+% ==============================================================================
+
+\section{Achievements \& Problem Solving}
+\cvSummary{
+    \begin{highlights}
+        \item \textbf{BUET CTF 2026:} 10th place, Final Onsite Round; first PSTU team in the Top 10 at the BUET CTF onsite finals.
+        \item \textbf{BUP CTF 2025:} 10th place, Onsite Round (qualified 5th of 111 teams in the online round).
+        \item \textbf{Brain Station 23 Star Coder 2025:} Cleared all three phases, including a day-long onsite assessment where I served as team lead in the system-design task; received a job offer.
+        \item Solved 1,000+ problems across LeetCode, Codeforces, HackerRank, and Beecrowd; competed in ICPC Asia Dhaka Regional Online Preliminary (2022, 2023).
+        \item \textbf{PSTU IT Carnival Programming Contest:} 3rd place (2022), 4th place (2023).
+    \end{highlights}
+}
+
+% ==============================================================================
+% CERTIFICATIONS
+% ==============================================================================
+% #1: Cert Name, #2: Issuer, #3: Date, #4: Link Text, #5: Link URL
+
+\section{Certifications}
+\cvCert
+    {AI Engineer for Data Scientists Associate}
+    {DataCamp}
+    {Sep 2026}
+    {Verify Credential}
+    {https://www.datacamp.com/certificate/AEDS0014242823308}
+
+\cvCert
+    {Explainable AI in Python}
+    {DataCamp}
+    {May 2026}
+    {Verify Credential}
+    {https://www.datacamp.com/completed/statement-of-accomplishment/course/926dd2f5b4fa1ea63f606837986f96f904d680e7}
+
+\cvCert
+    {AI Engineer for Developers Associate}
+    {DataCamp}
+    {Jan 2026}
+    {Verify Credential}
+    {https://www.datacamp.com/certificate/AIEDA0011464891580}
+
+\cvCert
+    {Data Scientist Associate}
+    {DataCamp}
+    {May 2025}
+    {Verify Credential}
+    {https://www.datacamp.com/certificate/DSA0011426465213}
+
+\cvCert
+    {Machine Learning Specialization}
+    {DeepLearning.AI / Stanford University}
+    {Apr 2024}
+    {Verify Credential}
+    {https://www.coursera.org/account/accomplishments/specialization/BA8N9Y8JDSSN}
+
+% ==============================================================================
+% REFERENCES
+% ==============================================================================
+% #1: Name, #2: Position, #3: Department, #4: Organization, #5: Email, #6: Phone
+
+\section{References}
+\cvReference
+    {Professor Dr. Md. Samsuzzaman}
+    {Director, ICT Cell}
+    {Chairman, Department of Computer and Communication Engineering}
+    {Patuakhali Science and Technology University}
+    {sobuz@pstu.ac.bd}
+    {+880 1712 653 210}
+
+\end{document}
