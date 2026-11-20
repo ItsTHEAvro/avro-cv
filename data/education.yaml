@@ -12,12 +12,17 @@
   degree: BSc in Computer Science and Engineering
   institution: Patuakhali Science and Technology University (PSTU)
   location: Patuakhali, Bangladesh
-  start: 2022-02
-  end: 2026-09 # result published 2026-09-01
+  start: 2022-01 # enrolled 2022-01-19 per transcript
+  end: 2026-09 # official completion 2026-09-01
+  registration_no: "9523"
+  session: "2020-2021"
   cgpa: "3.545/4.00"
-  rank: "7th out of 64"
+  rank: "7th out of 62"
+  class_size: 62
   credits_total: 165
   thesis: nids-thesis
+  thesis_grade: A+ # CSE 410 and CSE 420
+  transcript: transcript.yaml
   activities:
     - Vice President, CSE Club, PSTU
     - Technology Secretary, Aloktori Cultural Organization # TODO dates

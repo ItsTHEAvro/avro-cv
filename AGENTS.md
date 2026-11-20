@@ -5,7 +5,7 @@
 - `data/` SINGLE SOURCE OF TRUTH: all facts about me (YAML)
 - `sources/` raw material (LinkedIn exports, old CVs, syllabus). Read only when asked to update data/.
 - `templates/` LaTeX layouts: cv/, cv-picture/, resume/. Never edit these.
-- `applications/` one folder per job: job_description.txt, cv.tex, notes.md
+- `applications/` one folder per job: job_description.txt, cv.tex, .sty, notes.md, cv.pdf
 
 ## Hard rules
 
@@ -20,7 +20,7 @@
 
 ## Generating a CV
 
-1. Read `applications/<slug>/job_description.txt`.
+1. Read `applications/<slug>/job_description.txt` (or the circular image/PDF in the folder).
 2. Map requirements to tags (vocabulary below) and pick the matching `summaries` entry.
 3. Select entries by tag match first, then `priority` (high > medium > low). Within an entry, pick the bullets whose tags match; use `note: one-line version` bullets when space is tight.
 4. Choose a template:
@@ -34,8 +34,19 @@
    - In the COPIED .sty (never in templates/), uncomment the portfolio
      `\contactItem` block at the end of the header command and set it to
      `https://avro.bd` / `avro.bd` with the `\faGlobe` icon.
-6. Compile from the application folder: `latexmk -pdf -outdir=../../build/<slug> cv.tex`. Fix errors and respect the page limit.
+   - If the CV runs over its page limit, margins in the COPIED .sty may be reduced
+     to 0.6in before cutting content.
+6. Compile from the application folder: `latexmk -pdf cv.tex`, then `latexmk -c` to remove
+   auxiliary files. The PDF stays next to cv.tex as `cv.pdf` and is committed.
+   Fix errors and respect the page limit.
 7. Write `notes.md`: template chosen, entries included, entries omitted, job keywords covered, and Gaps.
+
+## Academic and Bangladeshi circulars
+
+- Check the eligibility rules (SSC/HSC/degree grade floors) against `data/education.yaml`
+  and `data/transcript.yaml`, and record the result in notes.md.
+- Include SSC and HSC entries when the circular sets grade requirements for them.
+- Never print individual course grades unless asked (see the note in transcript.yaml).
 
 ## Tag vocabulary
 

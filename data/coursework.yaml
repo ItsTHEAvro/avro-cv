@@ -1,5 +1,5 @@
 institution: pstu-bsc
-optional_final_semester: Computer Graphics and Image Processing
+# Codes and titles verified against the official transcript (transcript.yaml)
 groups:
   - {
       name: AI & Data,
@@ -7,16 +7,17 @@ groups:
       courses:
         [
           "CIT 315 Artificial Intelligence",
-          "CCE 323 Machine Learning",
+          "CIT 423 Machine Learning",
           "CCE 417 Data Warehousing and Mining",
-          "MAT 211 Statistics and Probability",
+          "MAT 211 Statistics and Probability (Mathematics-III)",
           "CCE 311 Numerical Methods",
+          "CIT 323 Simulation and Modeling",
         ],
     }
   - {
       name: Vision & Graphics,
       tags: [cv, ml],
-      courses: ["CIT 423 Computer Graphics and Image Processing"],
+      courses: ["CIT 421 Computer Graphics and Image Processing"],
     }
   - {
       name: Core CS,
@@ -53,7 +54,8 @@ groups:
           "CCE 415 Network Routing and Switching",
           "CCE 211 Data Communication",
           "CCE 421 Cryptography and Network Security",
-          "CCE 422 Wireless and Cellular Communication",
+          "CCE 423 Wireless and Cellular Communication",
+          "CCE 323 Optical Fiber Communication",
         ],
     }
   - {
@@ -65,5 +67,6 @@ groups:
           "CIT 311 Microprocessors and Assembly Language",
           "CCE 321 Computer Peripheral and Interfacing",
           "CCE 413 VLSI Design",
+          "EEE 321 Digital Electronics and Pulse Techniques",
         ],
     }

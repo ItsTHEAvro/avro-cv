@@ -327,3 +327,15 @@ TSWLatexianTemp*
 
 # Build output
 build/
+
+# Generated bundles
+build/
+
+# LaTeX auxiliary files (PDFs are committed, these are not)
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
