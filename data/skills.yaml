@@ -82,11 +82,11 @@
   items: [Python, C++, Java, JavaScript, PHP, SQL (MySQL), Bash]
 - category: Web & Mobile
   tags: [web, swe]
-  items: [HTML, CSS, JavaScript, Flutter]
+  items: [HTML, CSS, JavaScript, React, Node.js, Express, MongoDB (MERN stack), Flutter]
   cert_only_items: [Flutter]
 - category: Tools
   tags: [swe]
-  items: [Git, GitHub, Linux, Docker, Jupyter Notebook, VS Code, LaTeX]
+  items: [Git, GitHub, Linux, Docker, Jupyter Notebook, VS Code, LaTeX, AI-assisted development (LLM coding tools)]
   cert_only_items: [Docker]
 - category: Office
   tags: [office, teaching]
