@@ -27,7 +27,7 @@
 % #1: Summary Text
 
 \section{Summary}
-\cvSummary{M.Sc. student in ICT at IICT, BUET, and CSE graduate from PSTU, focused on offensive security. I hold the Certified Red Team Analyst (CRTA) and Certified Offensive Windows API (COWA, 90\%) certifications and have finished 10th at both the BUET CTF 2026 and BUP CTF 2025 national onsite finals. My hands-on work covers OSINT reconnaissance, web exploitation, and full Active Directory attack chains, which I document in published technical writeups. I build full-stack web applications (MERN stack, PHP) and my peer-reviewed IEEE COMPAS 2026 paper covers machine-learning intrusion detection for Industrial IoT.}
+\cvSummary{M.Sc. student in ICT at IICT, BUET, and CSE graduate from PSTU, focused on offensive security and social engineering. I design and run authorized phishing simulations (GoPhish, SET) backed by OSINT-driven target profiling (theHarvester, Maltego-style reconnaissance), and understand the email-authentication layer (SPF, DKIM, DMARC) that phishing campaigns must navigate. I hold the Certified Red Team Analyst (CRTA) and Certified Offensive Windows API (COWA, 90\%) certifications, have finished 10th at both the BUET CTF 2026 and BUP CTF 2025 national onsite finals, and build full-stack web applications (MERN, PHP) used for realistic phishing pretext pages.}
 
 % ==============================================================================
 % EDUCATION
@@ -61,10 +61,10 @@
 % #1: Category, #2: Skills List
 
 \section{Technical Skills}
-\cvSkill{Offensive Security}{OSINT, Web Exploitation, Active Directory attacks (Kerberos, DCSync, cross-domain ticket forging), Pivoting \& Tunneling (Ligolo-ng), Credential Dumping (Impacket), Reverse Engineering, Binary Exploitation (PWN), Windows API (C++), Nmap, BurpSuite}
+\cvSkill{Social Engineering \& Phishing}{GoPhish (campaign setup, landing pages, tracking), Social-Engineer Toolkit (SET), credential-harvesting \& site cloning}
+\cvSkill{OSINT \& Reconnaissance}{theHarvester, email \& subdomain enumeration, employee/target profiling, metadata analysis, public footprint mapping}
+\cvSkill{Offensive Security}{Web Exploitation, Active Directory attacks (Kerberos, DCSync, cross-domain ticket forging), Pivoting \& Tunneling (Ligolo-ng), Credential Dumping (Impacket), Reverse Engineering, Binary Exploitation (PWN), Windows API (C++), Nmap, BurpSuite}
 \cvSkill{Web Development}{React, Node.js, Express, MongoDB (MERN stack), HTML, CSS, JavaScript, PHP, SQL (MySQL)}
-\cvSkill{Networking}{TCP/IP, Routing \& Switching, Cisco Packet Tracer, MQTT/IIoT traffic analysis}
-\cvSkill{Machine Learning}{scikit-learn, XGBoost, Explainable AI (SHAP), Pandas, Model Evaluation}
 \cvSkill{Programming \& Tools}{Python, C++, Java, Bash, Git, Linux, Docker, LaTeX, AI-assisted development (LLM coding tools)}
 
 % ==============================================================================
@@ -89,11 +89,10 @@
     \begin{highlights}
         \item \textbf{BUET CTF 2026, Final Onsite Round:} 10th place; first PSTU team in the Top 10 (20th in the preliminary round).
         \item \textbf{BUP CTF 2025, Onsite Round:} 10th place; qualified 5th of 111 teams in the online round.
+        \item \textbf{iutCTF 2024} (IUT): 15th of 87 teams; solved PWN, Reverse Engineering, Web, OSINT, and ML challenges.
         \item \textbf{SMP CTF Challenge 2024} (SMP Cyber Security and ICT Division): 14th of 102 teams; qualified for the onsite final.
         \item \textbf{BCS ICT Fest 2025 CTF} (24-hour): 15th of 162 teams.
-        \item \textbf{iutCTF 2024} (IUT): 15th of 87 teams; solved PWN, Reverse Engineering, Web, OSINT, and ML challenges.
         \item \textbf{CyberRaid CTF 2025} (IT Directorate Bangladesh Army, MIST, KerberOS): 16th of 225 teams, online round.
-        \item \textbf{BUET CSE Fest 2023 Inter-University CTF:} selected for the onsite round; \textbf{National Cyber Drill 2022} (BGD e-GOV CIRT): participant.
     \end{highlights}
 }
 
@@ -138,7 +137,6 @@
         \item Designed a dual-stream triage stage combining an XGBoost classifier over a 43-feature MQTT telemetry vector with parallel L3/L4 network heuristics, reaching 0.985 Macro-F1 at about 12.5 ms triage latency on a desktop baseline.
         \item Validated generalization with Leave-One-Attack-Out testing; recall stayed above 98\% on Brute Force and MITM but fell to 26.70\% on Malware, with the boundary mapped through SHAP analysis.
         \item Showed that random-split cross-validation inflated performance by up to 21 percentage points, and adopted strict chronological evaluation to remove the leakage.
-        \item Built an offline Intrusion Prevention System prototype demonstrating mitigation rule synthesis.
     }
 
 % ==============================================================================
