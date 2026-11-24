@@ -40,3 +40,8 @@
 
 ## If over 2 pages
 Cut in this order: AR game project -> Research Interests -> PSTU IT Carnival line.
+
+## Status
+- Submitted: 2026-11-25 ~02:00 via career.uits.ac.bd (generated CV PDF saved)
+- Uploaded: Jyotirmoy_Avro.pdf, Research_Detail_Jyotirmoy_Avro.pdf, photo.png
+- Form note: B.Sc. passing year entered as 2024 (CV says Sep 2026) — explain if asked
