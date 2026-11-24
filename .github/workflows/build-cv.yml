@@ -5,6 +5,14 @@ on:
       folder:
         description: "Application folder name (e.g. 2026-11_company-role)"
         required: true
+      tex:
+        description: "TeX file to build"
+        required: false
+        default: cv.tex
+      pdf_name:
+        description: "Output PDF name (without .pdf)"
+        required: false
+        default: Jyotirmoy_Avro
 
 permissions:
   contents: write
@@ -14,15 +22,15 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FOLDER: ${{ inputs.folder }}
-      PDF_NAME: Jyotirmoy_Avro
+      PDF_NAME: ${{ inputs.pdf_name }}
     steps:
       - uses: actions/checkout@v4
 
       - uses: xu-cheng/latex-action@v3
         with:
-          root_file: applications/${{ inputs.folder }}/cv.tex
+          root_file: applications/${{ inputs.folder }}/${{ inputs.tex }}
           work_in_root_file_dir: true
-          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode -jobname=${{ env.PDF_NAME }}
+          args: -pdf -file-line-error -halt-on-error -interaction=nonstopmode -jobname=${{ inputs.pdf_name }}
 
       - name: Commit PDF to the application folder
         run: |
@@ -33,5 +41,5 @@ jobs:
             echo "PDF unchanged, nothing to commit"
             exit 0
           fi
-          git commit -m "Build: $FOLDER"
+          git commit -m "Build: $FOLDER ($PDF_NAME)"
           git push
